@@ -386,10 +386,10 @@ teachbooks build <path-to-book>
 Alternatively:
 
 ```
-jupyter-book build <path-to-book> --all
+jupyter-book build <path-to-book>
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the `teachbook` or `jupyter-book` command whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
@@ -465,10 +465,10 @@ teachbooks build <path-to-book>
 Alternatively:
 
 ```
-jupyter-book build <path-to-book> --all
+jupyter-book build <path-to-book>
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the `teachbook` or `jupyter-book` command whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
@@ -567,10 +567,10 @@ teachbooks build <path-to-book>
 Alternatively:
 
 ```
-jupyter-book build <path-to-book> --all
+jupyter-book build <path-to-book>
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the `teachbook` or `jupyter-book` command whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
@@ -655,10 +655,10 @@ teachbooks build <path-to-book>
 Alternatively:
 
 ```
-jupyter-book build <path-to-book> --all
+jupyter-book build <path-to-book>
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the `teachbook` or `jupyter-book` command whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
