@@ -29,7 +29,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb","**/*.gif","**/*.txt","**/*.json",]
     html_theme_options:
-      repository_url: "https://gitlab.tudelft.nl/interactivetextbooks-citg/jupyter-book-manual"
+      repository_url: "https://github.com/TeachBooks/manual/"
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
