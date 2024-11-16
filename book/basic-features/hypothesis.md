@@ -20,27 +20,16 @@ html:
 ```
 ## Using Hypothesis
 
-In this case it is easier to learn by doing! Hypothesis has been enabled for this book, but only in the _draft_ version. 
+In this case it is easier to learn by doing! Hypothesis has been enabled for this book, but only in the _hypothesis_ version: https://teachbooks.tudelft.io/manual/hypothesis
 
-````{admonition} How to View the Draft Site
-:class: tip, dropdown
-You can access the draft version by adding `draft/` at the end of the main book (but before the current page). For example:
+Once on the hypothesis version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
 
-```
-https://teachbooks.tudelft.nl/jupyter-book-manual/draft/basic-features/hypothesis.html
-```
-
-You can find out more about the draft and publish feature on {ref}`this page <publish_students>`.
-````
-
-Once on the draft version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
-
-Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
+Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.io/manual`).
 
 ```{admonition} Tips
 :class: tip
 
-- use the {ref}`remove_from_publish` feature to enable Hypothesis in the draft book only
+- use the {ref}`remove_from_publish` feature to enable Hypothesis in a specific version of the book only
 ```
 
 ## Student-controller with browser extension
