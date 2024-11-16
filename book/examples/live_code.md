@@ -6,7 +6,7 @@ This page will show some examples where live coding is used in combination with 
 
 ## Python for Engineers
 
-[Python for engineers](https://teachbooks.github.io/learn-python/intro.html) is a book used to introduce basic programming concepts to students coming from different universities where programming is not a big part of the curriculum like at TU Delft. The students are encouraged to follow the course online before the start of the year to hit the ground running in September. Chapter 7 introduces the students to [Matplotlib](https://teachbooks.github.io/learn-python/07/Theory/01.html) and teaches them various ways of making a graph. 
+[Python for engineers](https://teachbooks.io/learn-python/intro.html) is a book used to introduce basic programming concepts to students coming from different universities where programming is not a big part of the curriculum like at TU Delft. The students are encouraged to follow the course online before the start of the year to hit the ground running in September. Chapter 7 introduces the students to [Matplotlib](https://teachbooks.io/learn-python/07/Theory/01.html) and teaches them various ways of making a graph. 
 
 Live coding is the perfect learning tool as the students can see how the code relates to the visual result of the graph. subsequently, they can adapt the code and observe the changes. Let's have a look at the implementation.
 

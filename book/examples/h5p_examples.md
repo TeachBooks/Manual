@@ -16,7 +16,7 @@ Dialog cards can be used to ask open questions about the content students are re
 
 **Engineering Systems Optimization**
 
-A great example of this can be found in the book: Engineering Systems Optimization. [Chapter 4](https://teachbooks.github.io/engineering-systems-optimization/2023/pages/moo_example.html) called Mulit-objective optimization has an in depth sub-chapter which is used to compare the relation between engine power and emissions and how to optimize for both.
+A great example of this can be found in the book: Engineering Systems Optimization. [Chapter 4](https://teachbooks.io/engineering-systems-optimization/2023/pages/moo_example.html) called Mulit-objective optimization has an in depth sub-chapter which is used to compare the relation between engine power and emissions and how to optimize for both.
 
 ```{figure} figures/Live_code.PNG
 ---
