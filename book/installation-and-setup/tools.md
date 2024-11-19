@@ -71,6 +71,9 @@ Both GitLab and GitHub allow for extensive options for visibility of the source 
 
 The TU Delft GitLab requires SSO login for editing the book. Although this is useful for TU Delft employees, it limits the collaboration with people outside of TU Delft.
 
+### Book size limits
+In GitLab, an artifact (the book export) can have a maximum size of 150 MB. In GitHub, the total GitHub pages may not exceed 1 GB (including all branches)
+
 ### Integration with GitHub Desktop
 GitHub has a nice integration with the [GitHub Desktop application](git-setup_local.md). For GitLab it works as well, but has less functionality.
 
@@ -86,6 +89,7 @@ Here's a table summarizing the information:
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Manual setup on personal webserver, or access required by TeachBooks or TU Delft OIT  🚧    |
 | Book access with SSO | Only available for GitHub pages on GitHub Enterprise of TU Delft 🎓, optional with custom URL  ✅ | Optional  ✅          |
 | Access to source code | Private (if part of organization linked to educational account) /public / internally TU Delft (on GitHub Enterprise of TU Delft) 👥   | Private / public (read-only) / internally TU Delft, editing requires requires SSO login  👥  👀 |
+| Book size limits | 1 GB for all branches 📚 | 150 MB per book 📕 |
 | GitHub Desktop | Well integrated 😎 | Basic integration 🙂 |
 | Utteranc.es | Can be linked to same repository 🏷️ | Requires GitHub repository next to GitLab repository 🏷️🏷️|
 
