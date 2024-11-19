@@ -49,7 +49,7 @@ parts:
       - file: external/JupyterBook-Patches/README.md
       - file: features/interactive_element.ipynb
         sections:
-        - file: features/grasple.md
+        - file: external/Sphinx-Grasple-public/README.md
         - file: features/h5p.md
         - file: features/HTML_javascript.md
           sections:

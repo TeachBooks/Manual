@@ -4,6 +4,7 @@ sphinx-inline-tabs
 jupyterlite-sphinx
 jupyterbook_patches
 download_link_replacer
+teachbooks-sphinx-grasple
 
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple

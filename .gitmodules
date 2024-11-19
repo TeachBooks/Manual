@@ -25,3 +25,6 @@
 [submodule "book/external/Download-Link-Replacer"]
 	path = book/external/Download-Link-Replacer
 	url = https://github.com/TeachBooks/Download-Link-Replacer.git
+[submodule "book/external/Sphinx-Grasple-public"]
+	path = book/external/Sphinx-Grasple-public
+	url = https://github.com/TeachBooks/Sphinx-Grasple-public.git
