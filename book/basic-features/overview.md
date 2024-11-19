@@ -1,4 +1,4 @@
-# Basic Jupyter Book Features
+# Original Jupyter Book Features
 
 ```{admonition} User types
 :class: tip
