@@ -31,3 +31,6 @@
 [submodule "book/external/Sphinx-TUDelft-theme"]
 	path = book/external/Sphinx-TUDelft-theme
 	url = https://github.com/TeachBooks/Sphinx-TUDelft-theme.git
+[submodule "book/external/teachbooks-sphinx-tippy"]
+	path = book/external/teachbooks-sphinx-tippy
+	url = https://github.com/TeachBooks/teachbooks-sphinx-tippy.git
