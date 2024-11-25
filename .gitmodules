@@ -34,3 +34,6 @@
 [submodule "book/external/teachbooks-sphinx-tippy"]
 	path = book/external/teachbooks-sphinx-tippy
 	url = https://github.com/TeachBooks/teachbooks-sphinx-tippy.git
+[submodule "book/external/annotater"]
+	path = book/external/annotater
+	url = https://github.com/TeachBooks/annotater
