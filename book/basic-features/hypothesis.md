@@ -1,6 +1,6 @@
 # Making comments on the website: Hypothesis
 
-Hypothesis is a third-party application that allows anyone to make publicly visible comments on a website (once you create a free account). This section explains how to use and install the extension.
+Hypothesis is a third-party application that allows anyone to make publicly visible comments on a website (once you create a free account). This section explains how to use and install the extension. As this tool requires an account with a third-party, we advise to use our [local-annotator](../external/annotater/README.md) with similar capabilities but which store annotations locally. By default Hypothesis stores annotations publicly, which might confuse other students.
 
 ```{admonition} Be careful of changing website URL's!
 :class: warning
@@ -20,17 +20,9 @@ html:
 ```
 ## Using Hypothesis
 
-In this case it is easier to learn by doing! Hypothesis has been enabled for this book, but only in the _hypothesis_ version: https://teachbooks.tudelft.io/manual/hypothesis
-
-Once on the hypothesis version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
+Once on a hypothesis version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
 
 Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.io/manual`).
-
-```{admonition} Tips
-:class: tip
-
-- use the {ref}`remove_from_publish` feature to enable Hypothesis in a specific version of the book only
-```
 
 ## Student-controller with browser extension
 As an alternative to activating this for everyone, you can also advise your students to use the [hypothesis browser extension](https://web.hypothes.is/start/). In this way, students are not distracted by potential unnecessary public annotation and comments by fellow students and teachers.
