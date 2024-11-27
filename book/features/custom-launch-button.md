@@ -9,7 +9,7 @@ This section will explain how to create a "Languages" or " <svg xmlns="http://ww
 
 ## Installation
 
-1. Install the Sphinx Launch Buttons extension from the GitHub repository.
+1. Install the Sphinx Launch Buttons extension from the GitHub repository. Paste the following line, in your terminal. Make sure you activated your book building environment.
 
 ```
 pip install git+https://github.com/TeachBooks/Sphinx-launch-buttons.git
@@ -60,6 +60,7 @@ buttons:
       - label: Nederlands
         url: url of branch
 ```
+As you can see in the `items:` line, each dropdown option links to the branch of the repository in the respective language.
 
 ## Setting up your repository
 
@@ -67,7 +68,7 @@ For the implementation to your book, it is handy to create a branch for each lan
 
 You will then need to translate the content in the dutch branch to dutch which can take some time. From experience, [DeepL](https://www.deepl.com/en/translator) is a good tool for this but any AI chatbot might be helpful as well. Make sure to proofread the translation.
 
-Make sure to add the updated `_config.yml` and the new `_launch_buttons.yml` in all of your branches.
+You'll need to add (merge) the updated `_config.yml` and the new `_launch_buttons.yml` to all of your branches.
 
 ## Example
 
@@ -88,10 +89,8 @@ The code in the above cell is the `_launch_buttons.yml` file of a repository cal
 
 ```{figure} figures/language_button.PNG
 ---
-width: 70%
+width: 50%
 name:language_button
 ---
 Custom Button
 ```
-
-As you can see in the `items:` line, each dropdown option links to the branch of the repository in the respective language.
