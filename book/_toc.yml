@@ -46,12 +46,12 @@ parts:
       - file: external/Nested-Books/README.md
       - file: external/Download-Link-Replacer/README.md
       - file: external/Sphinx-Image-Inverter/README.md
+      - file: features/custom-launch-button.md
       - file: external/JupyterBook-Patches/README.md
       - file: external/Sphinx-TUDelft-theme/README.md
       - file: external/teachbooks-sphinx-tippy/README.md
-      - file: features/custom-launch-button.md
       - file: features/interactive_element.ipynb
-              sections:
+        sections:
         - file: external/Sphinx-Grasple-public/README.md
         - file: features/h5p.md
         - file: features/HTML_javascript.md
