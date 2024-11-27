@@ -49,9 +49,9 @@ parts:
       - file: external/JupyterBook-Patches/README.md
       - file: external/Sphinx-TUDelft-theme/README.md
       - file: external/teachbooks-sphinx-tippy/README.md
-      - file: features/interactive_element.ipynb
       - file: features/custom-launch-button.md
-        sections:
+      - file: features/interactive_element.ipynb
+              sections:
         - file: external/Sphinx-Grasple-public/README.md
         - file: features/h5p.md
         - file: features/HTML_javascript.md
