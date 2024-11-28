@@ -26,7 +26,7 @@ parts:
     - file: installation-and-setup/creating_content.md
   - caption: Features
     chapters:
-    - file: basic-features/overview
+    - file: basic-features/overview.md
       sections:
       - file: basic-features/jupyterbook.md
       - file: basic-features/figures.md
@@ -37,6 +37,8 @@ parts:
       - file: basic-features/Code_block_figures
       - file: basic-features/banner
         title: Banner or Announcement
+    - file: basic-features/external-features.md
+      sections:
       - file: basic-features/hypothesis.md
       - file: basic-features/utterances.md
     - file: features/overview.md
@@ -44,14 +46,10 @@ parts:
       - file: external/TeachBooks/README.md
       - file: external/deploy-book-workflow/README.md
       - file: external/Nested-Books/README.md
-      - file: features/sphinx_extensions.md
-        sections: 
-        - file: external/Download-Link-Replacer/README.md
-        - file: external/Sphinx-Image-Inverter/README.md
-        - file: features/custom-launch-button.md
-        - file: external/JupyterBook-Patches/README.md
-        - file: external/Sphinx-TUDelft-theme/README.md
-        - file: external/teachbooks-sphinx-tippy/README.md
+    - file: features/sphinx_extensions.md
+      sections: 
+      - file: external/Download-Link-Replacer/README.md
+      - file: features/custom-launch-button.md      
       - file: features/interactive_element.ipynb
         sections:
         - file: external/Sphinx-Grasple-public/README.md
@@ -64,6 +62,12 @@ parts:
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
+    - file: features/visuals.md
+      sections:
+      - file: external/Sphinx-Image-Inverter/README.md
+      - file: external/JupyterBook-Patches/README.md
+      - file: external/Sphinx-TUDelft-theme/README.md
+      - file: external/teachbooks-sphinx-tippy/README.md
     - file: features/students
       sections:
       - file: external/annotater/README.md
