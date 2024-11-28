@@ -11,10 +11,6 @@ only_build_toc_files: true
 html:
   favicon : "images/favicon.ico"
   baseurl  : "https://teachbooks.io/manual/"
-# START REMOVE-FROM-PUBLISH
-  comments:
-    hypothesis: true
-# END REMOVE-FROM-PUBLISH
 
 sphinx:
   extra_extensions:
