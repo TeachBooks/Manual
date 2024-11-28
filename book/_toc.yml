@@ -42,6 +42,7 @@ parts:
       - file: basic-features/hypothesis.md
       - file: basic-features/utterances.md
     - file: features/overview.md
+    - file: features/easy-editing.md
       sections:
       - file: external/TeachBooks/README.md
       - file: external/deploy-book-workflow/README.md

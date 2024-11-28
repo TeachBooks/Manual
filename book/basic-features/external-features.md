@@ -1,1 +1,1 @@
-# Externally developed features
+# Externally Developed Features
