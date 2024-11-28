@@ -12,11 +12,13 @@ Truss structures are structures assembled of straight elements connected in node
 Examples of these structures are commonly found in rail bridges like the one below:
 
 ```{figure} theory_questions_images/pic0.jpg
+:class: dark-light
 :width: 400
 ```
 Furthermore, these structures are commonly found in building as well, both invisible and visible:
 
 ```{figure} theory_questions_images/pic1.jpg
+:class: dark-light
 :width: 400
 ```
 
