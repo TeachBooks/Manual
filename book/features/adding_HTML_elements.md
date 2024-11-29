@@ -1,6 +1,6 @@
 # Adding interactive HTML/JavaScript elements
 
-{bdg-info}`iframe`
+{bdg-danger}`iframe`
 
 In this section, we will discuss how to embed interactive elements created in HTML/JavaScript in a TeachBook. If you are interested in learning how to create these elements yourself, we will discuss an example in the [next article](creating_basic_HTML_elements.md). As an example, let us discuss how to embed an interactive 3D model of a subsurface environment I created:
 

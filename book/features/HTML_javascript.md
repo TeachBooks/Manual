@@ -5,7 +5,7 @@
 This section is useful for user type 5.
 ```
 
-{bdg-info}`iframe`
+{bdg-danger}`iframe`
 
 In this section, we will discuss how to [create](creating_basic_HTML_elements.md) and [embed](adding_HTML_elements.md) interactive HTML/Javascript elements created in HTML/JavaScript in a TeachBook. These HTML/Javascript element work very fluently and don't require a python kernel running in the background.
 

@@ -1,6 +1,6 @@
 # Discussions in your book: Utterances
 
-{bdg-muted}`Javascript script`
+{bdg-white}`GitHub app and Javascript script`
 
 [Utterances 🔮](https://utteranc.es/) is a lightweight open-source widget which allows you, your colleages and your students to discuss stuff in a blog post in your book. It is build on GitHub issues, so requires a GitHub repository, although the book can be hosted anywhere (so also on GitLab).
 
