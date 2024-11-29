@@ -26,6 +26,7 @@ parts:
     - file: installation-and-setup/creating_content.md
   - caption: Features
     chapters:
+    - file: features/overview.md
     - file: basic-features/overview.md
       sections:
       - file: basic-features/jupyterbook.md
@@ -41,7 +42,6 @@ parts:
       sections:
       - file: basic-features/hypothesis.md
       - file: basic-features/utterances.md
-    - file: features/overview.md
     - file: features/easy-editing.md
       sections:
       - file: external/TeachBooks/README.md
