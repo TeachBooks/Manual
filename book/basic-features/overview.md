@@ -1,4 +1,4 @@
-# Original Jupyter Book (Sphinx) Features
+# Original Jupyter Book and Sphinx Features
 
 ```{admonition} User types
 :class: tip
