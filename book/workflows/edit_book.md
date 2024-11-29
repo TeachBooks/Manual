@@ -197,16 +197,10 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 
 3. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-4. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
+4. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing,  click on `Push origin` in the top bar. 
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
-</figure>
-
-Alternatively, you can also click on `Push origin` in the top bar. 
-
-<figure align="center">
-    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
 </figure>
 ````
 `````
@@ -313,16 +307,10 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
 
 5. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-6. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
+6. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, click on `Push origin` in the top bar. 
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
-</figure>
-
-Alternatively, you can also click on `Push origin` in the top bar. 
-
-<figure align="center">
-    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
 </figure>
 
 ````
@@ -686,16 +674,10 @@ If your book includes interactive element a webserver is required to host the bo
 
 6. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-7. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
+7. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, click on `Push origin` in the top bar. 
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
-</figure>
-
-Alternatively, you can also click on `Push origin` in the top bar. 
-
-<figure align="center">
-    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
 </figure>   
 ````
 ````{tab-item} ... using 'VS Code in your browser'

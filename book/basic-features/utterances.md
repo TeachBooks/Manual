@@ -17,7 +17,7 @@ Below you see an example of this feature!
 
 ## Example discussion
 <script src="https://utteranc.es/client.js"
-        repo="TeachBooks/utterances_manual"
+        repo="TeachBooks/manual"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"

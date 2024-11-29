@@ -83,6 +83,7 @@ name: Clone_GitHub
 Clone using SSH
 ```
 
+``````
 ``````{tab-item} ... GitHub through GitHub Desktop
 
 1. Open the repository that you would like to clone. In the top bar on the right, you will a green button called `<> Code`.

@@ -11,7 +11,7 @@ The setup of tools and URLs is dependent on agreements you've made on [collabora
 Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [issue button](https://jupyterbook.org/en/stable/basics/repository.html#add-a-button-to-open-issues) is advised for the published book.
 
 ## Branches for separate versions
-We recommend using at least two separate branches, one which is released to students, the other on for development. If you're planning adapting the book every year, you should set up your branches in such a way that students will always receive the version they should expect.
+We recommend using at least two separate branches, one which is released to students, the other one for development. If you're planning adapting the book every year, you should set up your branches in such a way that students will always receive the version they should expect.
 
 Firstly, create a release branch which contains the students' version of this year. This branch could be named `release`, `main`, or `<current academic year>`. It is recommended to set this branch as the `PRIMARY BRANCH` when using the [GitHub workflow](gh-workflow-settings). This ensures that students are redirected to a consistent URL, even when new versions of the book are added later. If you plan on maintaining only one public version, it is advisable to set `BEHAVIOR_PRIMARY` from the default `redirect` to `copy`. This ensures that the primary branch is copied to the root, making the URL more compact.
 
