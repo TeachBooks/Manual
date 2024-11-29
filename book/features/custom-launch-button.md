@@ -1,4 +1,4 @@
-# Custom Launch Button 
+# Multilingual book
 
 ```{admonition} User types
 :class: tip
