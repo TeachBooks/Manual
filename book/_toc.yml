@@ -99,3 +99,4 @@ parts:
     chapters:
     - file: references.md
     - file: credits
+    - file: contact
