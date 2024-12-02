@@ -15,13 +15,17 @@ This manual is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/
 
 (editor)=
 ## Editor
-- Tom van Woudenberg
+- Tom van Woudenberg from Delft University of Technology
 
 ## Authors: TeachBooks Team
 - Tom van Woudenberg
 - Robert Lanzafame
 - Freek Pols
 - Julie Kirsch
+- Caspar Jungbacker
+All from Delft University of Technology
+
+Ths doesn't include small contributions from various people from within and outside Delft University of Technology.
 
 ## Contact
 If you encounter any issues report it by clicking {octicon}`mark-github` on the top right corner of this page.
