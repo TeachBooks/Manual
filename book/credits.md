@@ -27,7 +27,8 @@ All from Delft University of Technology
 
 Ths doesn't include small contributions from various people from within and outside Delft University of Technology.
 
-## External recourses
+(external_resources)=
+## External resources
 
 Parts of this book are taken from other external resources. The following are not edited by the TeachBooks Team:
 
