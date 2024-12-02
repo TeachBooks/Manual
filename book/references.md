@@ -2,8 +2,8 @@
 :::{bibliography}
 :::
 
-## Linked external recourses
+## External recourses
 
-Parts of this book are linked to other external resources. The following are not edited by the TeachBooks Team:
+Parts of this book are taken from other external resources. The following are not edited by the TeachBooks Team:
 
-- [](external/latex-to-markdown-conversion/README.md) {cite:ts}`timon_latex`
+- [](external/latex-to-markdown-conversion/README.md) {cite:ts}`timon_latex`, not licensed.
