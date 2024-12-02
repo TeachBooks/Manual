@@ -15,8 +15,7 @@ We anticipate that the content of this book will change significantly. Therefore
 ## Editor
 - Tom van Woudenberg
 
-## Authors
-
+## Authors: TeachBooks Team
 - Tom van Woudenberg
 - Robert Lanzafame
 - Freek Pols
