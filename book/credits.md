@@ -21,6 +21,7 @@ We anticipate that the content of this book will change continuously. Therefore,
 - Freek Pols
 - Julie Kirsch
 - Caspar Jungbacker
+
 All from Delft University of Technology
 
 Ths doesn't include small contributions from various people from within and outside Delft University of Technology.
