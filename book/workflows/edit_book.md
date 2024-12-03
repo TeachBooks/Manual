@@ -78,9 +78,10 @@ In GitHub, you can directly make changes in the files on the remote repository. 
 2. Create a new file by clicking on the button called `Add file` in the top bar. You can either create an entirely new file by clicking `Create new File` or if you already have created a file you can upload it by clicking `Upload files`.
 
 ```{figure} figures/HubUser3_NewFile.PNG
+---
 width: 80%
 align: center
-
+---
 Create new file
 ```
 
