@@ -16,8 +16,8 @@ align: center
 There are multiple tools of providing feedback in the built book:
 
 1. using the issue button in the top-right corner to directly create issues visible to the editor team.
-2. Using the [hypothesis](https://jupyterbook.org/en/stable/interactive/comments/hypothesis.html)-extension which allows public/private highlighting and annotating parts of the book.
-3. Using the [Utterances](https://jupyterbook.org/en/stable/interactive/comments/utterances.html)-extension which allows commenting on pages for books which are hosted on GitHub visible for everyone. Those comments are converted to issues on GitHub for the editors to handle.
+2. Using the [hypothesis](../basic-features/hypothesis.md)-extension which allows public/private highlighting and annotating parts of the book.
+3. Using the [Utterances](../basic-features/utterances.md)-extension which allows commenting on pages for books which are hosted on GitHub visible for everyone. Those comments are converted to issues on GitHub for the editors to handle.
 
 ## User type 2: Colleague providing feedback on a draft website
 
@@ -30,7 +30,7 @@ align: center
 
 ```
 
-In a similar manner as students, colleages and team members can leave content-related comments on the website through extensions or GitHub/GitLab features (e.g., Issues). In this way, multiple teachers can give input in the draft of the textbook and course material without requiring a complete understanding of Jupyter Books or GitLab/GitHub. The responsible teacher (or student assistants) can then make adaptations to the book as recommended by their colleagues.
+In a similar manner as students, colleagues and team members can leave content-related comments on the website through extensions or GitHub/GitLab features (e.g., Issues). In this way, multiple teachers can give input in the draft of the textbook and course material without requiring a complete understanding of Jupyter Books or GitLab/GitHub. The responsible teacher (or student assistants) can then make adaptations to the book as recommended by their colleagues.
 
 ## User type 3: Colleague making adjustments via the browser
 
