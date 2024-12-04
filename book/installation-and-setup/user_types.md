@@ -23,7 +23,7 @@ There are multiple tools of providing feedback in the built book:
 
 ```{figure} figures/usertype2.jpg
 ---
-name: usertype1
+name: usertype2
 width: 300px
 align: center
 ---
@@ -34,7 +34,7 @@ In a similar manner as students, colleagues and team members can leave content-r
 
 ## User type 3: Colleague making adjustments via the browser
 
-```{figure} figures/usertype1.jpg
+```{figure} figures/usertype3.jpg
 ---
 name: usertype3
 width: 300px
@@ -49,7 +49,7 @@ This type of user requires only very basic knowledge in GitLab/GitHub in order t
 
 ```{figure} figures/usertype4.jpg
 ---
-name: usertype1
+name: usertype4
 width: 300px
 align: center
 ---
@@ -62,7 +62,7 @@ User 4 is a hybrid between type 3 and 5. Basically this user is making changes b
 
 ```{figure} figures/usertype5.jpg
 ---
-name: usertype1
+name: usertype5
 width: 300px
 align: center
 ---
