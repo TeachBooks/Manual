@@ -5,7 +5,7 @@ An overview of license types.
 
 Test icon: {fa}`quote-right`
 
-> This page reuses CC BY content from Matt Hall. {cite:ts}`hall21`. {ref}``{fa}`quote-right` Details <external_resources>``
+> This page reuses CC BY content from Matt Hall. {cite:ts}`hall21`. {ref}` {fa}`quote-right` Details <external_resources>`
 
 ## Programming-Focused Educational Materials
 

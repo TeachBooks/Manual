@@ -14,4 +14,6 @@ The recommendations illustrate:
 
 This is important not only to properly attribute content in your book, but it can also be a useful way for you as an author to remember which material you have used in your book and find or update it later if changes are needed.
 
-
+```{tip}
+A generic version of these recommendations can also be found in the TeachBooks Template by visiting view the [Credits and License page directly](https://teachbooks.io/template/main/credits.html) or [the source code](https://github.com/TeachBooks/template/blob/main/book/credits.md).
+```
