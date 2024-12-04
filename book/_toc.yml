@@ -28,6 +28,7 @@ parts:
       - file: installation-and-setup/copyright/considerations
       - file: installation-and-setup/copyright/licenses
       - file: installation-and-setup/copyright/recommendations
+      - file: installation-and-setup/copyright/temporary
   - caption: Features
     chapters:
     - file: features/overview.md
