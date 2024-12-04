@@ -4,10 +4,9 @@
 
 [Utterances 🔮](https://utteranc.es/) is a lightweight open-source widget which allows you, your colleages and your students to discuss stuff in a blog post in your book. It is build on GitHub issues, so requires a GitHub repository, although the book can be hosted anywhere (so also on GitLab).
 
-The [utterances website](https://utteranc.es/) clearly explains the required steps. One thing to take care of is how you want to do the issue-mapping with respect to multiple deployed versions (per branch):
- 
- - `Issue title contains page URL` is useful if you want to isolate the comments on each of the branches.
- - `Issue title contains page pathname`/`Issue title contains page title` is useful if you want to show the all comments on all different branches.
+The [utterances website](https://utteranc.es/) clearly explains the required steps. One thing to take care of is that with the current setup of the [deploy book workflow on GitHub](../external/deploy-book-workflow/README.md), this widget only works on the primary branch.
+
+It's advised to use `Issue title contains page pathname`, because that url is most stable.
 
 The given script can be added anywhere in your book, just copy the html-script into your `.md`-file or a markdown cell in your `.ipynb`-file. The blogpost is not visible when you do a local build of the book, build it online or use a local python server as shown in {ref}`setup-local-server`.
 
@@ -20,7 +19,7 @@ Below you see an example of this feature!
 ## Example discussion
 <script src="https://utteranc.es/client.js"
         repo="TeachBooks/manual"
-        issue-term="url"
+        issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
