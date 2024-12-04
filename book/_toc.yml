@@ -24,6 +24,10 @@ parts:
     - file: installation-and-setup/collab
     - file: installation-and-setup/tools
     - file: installation-and-setup/creating_content.md
+      sections:
+      - file: installation-and-setup/copyright/considerations
+      - file: installation-and-setup/copyright/licenses
+      - file: installation-and-setup/copyright/recommendations
   - caption: Features
     chapters:
     - file: features/overview.md

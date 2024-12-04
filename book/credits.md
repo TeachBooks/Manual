@@ -1,5 +1,5 @@
 (credits)=
-# Credits and license
+# Credits and License
 
 You can refer to this book as:
 
@@ -29,9 +29,14 @@ Ths doesn't include small contributions from various people from within and outs
 (external_resources)=
 ## External resources
 
-Parts of this book are taken from other external resources. If an author is not listed on a particular page, it is by the Authors. The following pages are not edited by the TeachBooks Team:
+Parts of this book are taken from other external resources. If an author is not listed on a particular page, it is by the Authors.
+
+The following pages are not edited by the TeachBooks Team:
 
 - [](external/latex-to-markdown-conversion/README.md) {cite:ts}`timon_latex`, [BSD 3-clause license](https://opensource.org/license/BSD-3-Clause).
+
+The following pages contain content written by others, part of which may be reused and/or modified by the TeachBooks Team:
+- Page {ref}`copyright_licenses` includes an unmodified figure, paraphrased and quoted text (including hyperlinks) from {cite:ts}`hall21`.
 
 ## Acknowledgements
 Big thanks to the various colleagues and teaching assistant part of the [TeachBooks](https://teachbooks.io/) for developing tools and providing support to improve this book.
