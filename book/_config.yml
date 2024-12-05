@@ -37,6 +37,11 @@ sphinx:
           thebe: true
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
+    bibtex_default_style: myapastyle
+    bibtex_reference_style: author_year_round
+  local_extensions:
+    apastyle: _ext/
+    bracket_citation_style: _ext/
 
 bibtex_bibfiles: 
   - references.bib
