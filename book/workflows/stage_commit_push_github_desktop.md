@@ -19,7 +19,7 @@ Now we need to add changes to GitHub/GitLab. This is called pushing to the remot
 
 ```{figure} figures/Push_GitHubDekstop.PNG
 ---
-width: 100%
+width: 80%
 ---
 Push origin
 ```

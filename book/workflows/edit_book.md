@@ -205,7 +205,7 @@ If you collaborate with colleagues on your branch, you can get the updates from 
 
 By clicking on the 🔄 button, you will pull your colleages' changes.
 
-**solving potential incompatible changes (merging conflicts)**
+**Solving potential incompatible changes (merging conflicts)**
 
 When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
 
@@ -221,7 +221,7 @@ The figure above shows the conflicts. If you look closely you can see that the l
 
 Choose one of the options to resolve the merge conflict. You now have updated your work with work from your colleagues and resolved potential conlicts. You are now ready to continue working on the content.
 
-**Make some further changes to a file in for example VS Code and save them.**
+**Make some further changes to a file in for example VS Code and save them**
 
 ```{include} stage_commit_push_vscode.md
 ```
@@ -237,12 +237,12 @@ If you collaborate with colleagues on your branch, you can get the updates from 
     <img src="figures/Fetch.PNG" alt="Example Image" width="650">
 </figure>
 
-**solving potential incompatible changes (merging conflicts)**
+**Solving potential incompatible changes (merging conflicts)**
 
 When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
 
 <figure align="center">
-    <img src="figures/Conflicts1.PNG" alt="Example Image" width="650">
+    <img src="figures/Conflicts1.PNG" alt="Example Image" width="450">
 </figure>
 
 In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code (in that case have a look at the section treating VS Code). By clicking on the small downwards arrow you can also solve the conflict directly in GitHub Desktop by choosing the branch of the file you want to keep.
@@ -301,7 +301,7 @@ name: user5_demo
 Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 ```
 
-**Make some changes to a file in for example VS Code and save them.**
+**Make some changes to a file in for example VS Code and save them**
 
 ```{include} user45_check_changes.md
 ```
@@ -309,9 +309,10 @@ Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 ```{include} stage_commit_push_vscode.md
 ```
 
+````
 ````{tab-item} ... GitHub Desktop
 
-**Make some changes to a file in for example VS Code and save them.**
+**Make some changes to a file in for example VS Code and save them**
 
 ```{include} user45_check_changes.md
 ```
