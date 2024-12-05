@@ -166,7 +166,7 @@ name: user4_clone_edit_demo
 Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
 ```
 
-**Make some changes to a file in for example VS Code and save them.**
+**Make some changes to a file in for example VS Code and save them**
 
 ```{include} stage_commit_push_vscode.md
 ```
@@ -174,7 +174,7 @@ Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
 ````
 ````{tab-item} ... GitHub Desktop
 
-**Make some changes to a file in for example VS Code and save them.**
+**Make some changes to a file in for example VS Code and save them**
 
 ```{include} stage_commit_push_github_desktop.md
 ```
