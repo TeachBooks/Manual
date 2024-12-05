@@ -6,10 +6,10 @@
 
 The [utterances website](https://utteranc.es/) clearly explains the required steps. Three things to take care of are:
 1. With the current setup of the [deploy book workflow on GitHub](../external/deploy-book-workflow/README.md), this widget only works on the primary branch.
-2. The baseurl needs to be defined in the template:
+2. The baseurl is the root url of your book (the part of the url that doesn't change when opening different pages of the book). It needs to be defined in the `_config.yml` so that utteranc.es knows where to redirect users while interacting with the widget:
 ```
 html:
-  baseurl :  "https://<user>.io/<repo>" #Replace this with your own URL
+  baseurl :  "https://<user/organization>.github.io/<repo>" #Replace this with your own URL
 ```
 3. It's advised to use `Issue title contains page pathname` as an option on utteranc.es, because that url is most stable.
 
