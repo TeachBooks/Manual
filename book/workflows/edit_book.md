@@ -18,43 +18,49 @@ In GitLab, you can directly make changes in the files on the remote repository. 
 2. Create a new file by clicking on the plus button in the top bar. You can either create an entirely new file by clicking `New File` or if you already have created a file you can upload it by clicking `Upload File`.
 
 ```{figure} figures/User3_NewFile.PNG
+---
 width: 60%
 align: center
-
+---
 Create new file
 ```
 
 3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the blue button `Commit changes`.
 
 ```{figure} figures/User3_NewFile2.PNG
+---
 align: center
-
+---
 Edit new file
 ```
 
 4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the blue button called `Edit` and select the option `Edit single file`.
 
 ```{figure} figures/User3_EditFile.PNG
+---
 align: center
-
+---
 Web Editor
 ```
 
 5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the blue `Commit changes` button.
 
 ```{figure} figures/User3_NewFile2.PNG
+---
 align: center
-
+---
 Commit changes
 ```
 
 6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as you did with markdown `file.md` files.
 
 ```{figure} figures/User3_toc.PNG
+---
 align: center
-
+---
 Table of contents (TOC)
 ```
+
 ``````
 
 ``````{tab-item} ... GitHub... 
@@ -88,36 +94,40 @@ Create new file
 3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `file_name.md`. Once you are done, commit the new file to the repository by clicking the green button `Commit changes`.
 
 ```{figure} figures/HubUser3_NewFile2.PNG
+---
 width: 80%
 align: center
-
+---
 Edit new file
 ```
 
 4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the downward pointing arrow on the very left in the top bar. Select the option `Edit in place`.
 
 ```{figure} figures/HubUser3_EditFile.PNG
+---
 width: 80%
 align: center
-
+---
 Edit in place
 ```
 
 5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the green `Commit changes` button.
 
 ```{figure} figures/HubUser3_EditFile2.PNG
+---
 width: 80%
 align: center
-
+---
 Commit changes
 ```
 
 6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as with markdown `(file.md)` files.
 
 ```{figure} figures/HubUser3_toc.PNG
+---
 width: 80%
 align: center
-
+---
 Table of contents
 ```
 ````
@@ -164,7 +174,7 @@ Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
     For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
-
+---
 The new file appears in the Source Control menu.
 ```
     Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
@@ -174,7 +184,7 @@ The new file appears in the Source Control menu.
     Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
-
+---
 The new file has been staged, and we've written a Commit Message.
 ```
     Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
@@ -182,7 +192,7 @@ The new file has been staged, and we've written a Commit Message.
 4. In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab.
 
 ```{figure} ../images/git-push.png
-
+---
 After committing, click the 🔄 button to push our changes to the remote repository.
 ```
 ````
@@ -248,7 +258,7 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
-
+---
 The new file appears in the Source Control menu.
 ```
 
@@ -259,7 +269,7 @@ Notice that there is a green letter U placed besides the file, meaning that our 
 Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
-
+---
 The new file has been staged, and we've written a Commit Message.
 ```
 Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
@@ -267,7 +277,7 @@ Now, we are ready to add the changes to the repository. This is done by *committ
 6. In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab.
 
 ```{figure} ../images/git-push.png
-
+---
 After committing, click the 🔄 button to push our changes to the remote repository.
 ````
 ````{tab-item} ... GitHub Desktop
@@ -383,7 +393,7 @@ Note: use `--all` for the `teachbook` or `jupyter-book` command whenever buildin
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} figures/buildbook.PNG
-
+---
 Output
 ```
 Paste the last line into your browser to see the updated changes. 
@@ -403,7 +413,7 @@ If your book includes interactive element a webserver is required to host the bo
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
-
+---
 The new file appears in the Source Control menu.
 ```
 
@@ -414,7 +424,7 @@ Notice that there is a green letter U placed besides the file, meaning that our 
 Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
-
+---
 The new file has been staged, and we've written a Commit Message.
 ```
 Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
@@ -424,7 +434,7 @@ Now, we are ready to add the changes to the repository. This is done by *committ
 In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
 
 ```{figure} ../images/git-push.png
-
+---
 After committing, click the 🔄 button to push our changes to the remote repository.
 ````
 
@@ -462,7 +472,7 @@ Note: use `--all` for the `teachbook` or `jupyter-book` command whenever buildin
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} figures/buildbook.PNG
-
+---
 Output
 ```
 Paste the last line into your browser to see the updated changes. 
@@ -482,8 +492,9 @@ If your book includes interactive element a webserver is required to host the bo
 The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
 
 ```{figure} figures/Stage_GitHubDekstop.PNG
+---
 width: 50%
-
+---
 Staging
 ```
 
@@ -492,8 +503,9 @@ Staging
 5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, click on `Push Origin` in the top bar.
 
 ```{figure} figures/Push_GitHubDekstop.PNG
+---
 width: 100%
-
+---
 Push origin
 ```
 ````
@@ -564,7 +576,7 @@ Note: use `--all` for the `teachbook` or `jupyter-book` command whenever buildin
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} figures/buildbook.PNG
-
+---
 Output
 ```
 Paste the last line into your browser to see the updated changes. 
