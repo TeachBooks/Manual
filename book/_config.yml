@@ -26,6 +26,7 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb","**/*.gif","**/*.txt","**/*.json",]
     html_theme_options:
       logo:
+        text: TeachBooks Manual
         image_light: TB_logo.png
         image_dark: TB_logo_dark.png
       repository_url: "https://github.com/TeachBooks/manual/"
