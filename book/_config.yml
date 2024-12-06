@@ -46,5 +46,6 @@ sphinx:
     apastyle: _ext/
     bracket_citation_style: _ext/
 
+
 bibtex_bibfiles: 
   - references.bib
