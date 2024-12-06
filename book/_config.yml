@@ -42,9 +42,9 @@ sphinx:
     html_static_path: ["images"]
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
-  local_extensions:
-    apastyle: _ext/
-    bracket_citation_style: _ext/
+    local_extensions:
+      apastyle: _ext/
+      bracket_citation_style: _ext/
 
 bibtex_bibfiles: 
   - references.bib
