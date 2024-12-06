@@ -1,8 +1,6 @@
 title: TeachBooks Manual
 author: TeachBooks Team, built with <a href="https://teachbooks.io/">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a>
 
-logo: images/Logo_without_background.png
-
 execute:
   execute_notebooks: 'off'
 
@@ -27,6 +25,9 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb","**/*.gif","**/*.txt","**/*.json",]
     html_theme_options:
+      logo:
+        image_light: TB_logo.png
+        image_dark: TB_logo_dark.png
       repository_url: "https://github.com/TeachBooks/manual/"
       path_to_docs: "book"
       repository_branch: "release"
@@ -37,6 +38,7 @@ sphinx:
           thebe: true
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
+    html_static_path: ["images"]
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
   local_extensions:
