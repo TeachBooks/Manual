@@ -9,7 +9,7 @@ Navigate to the terminal in VS code, located at the bottom of the window or by c
 You will firstly need to activate the right environment. Type the following command:
 
 ```
-conda activate jupyter-book-env
+conda activate my_new_book_env
 ```
 
 (or the environment in which you have installed the `teachbooks` package!)
@@ -18,12 +18,6 @@ Then we can build the book locally. Make sure you are in the right repository in
 
 ```
 teachbooks build <path-to-book>
-```
-
-Alternatively:
-
-```
-jupyter-book build <path-to-book> --all
 ```
 
 Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
