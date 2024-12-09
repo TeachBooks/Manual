@@ -5,18 +5,11 @@
 This page is useful for user type 4 and 5.
 ```
 
-{bdg-primary}`(To be) Sphinx Extension`
+{bdg-primary}`(To be converted into) Sphinx Extension`
 
 ## Introduction
 
 This extension allows you to have APA formatting which is not a default option.
-
-
-
-## How does it work?
-Sphinx extension that inverts the colors of images and iframes in dark mode but keeps the colours recognizable. This is particularly useful for graphs in which a certain colour is mentioned in accompanying text. Item are not converted if they are marked with the `dark-light` class (recommended for photos).
-
-In more detail, the colors of the element are inverted, then the hue of the colors is shifted by 180 degrees, so the inverted colors change to their complementary hues. This flips the brightness and contrast, while keeping the hue somewhat recognizable (so a blue line will be a blue line in both ligth and dark mode). Black and white stay inverted (so white becomes black, and black becomes white), because they don’t have a hue. After this, the element blends with the background, making similar colors appear dark and very different colors appear bright. The overall effect creates high contrast between the element and the background, depending on their colors.
 
 ## Installation
 To use APA-references, a python package needs to be manually loaded into your book
@@ -60,7 +53,9 @@ sphinx:
 ```
 
 ## Usage
-All references are now made in APA-style. See for example this reference: {cite}`jason_moore` which shows up on the [references page too](../references.md)
+All references are now made in APA-style. See for example this reference: {cite}`jason_moore` which shows up on the [references page](../references.md) too.
+
+For more options on the in-line citation style, see https://jupyterbook.org/en/stable/content/citations.html#change-the-in-line-citation-style.
 
 ### Known issue
 During the build, warning will be raised with `... WARNING: duplicate label for keys ...`. In most cases, these warnings can be ignored.
