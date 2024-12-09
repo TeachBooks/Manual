@@ -69,6 +69,7 @@ parts:
       - file: external/JupyterBook-Patches/README.md
       - file: external/Sphinx-TUDelft-theme/README.md
       - file: external/teachbooks-sphinx-tippy/README.md
+      - file: features/apa
     - file: features/students
       sections:
       - file: external/annotater/README.md
