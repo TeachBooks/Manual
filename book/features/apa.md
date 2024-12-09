@@ -1,4 +1,4 @@
-# APA references
+# APA References
 
 ```{admonition} User types
 :class: tip
@@ -7,16 +7,26 @@ This page is useful for user type 4 and 5.
 
 {bdg-primary}`(To be converted into) Sphinx Extension`
 
+```{warning}
+The instructions provided here are stable, but because it relies on a local extension that is part of your book files and _not_ managed as part of a computing environment (e.g., `pip` or `conda`), there may be incompatibility with other features. For example, the draft-release workflow does not work.
+
+We are actively working on improving this. Visit the [project page on GitHub](https://github.com/orgs/TeachBooks/projects/17) to learn more.
+
+This page will be updated when a solution is available.
+```
+
 ## Introduction
 
-This extension allows you to have APA formatting which is not a default option.
+Do you include references in your book, but you're tired of the default options available in Jupyter Book? For example, the square-bracket style of citation and reference, where the first three letters of the name year are combined in a way that seems designed to minimize transparency?
+
+There is a solution! This extension allows you to have APA formatting in your book.
 
 ## Installation
-To use APA-references, a python package needs to be manually loaded into your book
+To use APA-references, a set of Python files need to be manually loaded into your book
 
-**Step 1: Add zip file to book root**
+**Step 1: files to root directory of your book**
 
-Add the zip-file [`_ext.zip`](_ext.zip) to the root of your file so that it looks like:
+Download this zip-file [`_ext.zip`](_ext.zip), which contains the necessary files, unzip it and place the contents in the root of your book directory so that it looks like the schematic here:
 
 ```
 book
@@ -53,12 +63,35 @@ sphinx:
 ```
 
 ## Usage
-All references are now made in APA-style. See for example this reference: {cite}`jason_moore` which shows up on the [references page](../references.md) too.
+
+All references are now made in APA-style. See for example this reference: {cite:t}`jason_moore` which shows up on the [references page](../references.md) too. The form of the citation looks like this:
+
+```
+{cite:t}`jason_moore`
+```
+
+Here are three examples for making citations:
+
+| Syntax | Result |
+| :---: | :---: |
+|`{cite:t}` | {cite:t}`jason_moore` |
+|`{cite:p}`| {cite:p}`jason_moore` |
+|`{cite}`| {cite}`jason_moore` |
 
 For more options on the in-line citation style, see https://jupyterbook.org/en/stable/content/citations.html#change-the-in-line-citation-style.
 
-### Known issue
-During the build, warning will be raised with `... WARNING: duplicate label for keys ...`. In most cases, these warnings can be ignored.
+### Known Issue
+
+During the build, warning will be raised with `... WARNING: duplicate label for keys ...`. In most cases, these warnings can be ignored. As noted above, the book will not build references properly 
+
+## Implementation
+
+The extension is based on [`pybtex`](https://pybtex.org/), which is a BibTeX-compatible bibliography processor in Python that is extendible with plugins. 
+
+Although some customization is possible with the standard Jupyter Book features, [as described here](https://jupyterbook.org/en/stable/content/citations.html#change-the-in-line-citation-style), this extension implements the complete APA style, as well as enforcing round brackets (like this).
+
+The need to enforce `docutils==0.17.1` version is the only known solution to the issue where empty brackets `[]` are left on the references page.
 
 ## Contribute
-This tool needs to be developed further to make it into a proper sphinx-extension. The process is described here: https://github.com/orgs/TeachBooks/projects/17. If you've ideas or questions, please reach out to us at info@teachbooks.io!
+
+This tool needs to be developed further to make it into a proper sphinx-extension (and/or an independent `pybtext` plugin). The process is described in this [project page on GitHub](https://github.com/orgs/TeachBooks/projects/17). If you've ideas or questions, please reach out to us at info@teachbooks.io!
