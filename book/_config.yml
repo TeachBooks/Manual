@@ -27,8 +27,8 @@ sphinx:
     html_theme_options:
       logo:
         text: Manual
-        image_light: TB_logo.png
-        image_dark: TB_logo_inverted.png
+        image_light: TeachBooks_logo.svg
+        image_dark: TeachBooks_logo_inverted.svg
       repository_url: "https://github.com/TeachBooks/manual/"
       path_to_docs: "book"
       repository_branch: "release"
