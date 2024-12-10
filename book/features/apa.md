@@ -30,7 +30,7 @@ Download this zip-file [`_ext.zip`](_ext.zip), which contains the necessary file
 
 ```
 book
-├── _ext.zip
+├── _ext/
 │   ├── pybtexapastyle/
 │   ├── apastyle.py
 │   ├── bracket_citation_style.py
