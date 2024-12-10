@@ -5,7 +5,6 @@
 
 ```{figure} figures/Online_VS0.PNG
 ---
-name: New File
 width: 50%
 align: center
 ---
@@ -16,7 +15,6 @@ New File
 
 ```{figure} figures/Online_VS1.PNG
 ---
-name: VS Code in Browser
 width: 70%
 align: center
 ---
@@ -29,7 +27,6 @@ In the bottom left you can see the branch you are working in.
 
 ```{figure} figures/Online_VS2.PNG
 ---
-name: GitHub Actions
 width: 70%
 align: center
 ---
@@ -39,7 +36,6 @@ You will see the latest commit you just did (in this case text). After the pipel
 
 ```{figure} figures/Online_VS3.PNG
 ---
-name: Deployed Branches
 width: 60%
 align: center
 ---
