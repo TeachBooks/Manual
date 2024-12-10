@@ -7,12 +7,12 @@ This page is useful for user type 4 and 5.
 
 {bdg-primary}`(To be converted into) Sphinx Extension`
 
-```{warning}
-The instructions provided here are stable, but because it relies on a local extension that is part of your book files and _not_ managed as part of a computing environment (e.g., `pip` or `conda`), there may be incompatibility with other features. For example, the draft-release workflow does not work.
+```{note}
+This feature is stable but because it relies on a local extension that is part of your book files and _not_ managed as part of a computing environment (e.g., `pip` or `conda`), unknown issues may arise. We would like to convert this feature into an independent Sphinx extension and/or Pybtext plugin. Visit the [project page on GitHub](https://github.com/orgs/TeachBooks/projects/17) to learn more.
 
-We are actively working on improving this. Visit the [project page on GitHub](https://github.com/orgs/TeachBooks/projects/17) to learn more.
+The instructions provided here will work under conventional usage with Jupyter Book (e.g., `jupyter book build book`).
 
-This page will be updated when a solution is available.
+A temporary fix has also been implemented in the TeachBooks package for use with the Deploy Book Workflow (release mode) (see [release notes from v0.1.0](https://github.com/TeachBooks/TeachBooks/releases/tag/v0.1.0)).
 ```
 
 ## Introduction
@@ -30,7 +30,7 @@ Download this zip-file [`_ext.zip`](_ext.zip), which contains the necessary file
 
 ```
 book
-├── _ext.zip
+├── _ext/
 │   ├── pybtexapastyle/
 │   ├── apastyle.py
 │   ├── bracket_citation_style.py
