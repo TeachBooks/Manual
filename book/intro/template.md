@@ -17,3 +17,6 @@ To get started, you need a GitHub account (not counted within the 10 clicks 🤭
 Now, let's start making a book. Therefore, we've made a template on GitHub which covers most of the technical steps required to have your book online. How to start using the template is explained in the `README` of the template, which is shown on the homepage of the template: https://github.com/TeachBooks/template. Please follow the steps provided there. When you're done, come back here!
 
 ## Let's practice!
+You should have your book now online on something like `<your_username>.github.io/<book>`.
+
+Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at the start. Therefore, exercises are included in the template you used took! You can go over them and look at the results online.
