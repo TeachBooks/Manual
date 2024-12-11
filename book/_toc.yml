@@ -44,8 +44,9 @@ parts:
       - file: basic-features/utterances.md
     - file: features/easy-editing.md
       sections:
-      - file: external/TeachBooks/README.md
+      - file: features/teachbooks
       - file: external/deploy-book-workflow/README.md
+      - file: features/local_server
       - file: external/Nested-Books/README.md
     - file: features/sphinx_extensions.md
       sections: 
