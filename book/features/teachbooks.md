@@ -1,5 +1,5 @@
 (teachbooks-package)=
-# TeachBooks Package
+# Pre- and postprocessing book
 
 ```{admonition} User types
 :class: tip
