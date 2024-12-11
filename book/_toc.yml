@@ -2,7 +2,10 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Getting started!
+  - caption: Your first TeachBook
+    chapters:
+    - file: 
+  - caption: Getting going!
     chapters:
     - file: installation-and-setup/user_types.md
     - file: installation-and-setup/git.md
@@ -13,7 +16,6 @@ parts:
       - file: installation-and-setup/anaconda.md
       - file: installation-and-setup/git_bash_conda_vs-code.md
       - file: installation-and-setup/jupyter-book-setup.md
-    - file: external/template/README.md
     - file: workflows/collaboration.md
       sections:
       - file: workflows/milestones_issues.md
@@ -44,6 +46,7 @@ parts:
       - file: basic-features/utterances.md
     - file: features/easy-editing.md
       sections:
+      - file: external/template/README.md
       - file: features/teachbooks
       - file: external/deploy-book-workflow/README.md
       - file: features/local_server
