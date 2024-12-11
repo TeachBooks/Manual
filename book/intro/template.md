@@ -8,7 +8,7 @@ align: right
 ```
 
 
-Now that you've been introduced to the basic of a TeachBook, let's start making one! To make it very ease, we make use of GitHub to store your files online and host your website.
+Now that you've been introduced to the basics of a Jupyter Book, let's start making one! To make it very ease, we make use of GitHub to store your files online and host your website.
 
 ## Create a GitHub account
 To get started, you need a GitHub account (not counted within the 10 clicks 🤭): https://github.com/signup
