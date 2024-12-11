@@ -38,10 +38,6 @@ parts:
       - file: basic-features/Code_block_figures
       - file: basic-features/banner
         title: Banner or Announcement
-    - file: basic-features/external-features.md
-      sections:
-      - file: basic-features/hypothesis.md
-      - file: basic-features/utterances.md
     - file: features/easy-editing.md
       sections:
       - file: features/teachbooks
@@ -51,7 +47,8 @@ parts:
     - file: features/sphinx_extensions.md
       sections: 
       - file: external/Download-Link-Replacer/README.md
-      - file: features/custom-launch-button.md      
+      - file: features/custom-launch-button.md
+      - file: basic-features/utterances.md      
       - file: features/interactive_element.ipynb
         sections:
         - file: external/Sphinx-Grasple-public/README.md
@@ -74,6 +71,7 @@ parts:
     - file: features/students
       sections:
       - file: external/annotater/README.md
+      - file: basic-features/hypothesis.md
 
   - caption: Examples
     chapters:
