@@ -1,5 +1,5 @@
 (setup-local-server)=
-# Use a Local Server
+# Local Server to view interactive elements locally
 
 ```{admonition} User types
 :class: tip
