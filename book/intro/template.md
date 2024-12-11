@@ -3,7 +3,7 @@
 ```{figure} figures/template.jpg
 ---
 name: template
-width: 200px
+width: 150px
 align: right
 ```
 
