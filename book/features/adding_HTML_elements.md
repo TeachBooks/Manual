@@ -32,7 +32,7 @@ Let's take a closer look at the source. Since this project uses a local file str
  - Finally, the string `"element_render_box.html"` selects the HTML file we want to embed. We are now in `book/_static/element_render_box.html`.
 
 ## Viewing result at local build
-To view the final result locally, it's required to setup a [local python webserver](setup-local-server).
+To view the final result locally, it's required to setup a {ref}local Python webserver <setup-local-server>`.
 
 ## HTML code for the 3D render element
 
