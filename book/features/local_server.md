@@ -20,7 +20,7 @@ A Jupyter Book is really just a _static website._ This means that all book conte
 
 We recommend you use the **TeachBooks Python Package**, which has a `serve` command in the CLI tool to start and stop local servers. Find out more on {ref}`the TeachBooks Package page <teachbooks-serve>`.
 
-This page presents just a few additional examples that are used by TeachBooks collaborators. There are many more options available out there, for example, [this list illustrates many esrvers that can be activated with a single line of code!](https://gist.github.com/willurd/5720255).
+This page presents just a few additional examples that are used by TeachBooks collaborators. There are many more options available out there, for example, [this list illustrates many servers that can be activated with a single line of code!](https://gist.github.com/willurd/5720255).
 
 ```{tip}
 Remember that the browser is serving static files provided by the local server and does not always keep track when they are updated. 
