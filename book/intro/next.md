@@ -1,4 +1,4 @@
-# What's next?
+# You Know the Basics: What Next?
 
 You've seen what a JupyterBook is, how TeachBooks tries to help you with making those, and what the potential is in teaching. So what's next?
 
@@ -17,4 +17,4 @@ In the next part of this manual 'Getting going!', we'll explain which options yo
 
 Furthermore, in the 'Features' part we'll collect a suite of existing open-source software to ease the editing process, add functionalities, improve styling and improve the student-experience. Finally, the 'Examples' page contain some example pages of some book.
 
-We hope you enjoin making books with TeachBooks. If you encouter any problem, please reach out to us on [email](mailto:info@teachbooks.io) or our [GitHub Discussions](https://github.com/orgs/TeachBooks/discussions). We'd be happy to collaborate with you or simple receive some feedback, examples, cool ideas. Happy book building!
+We hope you enjoin making books with TeachBooks. If you encounter any problem, please reach out to us on [email](mailto:info@teachbooks.io) or our [GitHub Discussions](https://github.com/orgs/TeachBooks/discussions). We'd be happy to collaborate with you or simple receive some feedback, examples, cool ideas. Happy book building!

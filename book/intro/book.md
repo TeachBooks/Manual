@@ -10,7 +10,7 @@ Three parts to a book:
 3. Content for your book! Text-based files.
 
 ```{admonition} Text-based files? yml? What is that?!
-:class: tip
+:class: tip, dropdown
 
 Text-based files are digital files on your computer that you can open in a text editor and read directly. There are many file extensions used for text-based files, a few common ones related to Jupyter Book are: Markdown (`*.md`), Jupyter Notebooks (`*.ipynb`), and YAML (`*.yml`).
 
