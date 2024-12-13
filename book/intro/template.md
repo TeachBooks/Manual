@@ -29,7 +29,6 @@ Go to the [TeachBooks Template repository on GitHub](https://github.com/TeachBoo
 Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at the start, not to mention becoming familiar with the various tools and workflows required. To help make the learning curve somewhat easier to travel, a number of exercises have been prepared for you as part of an introductory **workshop**. The exercises are designed such that no prior experience with any tools or programming is required, as long as you have read the preceding introductory pages.
 
 ```{exercise}
-
 Work through the exercises attached to this page (you can find them in the left sidebar). These exercises can also be found in the template book itself.
 ```
 
