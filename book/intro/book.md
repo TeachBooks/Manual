@@ -1,10 +1,22 @@
 # What is a TeachBook?
 
+Never seen a TeachBook before? Here's a small demo of our MUDE-book!
 
-Anatomy of a Book
+<div style="display: flex; justify-content: center;">
+    <div style="position: relative; width: 100%; height: 1000%; padding-bottom: 50%;">
+        <iframe
+            src="https://www.youtube.com/embed/gbBsWo6em4c?si=gmQex2p-LkHM_pCZ"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </div>
+</div>
 
+So what are you looking at? It's a website generated with the [Jupyter Book package](https://jupyterbook.org/).
 
-Three parts to a book:
+The source files of this book consists of three parts:
 1. A configuration file, `_config.yml`
 2. A table of contents file, `_toc.yml`
 3. Content for your book! Text-based files.
@@ -19,10 +31,7 @@ YAML (or YML) is a text-based file format that is primarily used to store data. 
 
 ```
 
-## How a book is made
-
-1. Content is written in text-based files such as Markdown (`*.md`), Jupyter Notebooks (`*.ipynb`), etc.
-2. Software is used to "parse" these files and create the final book (e.g., Jupyter Book)
+A book is made by by writing content in text-based files such as Markdown (`*.md`), Jupyter Notebooks (`*.ipynb`), etc. After that, software is used to "parse" these files and create the final book (e.g., Jupyter Book)
 
 
 A hint of the key tools
