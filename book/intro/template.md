@@ -30,7 +30,7 @@ Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at
 
 ```{exercise} Task 3
 
-Work through the sections attached to this page (you can find them in the left sidebar).
+Work through the exercises attached to this page (you can find them in the left sidebar).
 ```
 
 ```{tip}
