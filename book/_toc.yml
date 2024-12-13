@@ -13,7 +13,7 @@ parts:
       - file: external/template/book/exercises/003.md
       - file: external/template/book/exercises/004.md
       - file: external/template/book/exercises/005.md
-      #- file: external/template/book/exercises/006.md
+      - file: external/template/book/exercises/006.md
       - file: intro/workshop/summary
     - file: intro/next.md
   - caption: Getting Going!
