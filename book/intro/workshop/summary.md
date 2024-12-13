@@ -17,12 +17,12 @@ Here is how the exercises relate to the workflow.
 
 | Step No. | Name | Exercise | Description |
 | :---: | :---: | :---: | :---: |
-| 1 | Get and idea | N/A |  |
-| 2 | Create _your_ version of the book | 5 | Create a branch |
-| 3 | Edit the book | 1, 3, 4, 5 | Several ways to do this |
-| 4 | Check changes online | 2, 5 | Workflows and Actions Summary |
-| 5 | Repeat edit and checking | N/A |  |
-| 6 | Submit for review | 6, 7 | Open and merge a Pull Request. Forks and PR's. |
+| 1 | Get and idea | 4 | Create an issue |
+| 2 | Create _your_ version of the book | 4 | Create a branch |
+| 3 | Edit the book | 1, 2, 3| Editing `.md`-files, the `_toc.yml` and the `_config.yml` |
+| 4 | Check changes online | 1, 2, 3 | Workflows and Actions Summary |
+| 5 | Repeat edit and checking | 1, 2, 3, 4, 5 | Keep on doing all the steps until it's ready|
+| 6 | Submit for review | 5, 6 | Open and merge a Pull Request, from a branch or forks |
 
 ## Overview of Exercises and Tasks
 
@@ -49,16 +49,7 @@ The exercises here assume you have created a book using the TeachBooks Template 
 - Open the job and see the command line output
 - Once the job is complete, check that the changes are incorporated in the book website.
 
-### Exercise 4: Online Editor
-
-- Open the "Visual Studio Code for the Web" editor (VSC Web) using the shortcut `.` from your repository homepage
-- Explore the file structure of your book
-- Explore the editor interface, for example, use side-by-side file editing; look at the git tab
-- Open multiple files and make changes to them
-- Commit your changes using a single commit
-- Check that the changes are reflected in the book website.
-
-### Exercise 5: _Your_ Version of the Book
+### Exercise 4: _Your_ Version of the Book
 
 - Create a branch
 - Open VSC Web editor
