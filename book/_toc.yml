@@ -9,23 +9,13 @@ parts:
     - file: intro/template.md
       sections:
       - file: intro/workshop/01
-        title: "1: Edit Contents"
       - file: intro/workshop/02
-        title: "2: How it's Made"
       - file: intro/workshop/03
-        title: "3: Change Metadata"
       - file: intro/workshop/04
-        title: "4: Online Editor"
       - file: intro/workshop/05
-        title: "5: Your Version"
       - file: intro/workshop/06
-        title: "6: Submit for Review"
-      - file: intro/workshop/07
-        title: "7: Collaborate"
       - file: intro/workshop/summary
-        title: "Summary"
     - file: intro/next.md
-      title: "What Next?"
   - caption: Getting Going!
     chapters:
     - file: installation-and-setup/user_types.md
