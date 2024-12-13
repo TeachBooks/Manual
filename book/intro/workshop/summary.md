@@ -2,10 +2,6 @@
 
 This page gives an overview of exercises and tasks on the previous pages as part of the workshop.
 
-```{tip}
-Are you already comfortable with Git, GitHub and the concept of using software to parse text-based files and create marked-up documents? Then you can try completing the exercises by following the steps as outlined below. If something is not clear, refer back to the relevant exercise page.
-```
-
 ## TeachBooks Workflow
 
 Table overview:

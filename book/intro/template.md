@@ -35,4 +35,6 @@ Work through the exercises attached to this page (you can find them in the left 
 
 ```{tip}
 If you find that the exercises are too easy for you, jump to the last page in this section, which summarizes all tasks and exercises that should be completed to fully understand how to create collaborate with TeachBooks.
+Or maybe you're already comfortable with Git, GitHub and the concept of using software to parse text-based files and create marked-up documents. In that case, try completing the exercises by following the steps as outlined below. If something is not clear, refer back to the relevant exercise page.
+```
 ```
