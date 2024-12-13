@@ -4,9 +4,14 @@ This page gives an overview of exercises and tasks on the previous pages as part
 
 ## TeachBooks Workflow
 
-Table overview:
+With the exercises, you did all the steps of our TeachBooks workflow!
 
-Workflow Steps (DIAGRAM TO SIDE?)
+```{figure} ../figures/TeachBooks_flowchart_v04.png
+---
+width: 500px
+align: center
+---
+```
 
 Here is how the exercises relate to the workflow.
 
