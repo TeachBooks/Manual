@@ -21,15 +21,30 @@ The source files of this book consists of three parts:
 2. A table of contents file to list which files should endup in the book, `_toc.yml`
 3. Content for your book! Text-based files which allows you to embed figures, videos, math and interactive elements.
 
-```{admonition} Text-based files? yml? What is that?!
+`````{admonition} Text-based files? yml? What is that?!
 :class: tip, dropdown
 
 Text-based files are digital files on your computer that you can open in a text editor and read directly. There are many file extensions used for text-based files, a few common ones related to Jupyter Book are: Markdown (`*.md`), Jupyter Notebooks (`*.ipynb`), and YAML (`*.yml`).
 
 YAML (or YML) is a text-based file format that is primarily used to store data. It is useful because it is easy for humans to read and write, and easy for machines to _parse_ and generate., which is why YAML is often used for configuration files. Here is an example of a YAML file...can you tell what information is being stored?
 
-
 ```
+parts:
+  - caption: Your First TeachBook!
+    chapters:
+    - file: intro/book.md
+    - file: intro/workflow.md
+    - file: intro/template.md
+      sections:
+      - file: external/teachbooks.md
+```
+
+````{admonition} Description of the YAML file
+:class: tip, dropdown
+
+You can see quite clearly that a number of files are listed, and that they are organized into chapters and sections. This defines the structure of the book---you can confirm this by comparing to the left sidebar, as this book is where this example YAML snippet came from!
+````
+`````
 
 A book is made by by writing content in text-based files such as Markdown (`*.md`), Jupyter Notebooks (`*.ipynb`), etc. After that, software is used to "parse" these files and create the final book (e.g., Jupyter Book)
 
