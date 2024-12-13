@@ -28,7 +28,7 @@ Text-based files are digital files on your computer that you can open in a text 
 
 YAML (or YML) is a text-based file format that is primarily used to store data. It is useful because it is easy for humans to read and write, and easy for machines to _parse_ and generate., which is why YAML is often used for configuration files. Here is an example of a YAML file...can you tell what information is being stored?
 
-```
+```yaml
 parts:
   - caption: Your First TeachBook!
     chapters:
