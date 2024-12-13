@@ -2,7 +2,6 @@
 
 Never seen a TeachBook before? Here's a small demo of our MUDE-book!
 
-
 <div style="display: flex; justify-content: center;">
     <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
         <iframe
@@ -15,7 +14,7 @@ Never seen a TeachBook before? Here's a small demo of our MUDE-book!
     </div>
 </div>
 
-So what are you looking at? It's a website generated with the [Jupyter Book package](https://jupyterbook.org/). Various extensions have been added to improve the student-experience, especially for technical topics!
+So what are you looking at? It's a website generated with the [Jupyter Book package](https://jupyterbook.org/). Various extensions have been added to improve the student-experience, especially for technical topics! The actual website you're looking at now is a JupyterBook. With TeachBooks we aim to make it easy to collaboratively use it, even if you've little experience with the software package which is part of it.
 
 The source files of this book consists of three parts:
 1. A configuration file to define functionalities, `_config.yml`
