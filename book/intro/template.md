@@ -30,7 +30,7 @@ Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at
 
 ```{exercise}
 
-Work through the exercises attached to this page (you can find them in the left sidebar).
+Work through the exercises attached to this page (you can find them in the left sidebar). These exercises can also be found in the template book itself.
 ```
 
 ```{tip}
@@ -44,4 +44,4 @@ Maybe you're already comfortable with Git, GitHub and the concept of using softw
 
 If something is not clear, dive into to the relevant exercise page.
 ```
-```
+
