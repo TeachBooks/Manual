@@ -11,12 +11,7 @@ width: 500px
 align: center
 ```
 
-```{figure} figures/TeachBooks_flowchart_v04.pdf
----
-name: workflow
-width: 500px
-align: center
-```
-
 ## 1 get an idea
-You have an idea to improve a book or add some content! Let's make that happen! Share you idea with the book-authors to let them know you're starting something! Maybe someone else 
+You have an idea to improve a book or add some content! Let's make that happen! Share you idea with the book-authors to let them know you're starting something! Maybe someone else has some ideas on it as well. Later on, you can use GitHub 'Issues', 'Projects' and 'Milestones' to keep track of this.
+
+## 2 create your version of the book
