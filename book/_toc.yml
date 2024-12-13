@@ -11,7 +11,7 @@ parts:
       - file: external/template/book/exercises/001.md
       - file: external/template/book/exercises/002.md
       - file: external/template/book/exercises/003.md
-      - file: intro/workshop/04
+      - file: external/template/book/exercises/004.md
       - file: intro/workshop/05
       - file: intro/workshop/06
       - file: intro/workshop/07
