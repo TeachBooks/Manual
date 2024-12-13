@@ -8,12 +8,13 @@ parts:
     - file: intro/workflow.md
     - file: intro/template.md
       sections:
-      - file: intro/workshop/01
-      - file: intro/workshop/02
+      - file: external/template/book/exercises/001.md
+      - file: external/template/book/exercises/002.md
       - file: intro/workshop/03
       - file: intro/workshop/04
       - file: intro/workshop/05
       - file: intro/workshop/06
+      - file: intro/workshop/07
       - file: intro/workshop/summary
     - file: intro/next.md
   - caption: Getting Going!
