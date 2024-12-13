@@ -12,7 +12,7 @@ Now that you've been introduced to the basics of a Jupyter Book, let's make one!
 ## 1. Create a GitHub account
 TeachBooks relies of freely available services from GitHub to store files online, carry out the book-building process and host your book as a website. All you need to get started is a GitHub account (not counted in the 10 clicks 🤭).
 
-```{exercise} Task 1
+```{exercise}
 
 If you don't already have one, create a GitHub account here by visiting [github.com/signup](https://github.com/signup). 
 ```
