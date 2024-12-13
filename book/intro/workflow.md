@@ -4,17 +4,10 @@ The fun part is the collaborative aspect of TeachBooks! Because all the files ar
 
 Assuming you've a book (well make that happen soon!) and you're ready to collaborate, the process is as follows:
 
-```{figure} figures/TeachBooks_flowchart_v04.png
----
-name: workflow
-width: 500px
-align: center
-```
-
 ## 1 get an idea
 ```{figure} figures/idea.png
 ---
-width: 100px
+width: 70px
 align: right
 ```
 You have an idea to improve a book or add some content! Let's make that happen! Share you idea with the book-authors to let them know you're starting something! Maybe someone else has some ideas on it as well. Later on, you can use GitHub `Issues`, `Projects` and `Milestones` to keep track of this.
