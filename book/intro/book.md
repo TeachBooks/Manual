@@ -14,7 +14,7 @@ Never seen a TeachBook before? Here's a small demo of our MUDE-book!
     </div>
 </div>
 
-So what are you looking at? It's a website generated with the [Jupyter Book package](https://jupyterbook.org/).
+So what are you looking at? It's a website generated with the [Jupyter Book package](https://jupyterbook.org/). Various extensions have been added to improve the student-experience, especially for technical topics!
 
 The source files of this book consists of three parts:
 1. A configuration file, `_config.yml`
