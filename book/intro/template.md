@@ -34,7 +34,14 @@ Work through the exercises attached to this page (you can find them in the left 
 ```
 
 ```{tip}
-If you find that the exercises are too easy for you, jump to the last page in this section, which summarizes all tasks and exercises that should be completed to fully understand how to create collaborate with TeachBooks.
-Or maybe you're already comfortable with Git, GitHub and the concept of using software to parse text-based files and create marked-up documents. In that case, try completing the exercises by following the steps as outlined below. If something is not clear, refer back to the relevant exercise page.
+Maybe you're already comfortable with Git, GitHub and the concept of using software to parse text-based files and create marked-up documents. In that case, can you answer the following questions (refering to the exercises):
+1. Can you add some content to the intro page?
+2. Can you add the file named `file_to_be_added_to_toc.md` to the book website?
+3. Can you edit the repository url defined in the `_config.yml`, change the title shown below the logo and change the author as shown in the footer?
+4. Can you make a new branch of your book with an additional file `file_on_new_version.md` and view it online?
+5. Can you merge your branch into `main` with a pull request?
+6. Can you fork someone else's repo, and suggest a change in a pull request?
+
+If something is not clear, dive into to the relevant exercise page.
 ```
 ```
