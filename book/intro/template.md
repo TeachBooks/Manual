@@ -20,7 +20,7 @@ If you don't already have one, create a GitHub account here by visiting [github.
 ## 2. Use the template---it's really just 10 clicks!
 Now, let's make a book: we've made a template on GitHub which carries out _most_ of the technical steps required to create a book and put it online. Instructions for using the template are in the `README` of the TeachBooks Template repository on GitHub, which is by default visible on the repository homepage.
 
-```{exercise} Task 2
+```{exercise}
 
 Go to the [TeachBooks Template repository on GitHub](https://github.com/TeachBooks/template) and follow the instructions to create your book. At the end, it should be visible at `<your_username>.github.io/<book>`. When finished, come back to this page.
 ```
@@ -28,7 +28,7 @@ Go to the [TeachBooks Template repository on GitHub](https://github.com/TeachBoo
 ## 3. Let's practice!
 Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at the start, not to mention becoming familiar with the various tools and workflows required. To help make the learning curve somewhat easier to travel, a number of exercises have been prepared for you as part of an introductory **workshop**. The exercises are designed such that no prior experience with any tools or programming is required, as long as you have read the preceding introductory pages.
 
-```{exercise} Task 3
+```{exercise}
 
 Work through the exercises attached to this page (you can find them in the left sidebar).
 ```
