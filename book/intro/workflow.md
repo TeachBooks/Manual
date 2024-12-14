@@ -2,7 +2,7 @@
 
 The fun part is the collaborative aspect of TeachBooks! Because all the files are text-based, they're well suited for using git. That allows us to use the version-control principles of git to its best!
 
-Assuming you've a book (well make that happen soon!) and you're ready to collaborate, the process is as follows:
+Assuming you have a book (well make that happen soon!) and you're ready to collaborate, the process is as follows:
 
 ## 1 get an idea
 ```{figure} figures/idea.png
