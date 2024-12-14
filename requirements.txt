@@ -12,3 +12,4 @@ sphinx-image-inverter
 sphinx-thebe ~= 0.9.9
 
 docutils==0.17.1
+sphinx-exercise
