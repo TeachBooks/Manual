@@ -104,7 +104,6 @@ parts:
     - file: tools/figmaker
     - file: helper_code/intro.md
       sections:
-      - file: external/latex-to-markdown-conversion/README.md
       - file: external/Useful_python_code/snippit.ipynb
       - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
       - file: external/Useful_python_code/figshrinker.ipynb
