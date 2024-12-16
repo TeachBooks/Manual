@@ -1,7 +1,12 @@
 (copyright)=
 # Before the Content: Copyright and Licenses
 
-The previous sections have familiarized you with the necessary software for your user type, the basics of Git, and how to collaborate with your team using Git. Now it's time to create your own content. This chapter provides an overview of the copyright and license considerations that should be taken into account when creating and including Jupyter Book content in any educational setting.
+```{admonition} User types
+:class: tip
+This page is useful for user type 3-5.
+```
+
+The previous sections have familiarized you with the necessary software for your user type, the basics of Git, and how to collaborate with your team using Git.  Now it's time to create your own content. This section will provide an overview of the copy right laws which need to be taking into account when creating and including content at TU Delft!
 
 Although the focus of TeachBooks is mostly to help the teaching staff create interactive textbooks for their students, it can be attractive to spread ones wings a bit and reach a wider audience. The checklist on this page provides a quick overview of the _minimium_ information you should be aware of when getting started in terms of copyright, avoiding legal issues and making your life easier later on when/if you decide to publish your book with an open license, for example via TU Delft Open.
 

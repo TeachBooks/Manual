@@ -25,7 +25,7 @@ Note: use `--all` for the jupyter-book whenever building a book to make sure the
 Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} ../figures/buildbook.PNG
----
+
 Output
 ```
 Paste the last line into your browser to see the updated changes. 
