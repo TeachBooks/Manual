@@ -1,7 +1,6 @@
 # Scripts for automating workflow
 
 This chapter contains a few scripts which can be useful in the book-editing process:
- - [LaTeX to markdown conversion](../external/latex-to-markdown-conversion/README.md) to convert a LaTeX file into jupyter-book compatible markdown.
  - [Snippitall](Snippitall) to insert the same code snippet at a certain point in each md file in a specific folder and all subfolder. 
  - [Snippitonce](Snippitonce) to insert the same code snippet at a certain point in each md file only in a specific folder. 
  - [Extensionchecker](Extensionchecker) to identify the kind of files present in subfolder
