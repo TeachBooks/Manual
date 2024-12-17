@@ -37,8 +37,6 @@ If you have created the content yourself, you are allowed to use it if there are
 
 Note that this is specifically for _new_ content; as in unpublished anywhere else! If you have already published it elsewhere, you should attribute yourself as if you would any other material.
 
-_Remember to check the [Copyright Information Point](https://www.tudelft.nl/library/support/copyright) for more insight._ 
-
 **2) Somebody else's content**
 
 If you want to reuse someone else’s work (that is _not_ released under an open license!) you need to ask for permission. When you ask for permission please do it in a written format and let the copyright holders know that you are going to use their work in an open licensed work. 
@@ -58,8 +56,6 @@ Even if created by you, you need to attribute yourself in order to avoid self-pl
 
 Even if you have created the work yourself but years ago, check whether you have the right to reuse it. If you have created it while you were under the employment of your previous employer, then you will need to ask permission from them. 
 
-_Remember to check the [Copyright Information Point](https://www.tudelft.nl/library/support/copyright) for more insight._ 
-
 **4) Open licensed work**
 
 Work by others that is provided with an open license can be used without asking for permission; if you find yourself considering whether to reuse someone else’s work that does _not_ have an open license, you should try to check if there is an alternative available that is provided with an open license (i.e., replace the work you wanted to reuse in the first place). It turns out there are many [online platforms that can help you locate open licensed work](https://www.tudelft.nl/en/library/collections/open-educational-resources).
@@ -68,8 +64,8 @@ If you use open licensed work, you need to attribute the license under which the
 
 When you want to adapt previously published work you need to ask permission for it. Otherwise please check whether you can find an open licensed work that you can adapt if their license it permits it.
 
-_Remember to check the [Copyright Information Point](https://www.tudelft.nl/library/support/copyright) for more insight._ 
-
 ## A Final Note: Open Licenses Make Life Easy!
 
-If it's not clear by now, hopefully you see the value of creating and using material with open licenses. This makes it much easier to reuse content, as the license itself allows for this, and you don't have to spend time asking for permission! Find out more about open licenses on the following pages.
+If it's not clear by now, hopefully you see the value of creating and using material with open licenses. This makes it much easier to reuse content, as the license itself allows for this, and you don't have to spend time asking for permission!
+
+Find out more about open licenses specifically for books on the following pages.
