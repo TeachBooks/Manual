@@ -42,7 +42,7 @@ Note that there are several types of pages and files that can be incorporated in
   - Collets license and copyright information in one place.
 * - {ref}`References Page<copyright_recc_references>`
   - `references.md`
-  - [References page](references)
+  - [References page](../../references.md)
   - Documents all sources, as in any other published work.
 * - {ref}`License Page<copyright_recc_license>`
   - `LICENSE`
@@ -82,7 +82,7 @@ Lists all references used in the book, including those not directly cited in the
 
 A special case is made for material licensed under the public domain, for example, the "no rights reserved" [CC0 license](https://creativecommons.org/public-domain/cc0/). As these can include a large number of single files (e.g., images), each with their own link and author, by default we do not include these in the References Page, but we do list the source in the credits. This is especially useful for finding the material later, or allowing anyone who would like to reuse your content to find and cite the public domain source material directly.
 
-One example in this manual is {ref}`<fig_license_compatibility>`, listed on the credits page {ref}`here<external_resources>`.
+One example in this manual is {ref}`fig_license_compatibility`, listed on the credits page {ref}`here<external_resources>`.
 
 #### How to implement this in your book
 
