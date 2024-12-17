@@ -41,7 +41,17 @@ Parts of this book are taken from other external resources and reused in various
 
 The following pages are included directly from an external resource and is not edited by the TeachBooks Team:
 
-- _Work in progress: list the numerous README pages and include their respective licenses with the source code of this manual._
+- page [](./external/annotater/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/deploy-book-workflow/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/Download-Link-Replacer/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/JupyterBook-Patches/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/Nested-Books/README.md). Original content licensed under CC BY 4.0 license.
+- Page [](./external/Sphinx-Grasple-public/README.md). Original content licensed under MIT license.
+- Page [](./external/Sphinx-Image-Inverter/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/Sphinx-TUDelft-theme/README.md). Original content licensed under MIT license.
+- Page [](./external/teachbooks-sphinx-tippy/README.md). Original content licensed under MIT license.
+- Page [](./external/template/README.md). Original content licensed under CC BY 4.0 license.
+- Page [](./external/Useful_python_code/README.md). Original content licensed under BSD 3-Clause license.
 
 The following pages contain content written by others, part of has been reused and/or modified by the TeachBooks Team:
 - Pages {ref}`copyright` and {ref}`copyright_considerations` include text from {cite:t}`tud_cip_24` that is used in the copyright checklist items. Original content licensed under CC BY. 
