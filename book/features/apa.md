@@ -1,3 +1,4 @@
+(apa)=
 # APA References
 
 ```{admonition} User types
