@@ -2,7 +2,7 @@
 
 With the exercises, you did all the steps of our TeachBooks workflow!
 
-```{figure} ../figures/TeachBooks_flowchart_v04.png
+```{figure} ../figures/TeachBooks_flowchart.svg
 ---
 width: 500px
 align: center
