@@ -69,12 +69,22 @@ A generic version of these recommendations can also be found in the TeachBooks T
 
 - a content page identifies the source of the content, along with useful links to the credits page. We adopt a standard icon and link to help readers recognize this: {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
+
+#### How to implement this in your book
+
+Examples of citations, indicating reused content, figures, etc.
+
 (copyright_recc_credits)=
 ### Credits and License Page
 
 Describe all relevant information in one place regarding copyright and licenses, including reused content.
 
 This page should also be useful to the author returning to the book after a long period of inactivity.
+
+
+#### How to implement this in your book
+
+Copy the page. Adapt to your purposes.
 
 (copyright_recc_references)=
 ### References Page
