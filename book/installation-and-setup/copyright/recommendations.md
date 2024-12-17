@@ -104,13 +104,7 @@ Proper referencing typically involves setting up an entry in your `*.bib` file a
 {cite:p}`cite_key`
 ```
 
-which produce these citations: text by {cite:t}`jason_moore`. And parentheses {cite:p}`jason_moore`.
-
-If you do not use the {ref}`APA references tool<apa>`, only standard Jupyter Book citations are available:
-
-```
-{cite}`cite_key`
-```
+which produce these citations: text by {cite:t}`jason_moore`. And parentheses {cite:p}`jason_moore` when using {ref}`APA references tool<apa>`.
 
 (copyright_recc_license)=
 ### License File
