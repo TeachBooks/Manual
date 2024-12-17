@@ -111,10 +111,6 @@ The file should contain the full text of the license you have chosen for your bo
 
 Note that although most of the license text can be created from a template by GitHub, you may still want to identify yourself as the author and/or the copyright holder at the top of the file. This provides clarity to readers and, if reusing your work, it is also easier for others to identify your license when including it in their own source code.
 
-```{danger}
-The TeachBooks Manual LICENSE file is not complete, as it does not yet list the licenses for pages included directly. See [Issue 55](https://github.com/TeachBooks/manual/issues/55).
-```
-
 ## Special Cases
 
 Is there a special case you would like to know more about that is not covered here? Please let us know by creating an issue in the appropriate TeachBooks GitHub repository.
