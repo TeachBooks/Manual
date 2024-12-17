@@ -63,7 +63,7 @@ Copy the following line into your content file
 
 Some examples can be found in this manual:
 - [](../../external/deploy-book-workflow/README.md): a content page which is taken fully from another repository
-- Figure {ref}`<fig_license_compatibility>`: a single licensed figure added to a page taken from another website
+- Figure {ref}`fig_license_types`: a single licensed figure added to a page taken from another website
 - [](../copyright.md): a content page which adapts material from another website
 
 (copyright_recc_credits)=
