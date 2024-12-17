@@ -31,7 +31,7 @@ Ths doesn't include small contributions from various people from within and outs
 
 Parts of this book are taken from other external resources. If an author is not listed on a particular page, it is by the Authors. The following pages are not edited by the TeachBooks Team:
 
-- [](external/latex-to-markdown-conversion/README.md) by {cite:t}`timon_latex`, [BSD 3-clause license](https://opensource.org/license/BSD-3-Clause).
+- _Work in progress: list the numerous README pages and include their respective licenses with the source code of this manual._
 
 ## Acknowledgements
 Big thanks to the various colleagues and teaching assistant part of the [TeachBooks](https://teachbooks.io/) for developing tools and providing support to improve this book.
