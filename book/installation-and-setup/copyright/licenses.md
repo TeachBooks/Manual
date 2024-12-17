@@ -7,8 +7,6 @@ Here we present an overview of various license types, with a particular focus on
 :class: tip
 
 Since we (TeachBooks) authors have been working on making online books, we see the value in making content available for reuse. When preparing a new page or assignment, nothing makes us happier than seeing a CC BY license on something that we would like to (re)use ourselves. Why? Because we know that all we have to do is properly attribute the work and we can get on with our true passion: **teaching!**
-
-If you are personally undecided, we hope that the information in this chapter convinces you to also have a preference for permissive open licenses. If you are still unsure, we recommend reading the [blog post by {cite:t}`hall21`](https://agilescientific.com/blog/2021/2/17/which-open-licence-should-i-choose) that inspired this page. Another useful resource is the website [choosealicense.com](https://choosealicense.com/), which includes many more options than those described here.
 ```
 
 This page is written expressly for content authors of online interactive textbooks (e.g., those including, but not restricted to, Jupyter Books), which are composed of two parts:
@@ -20,6 +18,8 @@ This generally does _not_ include the software required to convert the _source c
 ```{note}
 Because the source code of an online book defines the content, and only occasionally includes code required to create the website, one should consider the _source code_ of a book as _content_ and not _code._ When this is not the case, we recommend included a code-specific license and indicate the specific files to which the license applies in your repository.
 ```
+
+If you are personally undecided on which license to choose for your work, we hope that the information in this chapter convinces you to also have a preference for permissive open licenses. If you are still unsure, we recommend reading the [blog post by {cite:t}`hall21`](https://agilescientific.com/blog/2021/2/17/which-open-licence-should-i-choose) that inspired this page. Another useful resource is the website [choosealicense.com](https://choosealicense.com/), which includes many more options than those described here. Finally, consider also the policies of your own university or organization; for example, [TU Delft polcies can be found here](https://www.tudelft.nl/en/library/support/library-for-researchers/publishing-outreach/open-access-policy-and-guidelines).
 
 > This page reuses CC BY content from {cite:t}`hall21`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
