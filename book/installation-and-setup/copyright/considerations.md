@@ -75,9 +75,3 @@ There are many legal aspects to consider when creating an online book. Hopefully
 3. **Summarize all sources** used in your book, as well as what may or may not be included under the license which you have chosen.
 
 The following pages illustrate how to do this. It turns out to be not only a clear set of instructions for (re)users of your content, but also to help you remember what you have used in your book and where to find it later if changes are needed.
-
-```{danger}
-Most TeachBooks tools and books do not yet conform with the guidelines specified in this manual, including improper copyright notes, authorship and licensing information. In fact, some of the licenses may be changed in order to better align with other closely-related tools.
-
-We expect to carry out this work in early 2025.
-```

@@ -51,7 +51,7 @@ The following pages are included directly from an external resource and is not e
 - Page [](./external/Sphinx-TUDelft-theme/README.md). Original content licensed under MIT license.
 - Page [](./external/teachbooks-sphinx-tippy/README.md). Original content licensed under MIT license.
 - Page [](./external/template/README.md). Original content licensed under CC BY 4.0 license.
-- Page [](./external/Useful_python_code/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/Useful_python_code/extensionfildownloadreturn.ipynb), [](./external/Useful_python_code/figshrinker.ipynb) and [](./external/Useful_python_code/snippit.ipynb). Original content licensed under BSD 3-Clause license.
 
 The following pages contain content written by others, part of has been reused and/or modified by the TeachBooks Team:
 - Pages {ref}`copyright` and {ref}`copyright_considerations` include text from {cite:t}`tud_cip_24` that is used in the copyright checklist items. Original content licensed under CC BY. 
