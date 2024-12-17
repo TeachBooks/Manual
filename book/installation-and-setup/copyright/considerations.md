@@ -40,11 +40,11 @@ The law is very clear on this, and the TU Delft Copyright page states it quite c
 
 In case that wasn't clear enough, _TU Delft owns the copyright,_ not you! In other words, you should do this:
 
-> by Last, First (c) TU Delft, Year
+> by Last, First © TU Delft, Year
 
 **Don't** do this:
 
-> (c) Last, First, Year
+> © Last, First, Year
 
 We recognize that this may make you angry, and we can relate: as teachers we put a lot of effort into the material we create. However, we have come to see that this is _not_ a horrible situation; in fact, it is a good one. As the creator of the material you still retain moral rights to be named as the author, and there are other benefits as well. For example, the ability of other teachers that may take your place after you are gone to legally use and build upon your work in the future.
 
