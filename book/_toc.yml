@@ -109,6 +109,7 @@ parts:
     - file: tools/figmaker
     - file: helper_code/intro.md
       sections:
+      - file: helper_code/converter.md
       - file: external/Useful_python_code/snippit.ipynb
       - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
       - file: external/Useful_python_code/figshrinker.ipynb
