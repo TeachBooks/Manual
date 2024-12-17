@@ -1,5 +1,5 @@
 (copyright)=
-# Before the Content: Copyright and Licenses
+# Copyright and Licenses checklist
 
 ```{admonition} User types
 :class: tip
@@ -14,7 +14,7 @@ For more information specifically related to online books read the following pag
 
 > This page reuses CC BY content from the TU Delft Library. {cite:p}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
-## Quick Start: the Copyright Checklist
+## The Copyright Checklist
 
 This checklist is meant to quickly illustrate the proper way of using the copyrighted work of others. In particular for online books that are available on the internet, it is important to be aware that publicly accessible content is already considered _published._
 
