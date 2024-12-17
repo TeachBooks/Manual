@@ -26,20 +26,26 @@ All from Delft University of Technology
 
 Ths doesn't include small contributions from various people from within and outside Delft University of Technology.
 
-(external_resources)=
-## External resources
-
-Parts of this book are taken from other external resources. If an author is not listed on a particular page, it is by the Authors.
-
-The following pages are not edited by the TeachBooks Team:
-
-- _Work in progress: list the numerous README pages and include their respective licenses with the source code of this manual._
-
-The following pages contain content written by others, part of which may be reused and/or modified by the TeachBooks Team:
-- Page {ref}`copyright_licenses` includes an unmodified figure, paraphrased and quoted text (including hyperlinks) from {cite:ts}`hall21`.
-
 ## Acknowledgements
 Big thanks to the various colleagues and teaching assistant part of the [TeachBooks](https://teachbooks.io/) for developing tools and providing support to improve this book.
 
 ## License
-This manual is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. Additional licenses may be applicable for external resources.
+This manual is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this manual are listed below.
+
+(external_resources)=
+### External resources
+
+Parts of this book are taken from other external resources and reused in various ways. If an author is not listed on a particular page, it is by the Authors, except as follows:
+
+The following pages are included directly from an external resource and is not edited by the TeachBooks Team:
+
+- _Work in progress: list the numerous README pages and include their respective licenses with the source code of this manual._
+
+The following pages contain content written by others, part of has been reused and/or modified by the TeachBooks Team:
+- Page {ref}`copyright` includes text from {cite:t}`tud_cip_24` that is used in the copyright checklist items. 
+- Page {ref}`copyright_licenses` includes an unmodified figure ({ref}`fig_license_types`), paraphrased and quoted text (including hyperlinks) from {cite:t}`hall21`.
+- On page {ref}`copyright_licenses`, figure {ref}`fig_license_compatibility` is released by Kennisland under a CC0 license. Accessed at [](https://wiki.creativecommons.org/wiki/File:CC_License_Compatibility_Chart.png) on December 17, 2024.
+
+
+
+
