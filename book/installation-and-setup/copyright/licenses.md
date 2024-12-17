@@ -1,6 +1,8 @@
 (copyright_licenses)=
 # Licenses
 
+> This page reuses adapted CC BY content from {cite:t}`hall21`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+
 Here we present an overview of various license types, with a particular focus on the preference of TeachBooks to use Permissive Open Licenses, regardless of whether material is _content, code or data_ (described below). 
 
 ```{admonition} Why permissive open licenses?
@@ -21,7 +23,6 @@ Because the source code of an online book defines the content, and only occasion
 
 If you are personally undecided on which license to choose for your work, we hope that the information in this chapter convinces you to also have a preference for permissive open licenses. If you are still unsure, we recommend reading the [blog post by {cite:t}`hall21`](https://agilescientific.com/blog/2021/2/17/which-open-licence-should-i-choose) that inspired this page. Another useful resource is the website [choosealicense.com](https://choosealicense.com/), which includes many more options than those described here. Finally, consider also the policies of your own university or organization; for example, [TU Delft polcies can be found here](https://www.tudelft.nl/en/library/support/library-for-researchers/publishing-outreach/open-access-policy-and-guidelines).
 
-> This page reuses CC BY content from {cite:t}`hall21`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
 ## License Types in Context
 

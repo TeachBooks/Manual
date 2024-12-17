@@ -18,9 +18,7 @@ The recommendations illustrate:
 
 We believe the approach outlined here is also a useful way for you as an author to _remember which material you have used in your book and find or update it later if changes are needed._ This is Item 4 in the list above, and hopefully avoids frustration in the future if you need to revise your book after a long period of inactivity and cannot remember what content was written by you, or written by others.
 
-```{Note}
 The recommendations on this page are designed for content that is available in two formats: _source code_ and a _public website._ Additionally, it is focused primarily on file formats and open content relevant to Jupyer Books, which means content written primarily in _text files_ (e.g., .md, .ipynb, etc.), also called _source code,_ shared with an open license and used to create a _website_ (e.g., HTML files accessible at a specific URL). Software is used to convert the source code into a website, however, this is generally not included in the creative content shared using the book license.
-```
 
 ## Key Locations in the Book
 
@@ -52,46 +50,37 @@ Note that there are several types of pages and files that can be incorporated in
   - Document license terms; includes licenses of reused content.
 ```
 
-
-
-```{tip}
-A generic version of these recommendations can also be found in the TeachBooks Template by visiting view the [Credits and License page directly](https://teachbooks.io/template/main/credits.html) or [the source code](https://github.com/TeachBooks/template/blob/main/book/credits.md).
-```
-
-
-
 (copyright_recc_content)=
 ### Content Pages
-
-  - Used to clearly and concisely indicate precisely where content was reused in the book by providing a citation link to credits page for additional information.
-
-
-
-- a content page identifies the source of the content, along with useful links to the credits page. We adopt a standard icon and link to help readers recognize this: {fa}`quote-left`{ref}`Find out more here.<external_resources>`
-
+Make sure you show the source of your content where it is provided. We adopt a standard icon and link to help readers recognize this: {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
 #### How to implement this in your book
 
-Examples of citations, indicating reused content, figures, etc.
+Copy the following line into your content file
+```md
+> This page reuses <license> content from {cite:t}`bib_id`. {fa}`quote-left`{ref}`Find out more here.<link to external resources section on credits and license page>`
+```
+
+Some examples can be found in this manual:
+- [](../../external/deploy-book-workflow/README.md): a content page which is taken fully from another repository
+- Figure {ref}`<fig_license_compatibility>`: a single licensed figure added to a page taken from another website
+- [](../copyright.md): a content page which adapts material from another website
 
 (copyright_recc_credits)=
 ### Credits and License Page
 
-Describe all relevant information in one place regarding copyright and licenses, including reused content.
-
-This page should also be useful to the author returning to the book after a long period of inactivity.
-
+This place describes all relevant information in one place regarding copyright and licenses, including reused content. This page should also be useful to the author returning to the book after a long period of inactivity.
 
 #### How to implement this in your book
 
-Copy the page. Adapt to your purposes.
+That's easy! Just copy the page [from out template](https://github.com/TeachBooks/template/blob/main/book/credits.md) and adapt to your purposes.
 
 (copyright_recc_references)=
 ### References Page
 
 Lists all references used in the book, including those not directly cited in the text (e.g., reused material).
 
-A special case is made for material licensed under the public domain, for example, the "no rights reserved" [CC0 license](https://creativecommons.org/public-domain/cc0/). As these can include a large number of single files (e.g., images), each with their own link and author, by default we do not include these in the References Page, but we do list the source in the credits. This is especially useful for finding the material later, or allowing anoyone who would like to reuse your content to find and cite the public domain source material directly.
+A special case is made for material licensed under the public domain, for example, the "no rights reserved" [CC0 license](https://creativecommons.org/public-domain/cc0/). As these can include a large number of single files (e.g., images), each with their own link and author, by default we do not include these in the References Page, but we do list the source in the credits. This is especially useful for finding the material later, or allowing anyone who would like to reuse your content to find and cite the public domain source material directly.
 
 One example in this manual is {ref}`<fig_license_compatibility>`, listed on the credits page {ref}`here<external_resources>`.
 
