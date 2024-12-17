@@ -39,3 +39,9 @@ The TeachBooks Team isn't really sure when the "line is crossed" from educationa
 
 Do you have a better answwer that this warning box? Let us know!
 ```
+
+```{danger}
+Most TeachBooks tools and books do not yet conform with the guidelines specified in this manual, including improper copyright notes, authorship and licensing information. In fact, some of the licenses may be changed in order to better align with other closely-related tools.
+
+We expect to carry out this work in early 2025.
+```
