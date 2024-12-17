@@ -1,6 +1,8 @@
 (copyright)=
 # Copyright and Licenses checklist
 
+> This page reuses CC BY content from the TU Delft Library. {cite:p}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+
 ```{admonition} User types
 :class: tip
 This page is useful for user **all** user types.
@@ -11,8 +13,6 @@ The previous sections have familiarized you with the necessary software for your
 Although the focus of TeachBooks is mostly to help the teaching staff create interactive textbooks for their students, it can be attractive to spread ones wings a bit and reach a wider audience. The checklist on this page provides a quick overview of the _minimium_ information you should be aware of when getting started in terms of copyright, avoiding legal issues and making your life easier later on when/if you decide to publish your book with an open license, for example via TU Delft Open.
 
 For more information specifically related to online books read the following pages; for more generic information about publishing visit the [TU Delft Copyright website](https://www.tudelft.nl/library/support/copyright).
-
-> This page reuses CC BY content from the TU Delft Library. {cite:p}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
 ## The Copyright Checklist
 

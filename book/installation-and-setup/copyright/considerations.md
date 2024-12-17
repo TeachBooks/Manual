@@ -1,6 +1,8 @@
 (copyright_considerations)=
 # Copyright Considerations
 
+> This page reuses CC BY content from {cite:t}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+
 Copyright law dictates how online book material can and should be created, maintained and shared. An author should understand a few key concepts, as well as best practices, in order to create a book that not only is a useful resource, but, also fairly reuses the work of others and, if provided with an open license, enables original content to also be reused.
 
 Before getting into specific license types and our recommendations for properly attributing and referencing the work of others, let's review a few key copyright-related concepts that are specific to online textbooks.
@@ -8,8 +10,6 @@ Before getting into specific license types and our recommendations for properly 
 ```{tip}
 Here we only focus on aspects that are explicitly relevant to the creation and sharing of online books. Visit the [TU Delft Copyright Information Point website](https://www.tudelft.nl/library/support/copyright) for a more thorough explanation of these important concepts.
 ```
-
-> This page reuses CC BY content from {cite:t}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
 ## Copyright
 
