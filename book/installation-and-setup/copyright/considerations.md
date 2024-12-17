@@ -1,44 +1,66 @@
 (copyright_considerations)=
-## Copyright Considerations
+# Copyright Considerations
 
 Copyright law dictates how online book material can and should be created, maintained and shared. An author should understand a few key concepts, as well as best practices, in order to create a book that not only is a useful resource, but, also fairly reuses the work of others and, if provided with an open license, enables original content to also be reused.
 
-First, let's review a few key concepts that are specific to online textbooks.
+Before getting into specific license types and our recommendations for properly attributing and referencing the work of others, let's review a few key copyright-related concepts that are specific to online textbooks.
 
 ```{tip}
-Here we only focus on aspects that are explicitly relevant to the creation and sharing of online books. Visit the [TU Delft website](https://www.tudelft.nl/library/support/copyright) for a more thorough explanation of these important concepts.
+Here we only focus on aspects that are explicitly relevant to the creation and sharing of online books. Visit the [TU Delft Copyright Information Point website](https://www.tudelft.nl/library/support/copyright) for a more thorough explanation of these important concepts.
 ```
 
-## Key Concepts
+> This page reuses CC BY content from {cite:t}`tud_cip_24`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
-**1) Copyright**
+## Copyright
 
-The legal right of the content _owner_ to use, publish, distribute, share, and/or duplicate the work. Copyright is divided into legal and moral rights, depending on the material and circumstances under which it was created.
+The legal right of the content _owner_ to use, publish, distribute, share, and/or duplicate the work. Copyright is divided into **legal rights** and **moral rights**, depending on the material and circumstances under which it was created.
 
+As indicated below, it is the _moral rights_ that give you, the author, the right to be named as the creator of the work.
 
+## Types of Material
 
+It appears that copyright law distinguishes between two types of material (not including that of students): 
 
-Note in previous page we used the phrase:
+1. Educational material
+2. Articles, book (chapter), conference paper, etc.
 
-> how you would like others to (re)use the content in your book
-
-specifially "content in your book" ... this is because you are likely not the copyright owner of a book that contains educational material developed while employed at a University, for example. 
-
-## Implications for Online Books
-
-### Books
-
-If it is clearly a _book_ in that it is a digital version of a classical paper textbook.
-
-You are the author and you are the copyright owner. You should definitely indicate that the book was created 
-
-### Educational Material
+We aren't really sure what the definition of _educational material_ is, but since pretty much everything we do is for teaching students or teachers about things, we are pretty sure it includes all of it. Perhaps it is easier to see what is _not_ included in this category, 
 
 ```{warning}
-The TeachBooks Team isn't really sure when the "line is crossed" from educational material to book. More specifically, when the copyright owner is you (the author) or the University (your employer).
+The TeachBooks Team isn't really sure when the "line is crossed" from educational material to book. More specifically, when the copyright owner is you (the author) or the University (your employer). For now, we assume that all books made by employees of a university are considered educational material.
 
-Do you have a better answwer that this warning box? Let us know!
+Do you have a better answer than this? Let us know!
 ```
+
+## You Don't Own Everything
+
+The law is very clear on this, and the TU Delft Copyright page 
+
+> Copyright to educational material made by a TU Delft teacher, rests with TU Delft. Amongst the other moral rights, the teacher retains the right to be named.
+
+We recognize that this may make you angry, and we can relate: as teachers we put a lot of effort into the material we create. However, we have come to see that this is _not_ a horrible situation; in fact, it is a good one. As the creator of the material you still retain moral rights to be named as the author, and there are other benefits as well. For example, the ability of other teachers that may take your place after you are gone to legally use and build upon your work in the future.
+
+**Still don't agree?** Sorry. Please take this up with your nearest library or copyright expert and let us know if you get a different response! In the meantime, we will simply list ourselves as authors, use CC BY licenses and remember that TU Delft holds the copyright for our work produced as teachers.
+
+## Licensing
+
+This dictates how others may or may not be able to share or (re)use your work. It is (fortunately) becoming more common to include licenses with educational material (including books)
+
+```{warning}
+The TeachBooks Team isn't really able to explain why an author can dictate the license of material they create while TU Delft is the copyright holder. In other words, if I create a new assignment, I can choose to license it as CC BY.
+
+Do you know? Please get in touch with us and help!
+```
+
+## Summary
+
+There are many legal aspects to consider when creating an online book. Hopefully this page simplifies the story somewhat and indicates that there is a finite set of actions you should take to ensure that your book properly attributes and references the work of others, as well as indicates to others how they can use your work. This includes:
+
+1. Choosing a license and including with the _source code_ and _website_ of your book (we hope you choose CC BY!).
+2. Clearly indicate where and how you have used the work of others in your book (i.e., within the _content_ of your book).
+3. Include a summary of all sources used in your book, as well as what may or may not be included under the license which you have chosen.
+
+The following pages illustrate how to do this. This turns out to be not only a clear message to (re)users of your content, but also to help you remember what you have used in your book and where to find it later if changes are needed.
 
 ```{danger}
 Most TeachBooks tools and books do not yet conform with the guidelines specified in this manual, including improper copyright notes, authorship and licensing information. In fact, some of the licenses may be changed in order to better align with other closely-related tools.

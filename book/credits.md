@@ -44,7 +44,7 @@ The following pages are included directly from an external resource and is not e
 - _Work in progress: list the numerous README pages and include their respective licenses with the source code of this manual._
 
 The following pages contain content written by others, part of has been reused and/or modified by the TeachBooks Team:
-- Page {ref}`copyright` includes text from {cite:t}`tud_cip_24` that is used in the copyright checklist items. Original content licensed under CC BY. 
+- Pages {ref}`copyright` and {ref}`copyright_considerations` include text from {cite:t}`tud_cip_24` that is used in the copyright checklist items. Original content licensed under CC BY. 
 - Page {ref}`copyright_licenses`: {numref}`Figure %s<fig_license_types>` is included unmodified, along with paraphrased and quoted text (including hyperlinks) from {cite:t}`hall21`. Work is licensed under CC BY.
 - Page {ref}`copyright_licenses`: {numref}`Figure %s<fig_license_compatibility>` is included unmodified. Work is provided by Kennisland under a CC0 license. Accessed at [](https://wiki.creativecommons.org/wiki/File:CC_License_Compatibility_Chart.png) on December 17, 2024.
 
