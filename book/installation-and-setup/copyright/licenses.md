@@ -40,19 +40,11 @@ Although this figure only includes a few different license types, the way of div
 
 ### Open versus Not Open
 
-```{warning}
-Work in progress.
-```
-
-Be open.
+We recommend using open licenses to allow other people to reuse your material, just like you'd like to reuse material from others.
 
 ### Content, Code and Data
 
-```{warning}
-Work in progress.
-```
-
-Choose the right type of open.
+For content, we use a CC BY 4.0 license, for Code we primarily use the BSD-3-Clause license. Both of these are open to allow reuse.
 
 ## A Note to the Wary
 
