@@ -36,7 +36,11 @@ parts:
       - file: workflows/merge_request.md
     - file: installation-and-setup/collab
     - file: installation-and-setup/tools
-    - file: installation-and-setup/creating_content.md
+    - file: installation-and-setup/copyright.md
+      sections:
+      - file: installation-and-setup/copyright/considerations
+      - file: installation-and-setup/copyright/licenses
+      - file: installation-and-setup/copyright/recommendations
   - caption: Features
     chapters:
     - file: features/overview.md
@@ -104,6 +108,7 @@ parts:
     - file: tools/figmaker
     - file: helper_code/intro.md
       sections:
+      - file: helper_code/converter.md
       - file: external/Useful_python_code/snippit.ipynb
       - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
       - file: external/Useful_python_code/figshrinker.ipynb
