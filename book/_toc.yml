@@ -7,14 +7,6 @@ parts:
     - file: intro/book.md
     - file: intro/workflow.md
     - file: intro/template.md
-      sections:
-      - file: external/template/book/exercises/001.md
-      - file: external/template/book/exercises/002.md
-      - file: external/template/book/exercises/003.md
-      - file: external/template/book/exercises/004.md
-      - file: external/template/book/exercises/005.md
-      - file: external/template/book/exercises/006.md
-      - file: intro/workshop/summary
     - file: intro/next.md
   - caption: Getting Going!
     chapters:
