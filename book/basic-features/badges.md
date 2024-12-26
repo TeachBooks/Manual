@@ -6,39 +6,29 @@
 
 Badges are small visual indicators often used to convey concise or important information. They can be very useful for categorising or tagging content for the reader like has been done for the subchapters under the [features](../features/overview.md) chapter of this manual. There are three types of badges: plain, link and reference. They are fully customizable and can simply be added with Markdown syntax:
 
-| Badge Preview                                                   | Code Syntax                   |
-|-----------------------------------------------------------------|-------------------------------|
-| {bdg-primary}`plain_text`                                       | `{bdg-primary}`plain_text``                |
-| {bdg-link-primary}`https://teachbooks.io/`                      | `{bdg-link-primary}`https://teachbooks.io/``        |
-| {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | `{bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>``     |
-| {bdg-ref-primary}`my_ref`                                       | `{bdg-ref-primary}`my_ref``   |
+| Types of badge                                                  | Code Syntax                                                            |
+|-----------------------------------------------------------------|------------------------------------------------------------------------|
+| {bdg-primary}`plain_text`                                       | ` {bdg-primary}`plain_text` `                                          |
+| {bdg-link-primary}`https://teachbooks.io/`                      | ` {bdg-link-primary}`https://teachbooks.io/` `                         |
+| {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ` |
+| {bdg-ref-primary}`my_ref`                                       | `{bdg-ref-primary}`my_ref` `                                           |
 
+Here's an overview of all the available colours:
 
-| Badge Preview                 | Code Syntax                   |
-|-------------------------------|-------------------------------|
-| {bdg}`my_text`                | `{bdg}`my_text``                |
-| {bdg-primary}`my_text`        | `{bdg-primary}`my_text``        |
-| {bdg-primary-line}`my_text`   | `{bdg-primary-line}`my_text``  |
-| {bdg-secondary}`my_text`      | `{bdg-secondary}`my_text``      |
-| {bdg-secondary-line}`my_text` | `{bdg-secondary-line}my_text` |
-| {bdg-success}`my_text`        | `{bdg-success}my_text`        |
-| {bdg-success-line}`my_text`   | `{bdg-success-line}my_text`   |
-| {bdg-info}`my_text`           | `{bdg-info}my_text`           |
-| {bdg-info-line}`my_text`      | `{bdg-info-line}my_text`      |
-| {bdg-warning}`my_text`        | `{bdg-warning}my_text`        |
-| {bdg-warning-line}`my_text`   | `{bdg-warning-line}my_text`   |
-| {bdg-danger}`my_text`         | `{bdg-danger}my_text`         |
-| {bdg-danger-line}`my_text`    | `{bdg-danger-line}my_text`    |
-| {bdg-light}`my_text`          | `{bdg-light}my_text`          |
-| {bdg-light-line}`my_text`     | `{bdg-light-line}my_text`     |
-| {bdg-muted}`my_text`          | `{bdg-muted}my_text`          |
-| {bdg-muted-line}`my_text`     | `{bdg-muted-line}my_text`     |
-| {bdg-dark}`my_text`           | `{bdg-dark}my_text`           |
-| {bdg-dark-line}`my_text`      | `{bdg-dark-line}my_text`      |
-| {bdg-white}`my_text`          | `{bdg-white}my_text`          |
-| {bdg-white-line}`my_text`     | `{bdg-white-line}my_text`     |
-| {bdg-black}`my_text`          | `{bdg-black}my_text`          |
-| {bdg-black-line}`my_text`     | `{bdg-black-line}my_text`     |
+| Full Colour                   | Code Syntax                   | Colour Outline                | Code Syntax                       |
+|-------------------------------|-------------------------------|-------------------------------|-----------------------------------|
+| {bdg}`my_text`                | ` {bdg}`my_text` `            |                               |                                   |
+| {bdg-primary}`my_text`        | ` {bdg-primary}`my_text` `    | {bdg-primary-line}`my_text`   | ` {bdg-primary-line}`my_text` `   |
+| {bdg-secondary}`my_text`      | `{bdg-secondary}`my_text``    | {bdg-secondary-line}`my_text` | ` {bdg-secondary-line}`my_text` ` |
+| {bdg-success}`my_text`        | `{bdg-success}my_text`        | {bdg-success-line}`my_text`   | ` {bdg-success-line}`my_text` `   |
+| {bdg-info}`my_text`           | `{bdg-info}my_text`           | {bdg-info-line}`my_text`      | ` {bdg-info-line}`my_text` `      |
+| {bdg-warning}`my_text`        | `{bdg-warning}my_text`        | {bdg-warning-line}`my_text`   | ` {bdg-warning-line}`my_text` `   |
+| {bdg-danger}`my_text`         | `{bdg-danger}my_text`         | {bdg-danger-line}`my_text`    | ` {bdg-danger-line}`my_text` `    |
+| {bdg-light}`my_text`          | `{bdg-light}my_text`          | {bdg-light-line}`my_text`     | ` {bdg-light-line}`my_text` `     |
+| {bdg-muted}`my_text`          | `{bdg-muted}my_text`          | {bdg-muted-line}`my_text`     | ` {bdg-muted-line}`my_text` `     |
+| {bdg-dark}`my_text`           | `{bdg-dark}my_text`           | {bdg-dark-line}`my_text`      | ` {bdg-dark-line}`my_text` `      |
+| {bdg-white}`my_text`          | `{bdg-white}my_text`          | {bdg-white-line}`my_text`     | ` {bdg-white-line}`my_text` `     |
+| {bdg-black}`my_text`          | `{bdg-black}my_text`          | {bdg-black-line}`my_text`     | ` {bdg-black-line}`my_text` `     |
 
 
 ## Buttons
