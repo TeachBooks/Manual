@@ -38,6 +38,7 @@ parts:
       - file: basic-features/Code_block_figures
       - file: basic-features/banner
         title: Banner or Announcement
+      - file: basic-features/badges.md
     - file: basic-features/external-features.md
       sections:
       - file: basic-features/hypothesis.md
