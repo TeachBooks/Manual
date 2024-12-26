@@ -6,12 +6,12 @@
 
 Badges are small visual indicators often used to convey concise or important information. They can be very useful for categorising or tagging content for the reader like has been done for the subchapters under the [features](../features/overview.md) chapter of this manual. There are three types of badges: plain, link and reference. They are fully customizable and can simply be added with Markdown syntax:
 
-| Types of badge                                                  | Code Syntax                                                            |
-|-----------------------------------------------------------------|------------------------------------------------------------------------|
-| {bdg-primary}`plain_text`                                       | ``` {bdg-primary}`plain_text` ```                                          |
-| {bdg-link-primary}`https://teachbooks.io/`                      | ` {bdg-link-primary}`https://teachbooks.io/` `                         |
-| {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ` |
-| {bdg-ref-primary}`my_ref`                                       | `{bdg-ref-primary}`my_ref` `                                           |
+| Type   | Badge                                                    | Code Syntax                                                            |
+|--------|----------------------------------------------------------|------------------------------------------------------------------------|
+| Plain  | {bdg-primary}`plain_text`                                | ```{code} {bdg-primary}`plain_text` ``` 
+| Link   | {bdg-link-primary}`https://teachbooks.io/`               | ` {bdg-link-primary}`https://teachbooks.io/` ` |
+| Hidden Link | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ` |
+| Reference | {bdg-ref-primary}`my_ref`                             | `{bdg-ref-primary}`my_ref` `                                           |
 
 Here's an overview of all the available colours:
 
