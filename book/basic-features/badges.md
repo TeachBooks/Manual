@@ -8,7 +8,7 @@ Badges are small visual indicators often used to convey concise or important inf
 
 | Types of badge                                                  | Code Syntax                                                            |
 |-----------------------------------------------------------------|------------------------------------------------------------------------|
-| {bdg-primary}`plain_text`                                       | ` {bdg-primary}`plain_text` `                                          |
+| {bdg-primary}`plain_text`                                       | ``` {bdg-primary}`plain_text` ```                                          |
 | {bdg-link-primary}`https://teachbooks.io/`                      | ` {bdg-link-primary}`https://teachbooks.io/` `                         |
 | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ` |
 | {bdg-ref-primary}`my_ref`                                       | `{bdg-ref-primary}`my_ref` `                                           |
