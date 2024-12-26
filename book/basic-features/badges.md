@@ -8,10 +8,10 @@ Badges are small visual indicators often used to convey concise or important inf
 
 | Type   | Badge                                                    | Code Syntax                                                            |
 |--------|----------------------------------------------------------|------------------------------------------------------------------------|
-| Plain  | {bdg-primary}`plain_text`                                | ```{code} {bdg-primary}`plain_text` ``` 
-| Link   | {bdg-link-primary}`https://teachbooks.io/`               | ` {bdg-link-primary}`https://teachbooks.io/` ` |
-| Hidden Link | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ` |
-| Reference | {bdg-ref-primary}`my_ref`                             | `{bdg-ref-primary}`my_ref` `                                           |
+| Plain  | {bdg-primary}`plain_text`                                | ``` {bdg-primary}`plain_text` ``` 
+| Link   | {bdg-link-primary}`https://teachbooks.io/`               | ``` {bdg-link-primary}`https://teachbooks.io/` ``` |
+| Hidden Link | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ``` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ``` |
+| Reference | {bdg-ref-primary}`my_ref`                             | ``` {bdg-ref-primary}`my_ref` ```                                           |
 
 Here's an overview of all the available colours:
 
