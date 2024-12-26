@@ -10,25 +10,25 @@ Badges are small visual indicators often used to convey concise or important inf
 |--------|----------------------------------------------------------|------------------------------------------------------------------------|
 | Plain  | {bdg-primary}`plain_text`                                | ``` {bdg-primary}`plain_text` ``` 
 | Link   | {bdg-link-primary}`https://teachbooks.io/`               | ``` {bdg-link-primary}`https://teachbooks.io/` ``` |
-| Hidden Link | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ``` {bdg-link-primary}`TeachBooks < https://https://teachbooks.io/ > ` ``` |
+| Hidden Link | {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/>` | ``` {bdg-link-primary}`TeachBooks <https://https://teachbooks.io/> ` ``` |
 | Reference | {bdg-ref-primary}`my_ref`                             | ``` {bdg-ref-primary}`my_ref` ```                                           |
 
 Here's an overview of all the available colours:
 
-| Full Colour                   | Code Syntax                   | Colour Outline                | Code Syntax                       |
-|-------------------------------|-------------------------------|-------------------------------|-----------------------------------|
-| {bdg}`my_text`                | ` {bdg}`my_text` `            |                               |                                   |
-| {bdg-primary}`my_text`        | ` {bdg-primary}`my_text` `    | {bdg-primary-line}`my_text`   | ` {bdg-primary-line}`my_text` `   |
-| {bdg-secondary}`my_text`      | `{bdg-secondary}`my_text``    | {bdg-secondary-line}`my_text` | ` {bdg-secondary-line}`my_text` ` |
-| {bdg-success}`my_text`        | `{bdg-success}my_text`        | {bdg-success-line}`my_text`   | ` {bdg-success-line}`my_text` `   |
-| {bdg-info}`my_text`           | `{bdg-info}my_text`           | {bdg-info-line}`my_text`      | ` {bdg-info-line}`my_text` `      |
-| {bdg-warning}`my_text`        | `{bdg-warning}my_text`        | {bdg-warning-line}`my_text`   | ` {bdg-warning-line}`my_text` `   |
-| {bdg-danger}`my_text`         | `{bdg-danger}my_text`         | {bdg-danger-line}`my_text`    | ` {bdg-danger-line}`my_text` `    |
-| {bdg-light}`my_text`          | `{bdg-light}my_text`          | {bdg-light-line}`my_text`     | ` {bdg-light-line}`my_text` `     |
-| {bdg-muted}`my_text`          | `{bdg-muted}my_text`          | {bdg-muted-line}`my_text`     | ` {bdg-muted-line}`my_text` `     |
-| {bdg-dark}`my_text`           | `{bdg-dark}my_text`           | {bdg-dark-line}`my_text`      | ` {bdg-dark-line}`my_text` `      |
-| {bdg-white}`my_text`          | `{bdg-white}my_text`          | {bdg-white-line}`my_text`     | ` {bdg-white-line}`my_text` `     |
-| {bdg-black}`my_text`          | `{bdg-black}my_text`          | {bdg-black-line}`my_text`     | ` {bdg-black-line}`my_text` `     |
+| Full Colour                   | Code Syntax                      | Colour Outline                | Code Syntax                           |
+|-------------------------------|----------------------------------|-------------------------------|---------------------------------------|
+| {bdg}`my_text`                | ``` {bdg}`my_text` ```           |                               |                                       |
+| {bdg-primary}`my_text`        | ``` {bdg-primary}`my_text` ```   | {bdg-primary-line}`my_text`   | ``` {bdg-primary-line}`my_text` ```   |
+| {bdg-secondary}`my_text`      | ``` {bdg-secondary}`my_text` ``` | {bdg-secondary-line}`my_text` | ``` {bdg-secondary-line}`my_text` ``` |
+| {bdg-success}`my_text`        | ``` {bdg-success}my_text` ```    | {bdg-success-line}`my_text`   | ``` {bdg-success-line}`my_text` ```   |
+| {bdg-info}`my_text`           | ``` {bdg-info}my_text` ```       | {bdg-info-line}`my_text`      | ``` {bdg-info-line}`my_text` ```      |
+| {bdg-warning}`my_text`        | ``` {bdg-warning}my_text` ```    | {bdg-warning-line}`my_text`   | ``` {bdg-warning-line}`my_text` ```   |
+| {bdg-danger}`my_text`         | ``` {bdg-danger}my_text` ```     | {bdg-danger-line}`my_text`    | ``` {bdg-danger-line}`my_text` ```    |
+| {bdg-light}`my_text`          | ``` {bdg-light}my_text` ```      | {bdg-light-line}`my_text`     | ``` {bdg-light-line}`my_text` ```     |
+| {bdg-muted}`my_text`          | ``` {bdg-muted}my_text` ```      | {bdg-muted-line}`my_text`     | ``` {bdg-muted-line}`my_text` ```     |
+| {bdg-dark}`my_text`           | ``` {bdg-dark}my_text` ```       | {bdg-dark-line}`my_text`      | ``` {bdg-dark-line}`my_text` ```      |
+| {bdg-white}`my_text`          | ``` {bdg-white}my_text` ```      | {bdg-white-line}`my_text`     | ``` {bdg-white-line}`my_text` ```     |
+| {bdg-black}`my_text`          | ``` {bdg-black}my_text` ```      | {bdg-black-line}`my_text`     | ``` {bdg-black-line}`my_text` ```     |
 
 
 ## Buttons
