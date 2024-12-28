@@ -32,27 +32,37 @@ Here's an overview of all the available colours:
 
 
 ## Buttons
-Buttons provide a way to create clickable elements that are more attractive than links. Jupyter-Book supports buttons using Markdown or HTML, making them highly customizable.
 
-Adding Buttons with Markdown
-To create a button in Markdown, you can use HTML for full flexibility. For example:
+Buttons provide a way to create clickable elements that are more attractive than links. Jupyter-Book supports buttons using Markdown making them highly customizable. It is possible to link to external websites as well as chapters within your book. To link to an external page, `{button-link}` and `{button-ref}` must be used when linking to a different part of your book.
 
-markdown
-Code kopiëren
-<a href="https://jupyterbook.org" class="btn btn-primary">Visit Jupyter-Book</a>
-This will produce a styled button that links to the Jupyter-Book site.
+The basic code syntax for creating a button is as follows:
 
-Predefined Button Classes
-Jupyter-Book uses Bootstrap for styling, so you can apply classes such as:
+```{button-link} https://teachbooks.io
+``` 
 
-btn-primary (blue)
-btn-secondary (gray)
-btn-success (green)
-btn-danger (red)
-btn-warning (yellow)
-You can experiment with these styles to create buttons that align with your book's theme.
 
-3. Icons
+```{button-red} book\intro.md
+``` 
+
+Buttons can be customized in markdown in a similar way as figures. You can experiment with these styles to create buttons that align with your book's theme. Here are the set of parameters which can be customized:
+
+
+| Parameter                     | Options                          | Functionality                 |
+|-------------------------------|----------------------------------|-------------------------------|
+| colour | primary, secondary, success, danger, warning, info, light, dark, muted | Set the color of the button (background and font)|
+| outline                       | /                                 | white button, coloured outline|
+| align                         | left, right, center              | Align the button on the page  |
+| expand                        | /                                | Expand to fit parent width    |
+| click-parent                  | /                                | Make parent container also clickable |
+| tooltip                       | /                                | Add tooltip on hover          |
+| shadow                        | /                                | Add shadow CSS          |
+| class                         | /                                | Additional CSS classes         |
+
+Finally here are some examples:
+
+
+## Icons
+
 Icons can be included to visually represent actions or categories. Jupyter-Book supports FontAwesome icons, which can be integrated using HTML syntax.
 
 Adding Icons
