@@ -95,7 +95,6 @@ TeachBooks
 
 ```{button-link} https://teachbooks.io
 :color: success
-:outline:
 :expand:
 
 TeachBooks
@@ -104,7 +103,6 @@ TeachBooks
 ```
     ```{button-link} https://teachbooks.io
     :color: success
-    :outline:
     :expand:
 
     TeachBooks
