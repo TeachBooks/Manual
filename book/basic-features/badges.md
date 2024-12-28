@@ -20,15 +20,15 @@ Here's an overview of all the available colours:
 | {bdg}`my_text`                | ``` {bdg}`my_text` ```           |                               |                                       |
 | {bdg-primary}`my_text`        | ``` {bdg-primary}`my_text` ```   | {bdg-primary-line}`my_text`   | ``` {bdg-primary-line}`my_text` ```   |
 | {bdg-secondary}`my_text`      | ``` {bdg-secondary}`my_text` ``` | {bdg-secondary-line}`my_text` | ``` {bdg-secondary-line}`my_text` ``` |
-| {bdg-success}`my_text`        | ``` {bdg-success}my_text` ```    | {bdg-success-line}`my_text`   | ``` {bdg-success-line}`my_text` ```   |
-| {bdg-info}`my_text`           | ``` {bdg-info}my_text` ```       | {bdg-info-line}`my_text`      | ``` {bdg-info-line}`my_text` ```      |
-| {bdg-warning}`my_text`        | ``` {bdg-warning}my_text` ```    | {bdg-warning-line}`my_text`   | ``` {bdg-warning-line}`my_text` ```   |
-| {bdg-danger}`my_text`         | ``` {bdg-danger}my_text` ```     | {bdg-danger-line}`my_text`    | ``` {bdg-danger-line}`my_text` ```    |
-| {bdg-light}`my_text`          | ``` {bdg-light}my_text` ```      | {bdg-light-line}`my_text`     | ``` {bdg-light-line}`my_text` ```     |
-| {bdg-muted}`my_text`          | ``` {bdg-muted}my_text` ```      | {bdg-muted-line}`my_text`     | ``` {bdg-muted-line}`my_text` ```     |
-| {bdg-dark}`my_text`           | ``` {bdg-dark}my_text` ```       | {bdg-dark-line}`my_text`      | ``` {bdg-dark-line}`my_text` ```      |
-| {bdg-white}`my_text`          | ``` {bdg-white}my_text` ```      | {bdg-white-line}`my_text`     | ``` {bdg-white-line}`my_text` ```     |
-| {bdg-black}`my_text`          | ``` {bdg-black}my_text` ```      | {bdg-black-line}`my_text`     | ``` {bdg-black-line}`my_text` ```     |
+| {bdg-success}`my_text`        | ``` {bdg-success}`my_text` ```    | {bdg-success-line}`my_text`   | ``` {bdg-success-line}`my_text` ```   |
+| {bdg-info}`my_text`           | ``` {bdg-info}`my_text` ```       | {bdg-info-line}`my_text`      | ``` {bdg-info-line}`my_text` ```      |
+| {bdg-warning}`my_text`        | ``` {bdg-warning}`my_text` ```    | {bdg-warning-line}`my_text`   | ``` {bdg-warning-line}`my_text` ```   |
+| {bdg-danger}`my_text`         | ``` {bdg-danger}`my_text` ```     | {bdg-danger-line}`my_text`    | ``` {bdg-danger-line}`my_text` ```    |
+| {bdg-light}`my_text`          | ``` {bdg-light}`my_text` ```      | {bdg-light-line}`my_text`     | ``` {bdg-light-line}`my_text` ```     |
+| {bdg-muted}`my_text`          | ``` {bdg-muted}`my_text` ```      | {bdg-muted-line}`my_text`     | ``` {bdg-muted-line}`my_text` ```     |
+| {bdg-dark}`my_text`           | ``` {bdg-dark}`my_text` ```       | {bdg-dark-line}`my_text`      | ``` {bdg-dark-line}`my_text` ```      |
+| {bdg-white}`my_text`          | ``` {bdg-white}`my_text` ```      | {bdg-white-line}`my_text`     | ``` {bdg-white-line}`my_text` ```     |
+| {bdg-black}`my_text`          | ``` {bdg-black}`my_text` ```      | {bdg-black-line}`my_text`     | ``` {bdg-black-line}`my_text` ```     |
 
 
 ## Buttons
@@ -38,10 +38,11 @@ Buttons provide a way to create clickable elements that are more attractive than
 The basic code syntax for creating a button is as follows:
 
 ```{button-link} https://teachbooks.io
+:color: primary
 ``` 
 
-
-```{button-red} book\intro.md
+```{button-ref} overview.md
+:color: primary
 ``` 
 
 Buttons can be customized in markdown in a similar way as figures. You can experiment with these styles to create buttons that align with your book's theme. Here are the set of parameters which can be customized:
@@ -49,7 +50,7 @@ Buttons can be customized in markdown in a similar way as figures. You can exper
 
 | Parameter                     | Options                          | Functionality                 |
 |-------------------------------|----------------------------------|-------------------------------|
-| colour | primary, secondary, success, danger, warning, info, light, dark, muted | Set the color of the button (background and font)|
+| color | primary, secondary, success, danger, warning, info, light, dark, muted | Set the color of the button (background and font)|
 | outline                       | /                                 | white button, coloured outline|
 | align                         | left, right, center              | Align the button on the page  |
 | expand                        | /                                | Expand to fit parent width    |
@@ -59,6 +60,21 @@ Buttons can be customized in markdown in a similar way as figures. You can exper
 | class                         | /                                | Additional CSS classes         |
 
 Finally here are some examples:
+
+```{button-link}https://teachbooks.io
+TeachBooks
+
+:color: warning
+:shadow:
+```
+
+```{button-link}https://teachbooks.io
+TeachBooks
+
+:color: success
+:outline:
+:expand:
+```
 
 
 ## Icons
