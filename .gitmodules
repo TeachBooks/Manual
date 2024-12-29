@@ -7,15 +7,9 @@
 [submodule "book/external/deploy-book-workflow"]
 	path = book/external/deploy-book-workflow
 	url = https://github.com/TeachBooks/deploy-book-workflow.git
-[submodule "book/external/latex-to-markdown-conversion"]
-	path = book/external/latex-to-markdown-conversion
-	url = https://gitlab.tudelft.nl/opentextbooks/latex-to-markdown-conversion.git
 [submodule "book/external/Useful_python_code"]
 	path = book/external/Useful_python_code
 	url = https://github.com/TeachBooks/Useful_python_code.git
-[submodule "book/external/TeachBooks"]
-	path = book/external/TeachBooks
-	url = https://github.com/TeachBooks/TeachBooks.git
 [submodule "book/external/Sphinx-Image-Inverter"]
 	path = book/external/Sphinx-Image-Inverter
 	url = https://github.com/TeachBooks/Sphinx-Image-Inverter.git
