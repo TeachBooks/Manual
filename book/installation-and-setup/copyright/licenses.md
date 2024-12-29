@@ -64,7 +64,7 @@ The "ND" license prohibits derivative works: in other words, the material cannot
 - What if you have a wonderful page describing Topic X, but there are a few contextual phrases that are undesired, for example: "this is required reading for Tuesday, December 17, 2024 in CIEM1000." That would be distracting for your own students, but you can't remove it.
 - What is the point of including a website together with another website? It's easier to just link to your material directly.
 - What if someone only wants a small part of your book? They can't use it.
-- What if someone else makes similar material and releases it under CC BY and you include it in your own book? That does not seem fair to not also provide them an opportunity to benefit from your work.
+- What if someone else makes similar material and releases it under CC BY and you include it in your own book under an ND license? It seems unfair not to also provide them an opportunity to benefit from your work. In addition, this is not allowed! You can’t put work under a more restrictive license (see also compatibility table below).
 - Often someone creates a copy of your work and makes improvements. The Git system (e.g., forks, commits, pull requests, etc) make it very straightforward to also include these improvements back into your original work. This would not be possible if you did not allow for reuse in the first place! 
 
 ### Why is NC not preferred?
