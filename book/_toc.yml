@@ -48,10 +48,6 @@ parts:
       - file: basic-features/badges.md
       - file: basic-features/banner
         title: Banner or Announcement
-    - file: basic-features/external-features.md
-      sections:
-      - file: basic-features/hypothesis.md
-      - file: basic-features/utterances.md
     - file: features/easy-editing.md
       sections:
       - file: external/template/README.md
