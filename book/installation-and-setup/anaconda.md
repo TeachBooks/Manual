@@ -36,18 +36,18 @@ A python virtual environment is, like the name might suggest, a reserved space w
 
 Now we will set up your first environment. The following steps will create an Anaconda environment and install Python 3.11. Even if you already have Python 3.11, it is still good practice to create a dedicated Anaconda environment for each of your major projects such as creating a jupyter book.
 
-For simplicity we will call this environment `my_new_book`, but you can give it any name you like.
+For simplicity we will call this environment `my_new_book_env`, but you can give it any name you like.
 
 1. Open the commmand line interface (see above) or continue in the same session if it is still active
-2. Execute: `conda create --name my_new_book pip` (this may take several minutes)
-3. Activate: `conda activate my_new_book`
-<br> Check: you should now see your new environment displayed somewhere in the prompt between parenthesis, like this: `(my_new_book)`
+2. Execute: `conda create --name my_new_book_env pip` (this may take several minutes)
+3. Activate: `conda activate my_new_book_env`
+<br> Check: you should now see your new environment displayed somewhere in the prompt between parenthesis, like this: `(my_new_book_env)`
 
 4. Additional 4th step: `pip install -r requirements.txt` (explanation in the following section)
 
 Now everytime you want to work on your jupyter-book, you need to activate the environment! (step 3) If you don't activate your environment, you will work in a 'wrong' working environment that might not contain all the packages you need.
 
-As mentioned before, python packages can be downloaded in the environments you create. Both NumPy and pandas are popular Python packages used for data manipulation and analysis. For the creation of Jupyter Books, we will use the package `jupyter-book`. More information about this package [here](jupyter-book-setup.md).
+As mentioned before, python packages can be downloaded in the environments you create. Both NumPy and pandas are popular Python packages used for data manipulation and analysis. For the creation of Jupyter Books, we will use the package `teachbooks` which is a wrapper around JupyterBooks. More information about this package [here](jupyter-book-setup.md).
 
 ### Import environments
 
@@ -121,7 +121,7 @@ If you want to create an environment based on an existing `*.yml` file, you can 
 This may take several minutes because you are installing many packages at once! Keep an eye on the terminal window as this process is completed. First `conda` is collecting information about the dependencies, then it will _solve_ the environment; in other words, figure out which version of each package it should use. Once it is ready, it will present the list of packages and proceed with the "installation" (really just downloading `*.py` files and putting them in a folder on your computer)
 Note that the prompt may ask you to confirm that the installation should proceed, depending on your system settings. 
 
-Once the environment is created, we can activate it, and also check that everything was installed properly. Try `conda env export -n my_new_book` to see what was installed by "default." The list is very long, even though we only asked for a few packages!
+Once the environment is created, we can activate it, and also check that everything was installed properly. Try `conda env export -n my_new_book_env` to see what was installed by "default." The list is very long, even though we only asked for a few packages!
 
 It is also interesting to try `conda env export --from-history` (make sure you activated it already), which shows the specific packages requested. 
 
@@ -135,7 +135,7 @@ If you have many projects, the amount of environments can take up a lot of space
 
 To remove an environment, in your Anaconda Prompt, run:
 
-`conda remove --name my_new_book --all`
+`conda remove --name my_new_book_env --all`
 
 You will be asked to confirm the deletion, then it may take a while to remove all of the files. To verify that the environment was removed, in your terminal window or an Anaconda Prompt, run:
 

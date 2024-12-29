@@ -58,7 +58,7 @@ On GitLab a webserver is required to process book-changes online. Both we and ot
 ### Setting up book repository and website
 On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md).
 
-On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:teachbooks@tudelft.nl) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
+On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:info@teachbooks.io) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
 
 ### Book access with SSO
 When you’re releasing your book on a server on which you're in control (connected to GitLab or GitHub), you can set up SSO login for visitors of the website. This can be arranged for on the TeachBooks server.
