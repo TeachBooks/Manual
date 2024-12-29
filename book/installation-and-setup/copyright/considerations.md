@@ -32,6 +32,7 @@ The TeachBooks Team isn't really sure when the "line is crossed" from educationa
 Do you have a better answer than this? Let us know!
 ```
 
+(copyright_considerations_copyright)=
 ## You Don't Own Everything
 
 The law is very clear on this, and the TU Delft Copyright page states it quite clearly:
