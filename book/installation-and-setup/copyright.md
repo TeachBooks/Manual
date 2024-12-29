@@ -52,7 +52,9 @@ _Here are a few selected answers from the [Copyright Information Point](https://
 
 **3) Your own old content**
 
-Even if created by you, you need to attribute yourself in order to avoid self-plagiarism. Read how to do so [here](https://www.tudelft.nl/library/support/copyright/researcher-copyright-answers#c1131032).
+Even if created by you, you need to attribute yourself in order to avoid self-plagiarism. If the material has an open license, this is straightforward; if not, you may need permission from your university (the copyright holder),;for example [see here](https://www.tudelft.nl/library/support/copyright/teacher-copyright-answers#c1132157)
+
+If you want to use your own content that a (commercial) publisher has published, you must check your contract to see if you are allowed to use it. Read more [here](https://www.tudelft.nl/library/support/copyright/teacher-copyright-answers#c1132153).
 
 Even if you have created the work yourself but years ago, check whether you have the right to reuse it. If you have created it while you were under the employment of your previous employer, then you will need to ask permission from them. 
 
