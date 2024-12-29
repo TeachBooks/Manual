@@ -24,12 +24,14 @@ It appears that copyright law distinguishes between two types of material (not i
 1. Educational material
 2. Articles, book (chapter), conference paper, etc.
 
-We aren't really sure what the definition of _educational material_ is, but since pretty much everything we do is for teaching students or teachers about things, we are pretty sure it includes all of it. Perhaps it is easier to see what is _not_ included in this category, 
+We aren't really sure what the definition of _educational material_ is, but since pretty much everything we do is for teaching students or teachers about things, we are pretty sure it includes all of it. Perhaps it is easier to see a few examples of what is _not_ included: journal article, book (chapter), conference paper.
 
 ```{warning}
 The TeachBooks Team isn't really sure when the "line is crossed" from educational material to book. More specifically, when the copyright owner is you (the author) or the University (your employer). For now, we assume that all books made by employees of a university are considered educational material.
 
 Do you have a better answer than this? Let us know!
+
+If you can read Dutch, the report _Leermaterialen kiezen_ may shed some light on uncertainty about what is considered "educational material" ([download PDF here](https://www.versnellingsplan.nl/wp-content/uploads/2021/08/Digitale-leermaterialen-leermaterialen-kiezen.pdf)).
 ```
 
 (copyright_considerations_copyright)=
