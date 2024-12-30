@@ -16,6 +16,7 @@
 [submodule "book/external/JupyterBook-Patches"]
 	path = book/external/JupyterBook-Patches
 	url = https://github.com/TeachBooks/JupyterBook-Patches.git
+       branch = manual_docs
 [submodule "book/external/Download-Link-Replacer"]
 	path = book/external/Download-Link-Replacer
 	url = https://github.com/TeachBooks/Download-Link-Replacer.git
