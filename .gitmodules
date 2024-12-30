@@ -1,18 +1,23 @@
 [submodule "book/external/Nested-Books"]
 	path = book/external/Nested-Books
 	url = https://github.com/TeachBooks/Nested-Books.git
+       branch = manual-description
 [submodule "book/external/template"]
 	path = book/external/template
 	url = https://github.com/TeachBooks/template.git
+       branch = manual_description
 [submodule "book/external/deploy-book-workflow"]
 	path = book/external/deploy-book-workflow
 	url = https://github.com/TeachBooks/deploy-book-workflow.git
+       branch = manual_docs
 [submodule "book/external/Useful_python_code"]
 	path = book/external/Useful_python_code
 	url = https://github.com/TeachBooks/Useful_python_code.git
+       branch = manual
 [submodule "book/external/Sphinx-Image-Inverter"]
 	path = book/external/Sphinx-Image-Inverter
 	url = https://github.com/TeachBooks/Sphinx-Image-Inverter.git
+       branch = Manual
 [submodule "book/external/JupyterBook-Patches"]
 	path = book/external/JupyterBook-Patches
 	url = https://github.com/TeachBooks/JupyterBook-Patches.git
@@ -24,12 +29,16 @@
 [submodule "book/external/Sphinx-Grasple-public"]
 	path = book/external/Sphinx-Grasple-public
 	url = https://github.com/TeachBooks/Sphinx-Grasple-public.git
+       branch = manual_docs
 [submodule "book/external/Sphinx-TUDelft-theme"]
 	path = book/external/Sphinx-TUDelft-theme
 	url = https://github.com/TeachBooks/Sphinx-TUDelft-theme.git
+       branch = Manual
 [submodule "book/external/teachbooks-sphinx-tippy"]
 	path = book/external/teachbooks-sphinx-tippy
 	url = https://github.com/TeachBooks/teachbooks-sphinx-tippy.git
+       manual = Manual
 [submodule "book/external/annotater"]
 	path = book/external/annotater
 	url = https://github.com/TeachBooks/annotater
+       branch = manual
