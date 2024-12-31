@@ -16,6 +16,6 @@ This book will continue to develop, so feel free to contribute https://github.co
 
 The released book can be found on on https://teachbooks.io/manual. This page shows the built book of the `release` branch All branches will also be visible as seen in the action's summaries: https://github.com/TeachBooks/mirror_teachbook_manual/actions
 
-Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this boko including its submodules, clone using: `git clone --recurse-submodules git@github.com:TeachBooks/manual.git`
+Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this book including its submodules, clone using: `git clone --recurse-submodules git@github.com:TeachBooks/manual.git`
 
 Happy book building!
