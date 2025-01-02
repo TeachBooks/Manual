@@ -43,6 +43,10 @@ sphinx:
     html_static_path: ["images"]
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
+    mathjax3_config:
+      tex:
+        macros:
+          "newcolor": ['\definecolor{newcolor}{RGB}{111, 29, 119}{\color{newcolor}#1}',1]
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
