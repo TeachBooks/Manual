@@ -140,6 +140,7 @@ By scrolling through the available icons in the library you can find just about 
 ```
 
 **3. GitHub Octicon Icons**
+
 [GitHub icons](https://primer.style/foundations/icons) like {octicon}`mark-github` can be added using the syntax:
 ```{octicon}`mark-github` ```
 
@@ -148,9 +149,11 @@ Where `mark-github` can be replaced by any of the name of the icon provided [her
 By default the icon will be of height 1em (i.e. the height of the font).
 
 **4. Material Design Icons**
+
 The use of Material Design Icons like {material-regular}`settings` is explained [here](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#material-design-icons)
 
 **5. FontAwesome Icons**
+
 The use of FontAwesome Icons like {fas}`spinner` is explained [here](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#fontawesome-icons). There's no need to add the FontAwesome CSS.
 
 **6. Combining Buttons and Icons**
