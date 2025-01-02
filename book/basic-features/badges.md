@@ -2,9 +2,10 @@
 
 <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> provides a range of features which are visually appealing and functional. These elements can enhance the interactivity and visual design of your book, offering additional information or links in a compact and visually engaging way. The badges, buttons and icons are made available through Sphinx and they themselves wrote a [documentation](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html) about it.
 
+(my_ref)=
 ## Badges
 
-Badges are small visual indicators often used to convey concise or important information. They can be very useful for categorising or tagging content for the reader like has been done for the subchapters under the [features](../features/overview.md) chapter of this manual. There are three types of badges: plain, link and reference. They are fully customizable and can simply be added with Markdown syntax:
+Badges are small visual indicators often used to convey concise or important information. They can be very useful for categorising or tagging content for the reader like has been done for the subchapters under the [features](../features/overview.md) chapter of this manual. There are three types of badges: plain, link and reference (for cross references within book). They are fully customizable and can simply be added with Markdown syntax:
 
 | Type   | Badge                                                    | Code Syntax                                                            |
 |--------|----------------------------------------------------------|------------------------------------------------------------------------|
