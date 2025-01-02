@@ -139,6 +139,8 @@ By scrolling through the available icons in the library you can find just about 
 </svg>
 ```
 
+If you want to keep your files clean, you won't like these svgs. However, your icons is probably available in one of the following icon providers.
+
 **3. GitHub Octicon Icons**
 
 [GitHub icons](https://primer.style/foundations/icons) like {octicon}`mark-github` can be added using the syntax:
