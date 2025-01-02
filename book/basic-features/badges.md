@@ -151,7 +151,7 @@ By default the icon will be of height 1em (i.e. the height of the font).
 The use of Material Design Icons like {material-regular}`settings` is explained [here](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#material-design-icons)
 
 **5. FontAwesome Icons**
-The use of FontAwesome Icons like {fas}`spinner` is explained [here](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#fontawesome-icons)
+The use of FontAwesome Icons like {fas}`spinner` is explained [here](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#fontawesome-icons). There's no need to add the FontAwesome CSS.
 
 **6. Combining Buttons and Icons**
 
