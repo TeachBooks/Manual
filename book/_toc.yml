@@ -45,6 +45,7 @@ parts:
       - file: basic-features/References.md
       - file: basic-features/code.md
       - file: basic-features/Code_block_figures
+      - file: basic-features/badges.md
       - file: basic-features/banner
         title: Banner or Announcement
     - file: features/easy-editing.md
