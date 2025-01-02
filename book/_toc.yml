@@ -57,7 +57,7 @@ parts:
     - file: features/sphinx_extensions.md
       sections: 
       - file: external/Download-Link-Replacer/README.md
-      - file: features/custom-launch-button.md
+      - file: external/Sphinx-launch-buttons/README.md
       - file: basic-features/utterances.md      
       - file: features/interactive_element.ipynb
         sections:

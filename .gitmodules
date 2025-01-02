@@ -41,4 +41,7 @@
 [submodule "book/external/annotater"]
 	path = book/external/annotater
 	url = https://github.com/TeachBooks/annotater
+[submodule "book/external/Sphinx-launch-buttons"]
+	path = book/external/Sphinx-launch-buttons
+	url = https://github.com/TeachBooks/Sphinx-launch-buttons.git
         branch = manual

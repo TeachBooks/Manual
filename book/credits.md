@@ -48,6 +48,7 @@ The following pages are included directly from an external resource and is not e
 - Page [](./external/Nested-Books/README.md). Original content licensed under CC BY 4.0 license.
 - Page [](./external/Sphinx-Grasple-public/README.md). Original content licensed under MIT license.
 - Page [](./external/Sphinx-Image-Inverter/README.md). Original content licensed under BSD 3-Clause license.
+- Page [](./external/Sphinx-launch-buttons/README.md). Original content licensed under BSD 3-Clause license.
 - Page [](./external/Sphinx-TUDelft-theme/README.md). Original content licensed under MIT license.
 - Page [](./external/teachbooks-sphinx-tippy/README.md). Original content licensed under MIT license.
 - Page [](./external/template/README.md). Original content licensed under CC BY 4.0 license.
