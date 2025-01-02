@@ -127,6 +127,7 @@ html[data-theme="dark"] {
 
 <div class="newcolor">HTML text</div>
 
+(filter)=
 ### Light and dark mode different colors using a color filter
 
 ::::{warning}
