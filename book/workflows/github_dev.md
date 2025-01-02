@@ -4,20 +4,20 @@
 4. In case you want to add a new file, navigate to the explorer file (the page icon) and click on the `New File` icon. This will create a new file in the folder that you are in. Give it the right extension!
 
 ```{figure} figures/Online_VS0.PNG
-name: New File
+---
 width: 50%
 align: center
-
+---
 New File
 ```
 
 5. In case you want to make changes to an existing file, navigate to a file and make some changes.
 
 ```{figure} figures/Online_VS1.PNG
-name: VS Code in Browser
+---
 width: 70%
 align: center
-
+---
 VS Code in Browser
 ```
 In the bottom left you can see the branch you are working in.
@@ -26,19 +26,19 @@ In the bottom left you can see the branch you are working in.
 7. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
 
 ```{figure} figures/Online_VS2.PNG
-name: GitHub Actions
+---
 width: 70%
 align: center
-
+---
 GitHub Actions
 ```
 You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
 
 ```{figure} figures/Online_VS3.PNG
-name: Deployed Branches
+---
 width: 60%
 align: center
-
+---
 Deployed Branches
 ```
 Click on the link and admire your changes:)

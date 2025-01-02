@@ -1,5 +1,7 @@
 # TeachBooks Manual
 
+[![call-deploy-book](https://github.com/TeachBooks/manual/actions/workflows/call-deploy-book.yml/badge.svg)](https://github.com/TeachBooks/manual/actions/workflows/call-deploy-book.yml)
+
 This manual assists you in creating and collaborating on [JupyterBooks](https://jupyterbook.org/) for educational purposes. Some parts are specifically aimed for teachers at Delft University of Technology, although all material and tools are openly available. This manual aims at providing an easy start and advanced usages for new and existing users with or without skills on this topic. it is part of TeachBooks, for more information visit [https://teachbooks.io/](https://teachbooks.io/).
 
 ## Contact
@@ -14,6 +16,6 @@ This book will continue to develop, so feel free to contribute https://github.co
 
 The released book can be found on on https://teachbooks.io/manual. This page shows the built book of the `release` branch All branches will also be visible as seen in the action's summaries: https://github.com/TeachBooks/mirror_teachbook_manual/actions
 
-Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this boko including its submodules, clone using: `git clone --recurse-submodules git@github.com:TeachBooks/manual.git`
+Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this book including its submodules, clone using: `git clone --recurse-submodules git@github.com:TeachBooks/manual.git`
 
 Happy book building!

@@ -96,7 +96,7 @@ The code in the above cell is the `_launch_buttons.yml` file of a repository cal
 ```{figure} figures/language_button.PNG
 ---
 width: 50%
-name:language_button
+name: language_button
 ---
 Custom Button
 ```

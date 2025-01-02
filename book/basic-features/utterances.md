@@ -1,13 +1,22 @@
 # Discussions in your book: Utterances
 
+```{admonition} User types
+:class: tip
+This section is useful for user type 3-5.
+```
+
 {bdg-white}`GitHub app and Javascript script`
 
 [Utterances 🔮](https://utteranc.es/) is a lightweight open-source widget which allows you, your colleages and your students to discuss stuff in a blog post in your book. It is build on GitHub issues, so requires a GitHub repository, although the book can be hosted anywhere (so also on GitLab).
 
-The [utterances website](https://utteranc.es/) clearly explains the required steps. One thing to take care of is how you want to do the issue-mapping with respect to multiple deployed versions (draft version, student version, archived versions):
- 
- - `Issue title contains page pathname`/`Issue title contains page URL` is useful if you want to isolate the comments on each of the branches.
- - `Issue title contains page title` is useful if you want to show the all comments on all different branches.
+The [utterances website](https://utteranc.es/) clearly explains the required steps. Three things to take care of are:
+1. With the current setup of the [deploy book workflow on GitHub](../external/deploy-book-workflow/README.md), this widget only works on the primary branch.
+2. The baseurl is the root url of your book (the part of the url that doesn't change when opening different pages of the book). It needs to be defined in the `_config.yml` so that utteranc.es knows where to redirect users while interacting with the widget:
+```
+html:
+  baseurl :  "https://<user/organization>.github.io/<repo>" #Replace this with your own URL
+```
+3. It's advised to use `Issue title contains page pathname` as an option on utteranc.es, because that url is most stable.
 
 The given script can be added anywhere in your book, just copy the html-script into your `.md`-file or a markdown cell in your `.ipynb`-file. The blogpost is not visible when you do a local build of the book, build it online or use a local python server as shown in {ref}`setup-local-server`.
 
