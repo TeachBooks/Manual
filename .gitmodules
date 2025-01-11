@@ -45,3 +45,7 @@
 	path = book/external/Sphinx-launch-buttons
 	url = https://github.com/TeachBooks/Sphinx-launch-buttons.git
         branch = manual
+[submodule "book/external/Sphinx-Named-Colors"]
+	path = book/external/Sphinx-Named-Colors
+	url = https://github.com/TeachBooks/Sphinx-Named-Colors.git
+        branch = manual
