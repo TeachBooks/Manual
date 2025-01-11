@@ -48,4 +48,4 @@
 [submodule "book/external/Sphinx-Named-Colors"]
 	path = book/external/Sphinx-Named-Colors
 	url = https://github.com/TeachBooks/Sphinx-Named-Colors.git
-        branch = manual
+	branch = manual
