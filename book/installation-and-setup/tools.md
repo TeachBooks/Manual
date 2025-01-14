@@ -44,7 +44,9 @@ Additionally, it is advisable to document the branch protection strategy and the
 Choosing between GitHub and GitLab depends on multiple criteria. GitHub provides more functionalities, but you might prefer the TU Delft-closed GitLab system.
 
 ### Book URL
-Github allows you to host your book on the GitHub server using GitHub pages (to be recognized by the `<organization/username>.github.io/<book>` url, for example the [template book](https://teachbooks.github.io/template/)), which takes all the steps of hosting out of your hands. If you're book is part of the [GitHub Enterprise TU Delft](https://github.com/enterprises/tudelft) and is using SSO, a random url is generated `<random>.github.io/<book>`. Next to GitHub-provided URLs, you can set up a custom owned URL, although this requires some additional skills on a domain which you should own. For courses we advise you to create a organization with the course name so that the URL represent that course.
+Github allows you to host your book on the GitHub server using GitHub pages (to be recognized by the `<organization/username>.github.io/<book>` url, for example the [template book](https://teachbooks.github.io/template/)), which takes all the steps of hosting out of your hands. Next to GitHub-provided URLs, you can set up a custom owned URL, although this requires some additional skills on a domain which you should own. 
+
+If you're part of TU Delft, you can put your book in the [TUDelft-Book organisation](https://github.com/tudelft-books), which allows you to host your book at `oit.tudelft.nl/<book>`. If you've a private book which is part of the [GitHub Enterprise TU Delft](https://github.com/enterprises/tudelft) and is using SSO, a random url is generated `<random>.github.io/<book>`. For courses we advise you to create a organization with the course name so that the URL represent that course.
 
 On TU Delft's GitLab you need a webserver, which is offered by TeachBooks (to be recognized by the url `teachbooks.tudelft.nl/<book>`, as the TU Delft OIT team (to be recognized by the url `interactivetextbooks.tudelft.nl/<book>`.
 
@@ -58,10 +60,10 @@ On GitLab a webserver is required to process book-changes online. Both we and ot
 ### Setting up book repository and website
 On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md).
 
-On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:info@teachbooks.io) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
+On GitLab you can set up your own git environment, but you need to be given access by [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
 
 ### Book access with SSO
-When you’re releasing your book on a server on which you're in control (connected to GitLab or GitHub), you can set up SSO login for visitors of the website. This can be arranged for on the TeachBooks server.
+When you’re releasing your book on a server on which you're in control (connected to GitLab or GitHub), you can set up SSO login for visitors of the website. In the past, this was arranged for for TU Delft employees at teachbooks.tudelft.nl. However, this is depreciated.
 
 If you want the same functionality with GitHub pages, your book should be part of the [GitHub Enterprise of TU Delft](https://github.com/enterprises/tudelft). This SSO login is a bit different as you're required to give access to specific accounts. Furthermore, the url of you're book on GitHub pages is a random one, so you might consider using a custom URL.
 
@@ -84,7 +86,7 @@ GitHub has a nice integration with the [GitHub Desktop application](git-setup_lo
 Here's a table summarizing the information:
 |  | GitHub   | TU Delft GitLab      |
 |--|----------|-------------|
-| Book url  | GitHub pages (`<organization/username>.github.io/<book>`), for TU Delft GitHub Enterprise with SSO a random URL (`<random>.github.io/<book>`), or custom url `<anything>.<anything>/<book>`> 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
+| Book url  | GitHub pages (`<organization/username>.github.io/<book>`), for TU Delft books a custom URL (`oit.tudelft.nl/<book>`), for private books on TU Delft GitHub Enterprise with SSO a random URL (`<random>.github.io/<book>`), or custom url `<anything>.<anything>/<book>`> 🌐         | TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
 | Real-time book editing | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (not easily adaptable, no caching environments, no visual summaries, no parallel processes) 🛵 For TU Delft OIT: restricted adaptations because of copyright checks 🚫   |
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Manual setup on personal webserver, or access required by TeachBooks or TU Delft OIT  🚧    |
 | Book access with SSO | Only available for GitHub pages on GitHub Enterprise of TU Delft 🎓, optional with custom URL  ✅ | Optional  ✅          |
