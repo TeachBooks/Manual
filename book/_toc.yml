@@ -79,7 +79,7 @@ parts:
       - file: external/Sphinx-TUDelft-theme/README.md
       - file: external/teachbooks-sphinx-tippy/README.md
       - file: features/apa
-      - file: features/custom_colors.md
+      - file: external/Sphinx-Named-Colors/README.md
     - file: features/students
       sections:
       - file: external/annotater/README.md
