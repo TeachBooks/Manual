@@ -48,7 +48,7 @@ Github allows you to host your book on the GitHub server using GitHub pages (to 
 
 If you're part of TU Delft, you can put your book in the [TUDelft-Book organisation](https://github.com/tudelft-books), which allows you to host your book at `oit.tudelft.nl/<book>`. If you've a private book which is part of the [GitHub Enterprise TU Delft](https://github.com/enterprises/tudelft) and is using SSO, a random url is generated `<random>.github.io/<book>`. For courses we advise you to create a organization with the course name so that the URL represent that course.
 
-On TU Delft's GitLab you need a webserver, which is offered by TeachBooks (to be recognized by the url `teachbooks.tudelft.nl/<book>`, as the TU Delft OIT team (to be recognized by the url `interactivetextbooks.tudelft.nl/<book>`.
+On TU Delft's GitLab you need a webserver, which was offered by TeachBooks in the past (to be recognized by the url `teachbooks.tudelft.nl/<book>`), and is still offered by the TU Delft OIT team (to be recognized by the url `interactivetextbooks.tudelft.nl/<book>`).
 
 ### Real-time editing book
 Editing the book can happen both locally as online on GitHub/GitLab. If done locally, the book can be generated and viewed locally too (typically takes around 1 minute) but this requires you to be at least user type 4 or 5 depending on the book content. The built book can also be viewed online separate from the released version.
