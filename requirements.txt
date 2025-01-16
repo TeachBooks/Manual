@@ -2,7 +2,7 @@ jupyter-book
 teachbooks
 sphinx-inline-tabs
 jupyterlite-sphinx
-jupyterbook_patches==v1.2.0
+jupyterbook_patches==1.2.0
 download_link_replacer
 teachbooks-sphinx-grasple
 sphinx-image-inverter
