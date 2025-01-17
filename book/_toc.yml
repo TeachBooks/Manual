@@ -55,6 +55,7 @@ parts:
       - file: external/deploy-book-workflow/README.md
       - file: features/local_server
       - file: external/Nested-Books/README.md
+      - file: features/update_env
     - file: features/sphinx_extensions.md
       sections: 
       - file: external/Download-Link-Replacer/README.md
