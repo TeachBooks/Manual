@@ -2,13 +2,16 @@
 
 {bdg-dark}`Git Workflow`
 
-When building your book, your making use of packages: the teachbooks and jupyterbook packages themselves, but also packages for extensions. These are regularly updated, while those updates are not necessarily taken into your book. This is all defined in the `requirements.txt` file, which is provided as part of the [template](../external/template/README.md). There are two options:
-- `requirements.txt` only contains names of packages like: `download_link_replacer`. In that case, your [deploy-book-workflow](../external/deploy-book-workflow/README.md) will take the most up-to-date version every week when making your book website. This might lead to unexpected changes when new version come out, although new version are in general backwards compatible.
-- `requirements.txt` contains names of packages with a specified version like: `download_link_replacer == 1.0.4`. In that case, your [deploy-book-workflow](../external/deploy-book-workflow/README.md) always uses that specific version. In doing so, you'll never get a new update unless you explicitly adapt the version in `requirements.txt`. IF you'd like to get notified for updates, you might consider using GitHub's Dependabot
+When building your book, your making use of packages: the teachbooks and jupyterbook packages themselves, but also packages for extensions. These are regularly updated, while those updates are not necessarily taken into your book. This is all defined in the `requirements.txt` file, which is provided as part of the [template](../external/template/README.md). There are three options:
+1. `requirements.txt` only contains names of packages like: `download_link_replacer`. In that case, your [deploy-book-workflow](../external/deploy-book-workflow/README.md) will take the most up-to-date version when making your book website once a week (as the chache will be cleared once a week). This might lead to unexpected changes when new version come out, although new version are in general backwards compatible.
+1. `requirements.txt` contains names of packages with a specified version like: `download_link_replacer==1.0.4`. In that case, your [deploy-book-workflow](../external/deploy-book-workflow/README.md) always uses that specific version. In doing so, you'll never get a new update unless you explicitly adapt the version in `requirements.txt`. If you'd like to get notified for updates, you might consider using GitHub's Dependabot.
+1. A combination of 1. and 2.: In that case (once a week at most) you will receive new versions for only the unfixed packages, no updates for the fixed versions. In this case you can also use GitHub's Dependabot.
 
 ## Notifications updated packages with Dependabot
 
-Dependabot checks the version of packages in your `requirements.txt` file and opens a branch and pull requests whenever there's an update available. To activate this feature:
+Dependabot checks the specified version of packages in your `requirements.txt` file and opens a branch and pull requests whenever there's an update available for that package. Note that package without a fixed version are ignored by Dependabot.
+
+To activate this feature:
 1. Specify version for all packages you want to be notified on in your `requirements.txt` file. See [`requirements.txt`](https://github.com/TeachBooks/manual/blob/release/requirements.txt) of this manual as an example
 1. In the `.github/` directory, add a file named `dependabot.yml` with the following content (note that sphinx-thebe (used in [python live coding](./live_code.ipynb)) and docutils (using in [APA referencing](./apa.md)) are ignored because these require a very specific version to work):
 ```yaml
@@ -25,9 +28,9 @@ updates:
       - dependency-name: "docutils"
 ```
 
-This will check every sunday around midnight (UTC) whether any of the packages are updated. If so, several things will happen:
+This will check every sunday around midnight (UTC) whether any of the fixed-version packages are updated. If so, several things will happen:
 1. A new branch starting with _dependabot_ will be created in the repository and any relevant workflows will be triggered.
-1.  A _pull request_ will be created to pull the new branch into the _default_ branch. This pull request must be manually reviewed and merged. Afterwards the _dependabot_ branch can be deleted.
+1.  A _pull request_ will be created to pull the new branch into the _default_ branch. This pull request must be manually reviewed and merged. Afterwards the _dependabot_ branch can be deleted (automatically).
 
 If the workflow `call-deploy-book` is used, and you don't want the _dependabot_ branches to be built and deployed (and all other branches you do want),  you can achieve this by adding the next to the file `call-deploy-book.yml`:
 
