@@ -9,8 +9,8 @@ When building your book, your making use of packages: the teachbooks and jupyter
 ## Notifications updated packages with Dependabot
 
 Dependabot checks the version of packages in your `requirements.txt` file and opens a branch and pull requests whenever there's an update available. To activate this feature:
-- Specify version for all packages you want to be notified on in your `requirements.txt` file. See [`requirements.txt`](https://github.com/TeachBooks/manual/blob/release/requirements.txt) of this manual as an example
-- In the `.github/` directory, add a file named `dependabot.yml` with the following content (note that sphinx-thebe (used in [python live coding](./live_code.ipynb)) and docutils (using in [APA referencing](./apa.md)) are ignored because these require a very specific version to work):
+1. Specify version for all packages you want to be notified on in your `requirements.txt` file. See [`requirements.txt`](https://github.com/TeachBooks/manual/blob/release/requirements.txt) of this manual as an example
+1. In the `.github/` directory, add a file named `dependabot.yml` with the following content (note that sphinx-thebe (used in [python live coding](./live_code.ipynb)) and docutils (using in [APA referencing](./apa.md)) are ignored because these require a very specific version to work):
 ```yaml
 version: 2
 updates:
