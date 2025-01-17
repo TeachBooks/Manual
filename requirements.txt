@@ -1,18 +1,16 @@
-jupyter-book
-teachbooks
-sphinx-inline-tabs
-jupyterlite-sphinx
+teachbooks == 0.1.0
+sphinx-inline-tabs == 2023.4.21
+jupyterlite-sphinx == 0.18.0
 jupyterbook_patches==1.2.0
-download_link_replacer
-teachbooks-sphinx-grasple
-sphinx-image-inverter
-
+download_link_replacer == 1.0.4
+teachbooks-sphinx-grasple == 1.0.2
+sphinx-image-inverter == 1.0.4
+sphinx-exercise == 1.0.1
+sphinx-proof == 0.2.0
+sphinx-named-colors == 1.0.1
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe ~= 0.9.9
 
 docutils==0.17.1
-sphinx-exercise
 
-sphinx-proof
-git+https://github.com/TeachBooks/Sphinx-Named-Colors.git
