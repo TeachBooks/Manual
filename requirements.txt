@@ -4,7 +4,7 @@ jupyterlite-sphinx == 0.18.0
 jupyterbook_patches==1.3.0
 download_link_replacer == 1.0.4
 teachbooks-sphinx-grasple == 1.0.2
-sphinx-image-inverter == 1.0.4
+sphinx-image-inverter == 1.1.0
 sphinx-exercise == 1.0.1
 sphinx-proof == 0.2.0
 sphinx-named-colors == 1.0.1
