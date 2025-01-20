@@ -4,7 +4,7 @@ You've seen what a JupyterBook is, how TeachBooks tries to help you with making 
 
 In this manual we explain how to get going depending on the way you want to use it. If you successfully followed the steps until here, you'll be able to make book as a 'user type 3'!
 
-```{figure} ../installation-and-setup/figures/figures/TB_user3.png
+```{figure} ../installation-and-setup/figures/TB_user3.png
 ---
 name: usertype1
 width: 300px
