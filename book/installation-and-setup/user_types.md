@@ -9,7 +9,7 @@ Different types of users will interact with the website or the Jupyter Books dif
 name: usertype1
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 
 ```
@@ -27,7 +27,7 @@ There are multiple tools of providing feedback in the built book:
 name: usertype2
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 
 ```
@@ -41,7 +41,7 @@ In a similar manner as students, colleagues and team members can leave content-r
 name: usertype3
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 
 ```
@@ -55,7 +55,7 @@ This type of user requires only very basic knowledge in GitLab/GitHub in order t
 name: usertype4
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 
 ```
@@ -69,7 +69,7 @@ User 4 is a hybrid between type 3 and 5. Basically this user is making changes b
 name: usertype5
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 
 ```

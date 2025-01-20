@@ -9,7 +9,7 @@ In this manual we explain how to get going depending on the way you want to use 
 name: usertype1
 width: 300px
 align: center
-:class: dark-light
+class: dark-light
 ---
 User type 3
 ```
