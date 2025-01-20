@@ -36,7 +36,6 @@ The exercises can be found in your book at `https://<username or organiszation_n
 name: exercises
 width: 200px
 align: center
-class: dark-light
 ```
 
 

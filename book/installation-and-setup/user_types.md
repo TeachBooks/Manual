@@ -4,7 +4,7 @@ Different types of users will interact with the website or the Jupyter Books dif
 
 ## User type 1: Students providing feedback via the book website
 
-```{figure} figures/usertype1.jpg
+```{figure} figures/TB_user1.png
 ---
 name: usertype1
 width: 300px
@@ -22,7 +22,7 @@ There are multiple tools of providing feedback in the built book:
 
 ## User type 2: Colleague providing feedback on a draft website
 
-```{figure} figures/usertype2.jpg
+```{figure} figures/TB_user2.png
 ---
 name: usertype2
 width: 300px
@@ -36,7 +36,7 @@ In a similar manner as students, colleagues and team members can leave content-r
 
 ## User type 3: Colleague making adjustments via the browser
 
-```{figure} figures/usertype3.jpg
+```{figure} figures/TB_user3.png
 ---
 name: usertype3
 width: 300px
@@ -50,7 +50,7 @@ This type of user requires only very basic knowledge in GitLab/GitHub in order t
 
 ## User type 4: Colleague making adjustments locally
 
-```{figure} figures/usertype4.jpg
+```{figure} figures/TB_user4.png
 ---
 name: usertype4
 width: 300px
@@ -64,7 +64,7 @@ User 4 is a hybrid between type 3 and 5. Basically this user is making changes b
 
 ## User type 5: Colleague making adjustments and incorporating them in the book locally
 
-```{figure} figures/usertype5.jpg
+```{figure} figures/TB_user5.png
 ---
 name: usertype5
 width: 300px
