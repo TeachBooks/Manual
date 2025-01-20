@@ -5,7 +5,6 @@
 name: template
 width: 150px
 align: right
-class: dark-light
 ```
 
 Now that you've been introduced to the basics of a Jupyter Book, let's make one! The TeachBooks Team has put together a set of tools to make the book-creation process as smooth and automatic as possible. This page guides you through the process of creating a book, followed by a series of exercises that are designed to help you get used to the syntax and structure of a Jupyter Book, as well as the tools and essential workflows associated with the editing, checking and review processes.
