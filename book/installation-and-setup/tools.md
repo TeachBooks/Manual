@@ -58,9 +58,9 @@ On GitHub we developed a [automatic process which builds the book and publishes 
 On GitLab a webserver is required to process book-changes online. Both we and other people at TU Delft have a simplistic workflow which can be used when you're set up on those Git environments and webservers. This simplistic workflow doesn't build all branches, is not easily adaptable, doesn't cache environments, doesn't give a visual summary, and doesn't allow for parallel processes (for every build a runner needs to be assigned for which there's typically only one available). If you want to use GitLab but still want to make use of the GitHub workflow, you can [mirror your repository to GitHub](https://docs.gitlab.com/ee/user/project/repository/mirror/push.html#set-up-a-push-mirror-from-gitlab-to-github). For the TU Delft OIT webserver you’re required to publish your book more officially, it cannot be used for viewing your book online in an active editing-phase since constant copyright checks have to be performed. The amount of computing power available is dependent on how you set the server yourself.
 
 ### Setting up book repository and website
-On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md).
+On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md) without the need for any webserver setup!
 
-On GitLab you can set up your own git environment, but you need to be given access by [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
+On GitLab you can set up your own git environment, but you need to be given access by [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online if you don't have your own webserver-setup.
 
 ### Book access with SSO
 When you’re releasing your book on a server on which you're in control (connected to GitLab or GitHub), you can set up SSO login for visitors of the website. In the past, this was arranged for for TU Delft employees at teachbooks.tudelft.nl. However, this is depreciated.

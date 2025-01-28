@@ -4,7 +4,7 @@ This manual is primarily designed for and by teachers for use in education, but 
 
 TeachBooks originated at Delft University of Technology in the Netherlands, and some of the material in this Manual reflects tools and resources specific to TU Delft. With the exception of a few tools for which we have educational licenses at Delft, everything in this Manual is open source. Despite this, we are happy to grow our community beyond Delft and welcome contributions from all users.
 
-For more information about TeachBooks, visit [https://teachbooks.io/](https://teachbooks.io/). Do not hesitate to reach out via email at [info@teachbooks.io](mailto:teachbooks@tudelft.nl) or contribute on GitHub via discussions, issues or pull requests.
+For more information about TeachBooks, visit [https://teachbooks.io/](https://teachbooks.io/). Do not hesitate to reach out via email at [info@teachbooks.io](mailto:info@teachbooks.io) or contribute on GitHub via discussions, issues or pull requests.
 
 Happy book building!
 

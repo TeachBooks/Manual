@@ -7,7 +7,7 @@ This manual assists you in creating and collaborating on [JupyterBooks](https://
 ## Contact
 If you encounter any issues and you have a TU Delft account, report it by clicking  the gitlab icon and lightbulb on the top right corner of this page. Or contribute directly by creating a merge request in the [repository](https://github.com/Teachbooks/manual).
 
-If you have questions, contact Tom van Woudenberg, Robert Lanzafame or our TA Julie Kirsch at TeachBooks@tudelft.nl, also for non-TU Delft account holders. TU Delft account holder can also contact us in the [MS Teams Open Interactive Textbooks Community](https://teams.microsoft.com/l/team/19%3Ah9-uRcP_yYauh-VuoPFozJVUvHVOB4a0mz1ZWvh4q4Q1%40thread.tacv2/conversations?groupId=3e88c1f3-4a4f-483a-a366-7e617de9ba99&tenantId=096e524d-6929-4030-8cd3-8ab42de0887b)
+If you have questions, contact the TeachBooks Development Team at info@teackbooks.io, also for non-TU Delft account holders. You can also contact us in our [GitHub discussions](https://github.com/orgs/TeachBooks/discussions)
 
 We really value your feedback on this manual. This helps us improving it. Please keep using the manual as you build your own Jupyter Book and come back to fill out this short [survey](https://forms.gle/hXbFUQgN95H8ftxt9).
 

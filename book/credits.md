@@ -3,9 +3,9 @@
 
 You can refer to this book in its entirety as:
 
-> van Woudenberg, T. and Lanzafame, R. (2024), _TeachBooks Manual_. https://github.com/TeachBooks/manual. Retreived [Month, Year]. CC BY 4.0.
+> TeachBooks Development Team (2024), _TeachBooks Manual_. https://github.com/TeachBooks/manual. Retreived [Month, Year]. CC BY 4.0.
 
-The introduction, structure and decisions on content is done under direction of Tom van Woudenberg and Robert Lanzafame. The content is written by many contributors, of which there are many.
+The introduction, structure and decisions on content is done under direction of the TeachBooks Development Team. The content is written by many contributors, of which there are many.
 
 We anticipate that the content of this book will change continuously. Therefore, if you'd like to refer to a specific chapter, we recommend using the source code directly with the citation that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static after Spring 2025. You can refer to individual chapters or pages within this book as:
 
@@ -20,6 +20,7 @@ This book has many contributors, many of whom are also key members of the TeachB
 - Tom van Woudenberg
 - Robert Lanzafame
 - Freek Pols
+- Dennis den Ouden-van der Horst
 - Julie Kirsch
 - Caspar Jungbacker
 
