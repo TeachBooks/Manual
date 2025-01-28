@@ -112,4 +112,5 @@ parts:
     chapters:
     - file: references.md
     - file: credits
+    - file: changelog
     - file: contact
