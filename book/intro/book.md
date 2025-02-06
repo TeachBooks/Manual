@@ -57,8 +57,10 @@ parts:
     - file: intro/book.md
     - file: intro/workflow.md
     - file: intro/template.md
-      sections:
-      - file: external/teachbooks.md
+    - file: external/next.md
+  - caption: Getting Going!
+    chapters:
+    - file: ...
 ```
 
 ````{admonition} Description of the YAML file
