@@ -30,7 +30,7 @@ Getting used to the syntax of writing in a Jupyter Book can be a bit daunting at
 
 The exercises can be found in your book at `https://<username or organiszation_name>.github.io/<repository_name>/exercises/exercises` (case sensitive) or at https://teachbooks.io/template/exercises.html.
 
-```{figure} ../external/template/figures/exercises.png
+```{figure} https://raw.githubusercontent.com/TeachBooks/template_figures/refs/heads/main/exercises.png
 ---
 name: exercises
 width: 200px
