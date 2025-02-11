@@ -6,7 +6,7 @@ TeachBooks originated at Delft University of Technology in the Netherlands, and 
 
 For more information about TeachBooks, visit [https://teachbooks.io/](https://teachbooks.io/). Do not hesitate to reach out via email at [info@teachbooks.io](mailto:info@teachbooks.io) or contribute on GitHub via discussions, issues or pull requests.
 
-Happy book building!
+Happy book building! test
 
 ## How to Use this Manual
 
