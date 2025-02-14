@@ -1,4 +1,4 @@
-# Build pull requests
+# Build pull requests from forks
 
 ```{admonition} User types
 :class: tip
@@ -26,7 +26,6 @@ build:
     python: "3.13"
   jobs:
     pre_build:
-      - "sed -i '/local_extensions:/,/^[^ ]/d' book/_config.yml"
       - "jupyter-book config sphinx book/"
 
 python:
@@ -67,4 +66,4 @@ When opening a pull request, GitHub will shows this line:
 
 Click 'Details' to see the logs of the build process.
 
-Whenever the build is done, c
+Whenever the build is done, click 'Details' again to see the build book. Tip, click `d` or add `?readthedocs-diff=true` to the url to see the differences on the pages highlighted. Note that this difference functionality is not perfect as it might indicate elements which are not changed and it has issues with buttons, LaTeX and figures.
