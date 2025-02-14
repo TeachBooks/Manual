@@ -53,6 +53,7 @@ parts:
       - file: external/template/README.md
       - file: features/teachbooks
       - file: external/deploy-book-workflow/README.md
+      - file: features/pull_requests_build.md
       - file: features/local_server
       - file: external/Nested-Books/README.md
       - file: features/update_env
