@@ -12,7 +12,7 @@ build:
 python:
   install:
     - requirements: requirements.txt
-    - standard-imghdr
+    - package: standard-imghdr
 
 sphinx:
   builder: html
