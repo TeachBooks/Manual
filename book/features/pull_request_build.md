@@ -38,7 +38,9 @@ sphinx:
   builder: html
   fail_on_warning: true
   configuration: book/conf.py
-```
+  ```
+
+You might need to add `standard-imghdr` to your `requirements.txt` file if the build fails when you've configured it in Read the Docs (if the error tells you `ModuleNotFoundError: No module named 'imghdr'`)
 
 ### Setup Read The Docs account
 
