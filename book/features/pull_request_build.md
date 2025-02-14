@@ -36,7 +36,7 @@ sphinx:
   configuration: book/conf.py
 ```
 
-You might need to add `imghdr` to your `requirements.txt` file if the build fails when you've configured it in Read the Docs (if the error tells you `ModuleNotFoundError: No module named 'imghdr'`)
+You might need to add `standard-imghdr` to your `requirements.txt` file if the build fails when you've configured it in Read the Docs (if the error tells you `ModuleNotFoundError: No module named 'imghdr'`)
 
 ### Setup Read The Docs account
 
