@@ -6,7 +6,7 @@ build:
     python: "3.13"
   jobs:
     pre_build:
-      - "sed -i '\\/local_extensions:/,\\/^[^ ]/d' book/_config.yml"
+      - "sed -i '\|local_extensions:|,\|^[^ ]|d' book/_config.yml"
       - "jupyter-book config sphinx book/"
 
 python:
