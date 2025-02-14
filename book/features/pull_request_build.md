@@ -7,11 +7,21 @@ This section is useful for user type 3-5.
 
 When using the [deploy-book-workflow](../external/deploy-book-workflow/README.md) you're not able to build pull requests. When you'd like to contribute to the book of someone else with a fork, this requires you to set up the deploy-book-workflow in your fork to be able to show the proposed changes in the book. Furthermore, when proposing your contribution in a pull-request, you'd have to manually refer to your own built book. This process can be made easier by using [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org) for building the books with changes of a pull request.
 
-Read the docs is not recommended for final versions of your book because of the advertisement in the free version.
+Read the docs is not recommended for final versions of your book because of the advertisement in the free version. if you'd like to pay for it, it can replace the functionality of the [deploy-book-workflow](../external/deploy-book-workflow/README.md).
 
 This workflow does not work if you have local sphinx extensions in your book (extensions in `book/_ext` like [](./apa.md)).
 
-## Setting up building of pull-requests
+## Usage
+
+When opening a pull request, GitHub will shows this line:
+
+![Read the docs in GitHub preview](./figures/readthedocs1.png)
+
+Click 'Details' to see the logs of the build process.
+
+Whenever the build is done, click 'Details' again to see the build book. Tip, click `d` or add `?readthedocs-diff=true` to the url to see the differences on the pages highlighted. Note that this difference functionality is not perfect as it might indicate elements which are not changed and it has issues with buttons, LaTeX and figures.
+
+## Setting up
 
 ### Add configuration file to your repository
 
@@ -57,13 +67,3 @@ On your [dashboard](https://app.readthedocs.org/dashboard/), add a new project. 
 ### Enable Pull Request build
 
 In the setting of your newest project, enable build of pull request by selecting the option in `Building - Pull request builds - Build pull requests for this project`.
-
-## Usage
-
-When opening a pull request, GitHub will shows this line:
-
-![Read the docs in GitHub preview](./figures/readthedocs1.png)
-
-Click 'Details' to see the logs of the build process.
-
-Whenever the build is done, click 'Details' again to see the build book. Tip, click `d` or add `?readthedocs-diff=true` to the url to see the differences on the pages highlighted. Note that this difference functionality is not perfect as it might indicate elements which are not changed and it has issues with buttons, LaTeX and figures.
