@@ -9,6 +9,8 @@ When using the [deploy-book-workflow](../external/deploy-book-workflow/README.md
 
 Read the docs is not recommended for final versions of your book because of the advertisement in the free version.
 
+This workflow does not work if you have local sphinx extensions in your book (extensions in `book/_ext` like [](./apa.md)).
+
 ## Setting up building of pull-requests
 
 ### Add configuration file to your repository
@@ -24,19 +26,19 @@ build:
     python: "3.13"
   jobs:
     pre_build:
+      - "sed -i '/local_extensions:/,/^[^ ]/d' book/_config.yml"
       - "jupyter-book config sphinx book/"
 
 python:
   install:
     - requirements: requirements.txt
+    - requirements: standard-imghdr
 
 sphinx:
   builder: html
   fail_on_warning: true
   configuration: book/conf.py
 ```
-
-You might need to add `standard-imghdr` to your `requirements.txt` file if the build fails when you've configured it in Read the Docs (if the error tells you `ModuleNotFoundError: No module named 'imghdr'`)
 
 ### Setup Read The Docs account
 
@@ -54,3 +56,13 @@ On your [dashboard](https://app.readthedocs.org/dashboard/), add a new project. 
 ### Enable Pull Request build
 
 In the setting of your newest project, enable build of pull request by selecting the option in `Building - Pull request builds - Build pull requests for this project`.
+
+## Usage
+
+When opening a pull request, GitHub will shows this line:
+
+![Read the docs in GitHub preview](./figures/readthedocs1.png)
+
+Click 'Details' to see the logs of the build process.
+
+Whenever the build is done, c
