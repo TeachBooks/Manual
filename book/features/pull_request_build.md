@@ -5,7 +5,7 @@
 This section is useful for user type 3-5.
 ```
 
-When using the [deploy-book-workflow](../external/deploy-book-workflow/README.md) you're not able to build pull requests. When you'd like to contribute to the book of someone else with a fork, this requires you to set up the deploy-book-workflow in your fork to be able to show the proposed changes in the book. Furthermore, when proposing your contribution in a pull-request, you'd have to manually refer to your own built book. This process can be made easier by using [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org) for building the books with changes of a pull request.
+When using the [deploy-book-workflow](../external/deploy-book-workflow/README.md) you're not able to build pull requests from a fork of your repository (i.e., if someone makes a contribution to your book from a fork). When you'd like to contribute to the book of someone else with a fork, this requires you to set up the deploy-book-workflow in your fork to be able to show the proposed changes in the book. Furthermore, when proposing your contribution in a pull-request, you'd have to manually refer to your own built book (e.g., with a hyperlink). This process can be made easier by using [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org), as it can automatically build a book based on changes proposed in a pull request.
 
 Read the docs is not recommended for final versions of your book because of the advertisement in the free version. If you'd like to pay for it, it can replace the functionality of the [deploy-book-workflow](../external/deploy-book-workflow/README.md).
 
@@ -13,7 +13,7 @@ This workflow does not work if you have local sphinx extensions in your book (ex
 
 ## Usage
 
-When opening a pull request, GitHub will shows this line:
+When opening a pull request, GitHub will show this line:
 
 ![Read the docs in GitHub preview](./figures/readthedocs1.png)
 
@@ -53,16 +53,17 @@ You might need to add `standard-imghdr` to your `requirements.txt` file if the b
 
 ### Setup Read The Docs account
 
-Setup an account at [](https://app.readthedocs.org/accounts/login/?next=/dashboard/). We recommend using your GitHub account for authentication.
+Setup an account at [app.readthedocs.org/accounts/login/](https://app.readthedocs.org/accounts/login/?next=/dashboard/). We recommend using your GitHub account for authentication.
 
-When authorizing Read the Docs for your GitHub account, you can grant access by Read the Docs for organization you own too. Do this if your book is part of an organization.
+When authorizing Read the Docs for your GitHub account, you can also grant access by Read the Docs for an organization of which you are an owner, as well, which we also recommend.
 
 ### Authorize access to organization
-When you didn't do so in the previous step, or you'd like to grant access at a later moment, you can grant/revoke access by Read the Docs to organization your own [`personal GitHub Settings - Integrations - Applications - Authorized OAuth Apps - Read the Docs Community`](https://github.com/settings/connections/applications/fae83c942bc1d89609e2).
+
+When you didn't do so in the previous step, or you'd like to grant access at a later moment, you can grant/revoke access by Read the Docs to your organization by following these menu items in settings: [`personal GitHub Settings - Integrations - Applications - Authorized OAuth Apps - Read the Docs Community`](https://github.com/settings/connections/applications/fae83c942bc1d89609e2).
 
 ### Add project in Read The Docs
 
-On your [dashboard](https://app.readthedocs.org/dashboard/), add a new project. Find your GitHub repository (you might need to refresh your repositories if you've recently updated authorizations)
+On your [dashboard](https://app.readthedocs.org/dashboard/), add a new project. Find your GitHub repository (you might need to refresh your repositories if you've recently updated authorizations).
 
 ### Enable Pull Request build
 
