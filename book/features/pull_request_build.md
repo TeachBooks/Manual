@@ -21,6 +21,11 @@ Click 'Details' to see the logs of the build process.
 
 Whenever the build is done, click 'Details' again to see the build book. Tip, click `d` or add `?readthedocs-diff=true` to the url to see the differences on the pages highlighted. Note that this difference functionality is not perfect as it might indicate elements which are not changed and it has issues with buttons, LaTeX and figures.
 
+### Example
+As an example, Read the Docs is configured in this [example book](https://github.com/TeachBooks/Read-the-Docs-example-book). Fork it and open a pull request to test it's functionality.
+
+There's an example [pull request](https://github.com/TeachBooks/Read-the-Docs-example-book/pull/1) with corresponding [built book on Read the Docs](https://read-the-docs-example-book--1.org.readthedocs.build/1/intro2.html?readthedocs-diff=true).
+
 ## Setting up
 
 ### Add configuration file to your repository
