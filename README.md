@@ -5,7 +5,7 @@
 This manual assists you in creating and collaborating on [JupyterBooks](https://jupyterbook.org/) for educational purposes. Some parts are specifically aimed for teachers at Delft University of Technology, although all material and tools are openly available. This manual aims at providing an easy start and advanced usages for new and existing users with or without skills on this topic. it is part of TeachBooks, for more information visit [https://teachbooks.io/](https://teachbooks.io/).
 
 ## Contact
-If you encounter any issues and you have a TU Delft account, report it by clicking  the gitlab icon and lightbulb on the top right corner of this page. Or contribute directly by creating a merge request in the [repository](https://github.com/Teachbooks/manual).
+If you encounter any issues and you have a TU Delft account, report it by clicking  the github icon and lightbulb on the top right corner of this page. Or contribute directly by creating a merge request in the [repository](https://github.com/Teachbooks/manual).
 
 If you have questions, contact the TeachBooks Development Team at info@teackbooks.io, also for non-TU Delft account holders. You can also contact us in our [GitHub discussions](https://github.com/orgs/TeachBooks/discussions)
 
