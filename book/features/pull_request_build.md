@@ -11,7 +11,13 @@ Pull Requests are a key tool for allowing anyone with a GitHub account to make a
 
 Read the docs is not recommended for final versions of your book because of the advertisement in the free version. If you'd like to pay for it, it can replace the functionality of the [deploy-book-workflow](../external/deploy-book-workflow/README.md).
 
-This workflow does not work if you have local sphinx extensions in your book (extensions in `book/_ext` like [](./apa.md)).
+This tool works using Sphinx, which is the core engine for Jupyter Book; it is carried out using a Jupyter Book command to generate a Sphinx configuration file, for example:
+
+```
+jupyter-book config sphinx book/
+```
+
+In theory this should work with the TeachBooks Python package `teachbooks` as well as local extensions (e.g., those in `book/_ext` like [](./apa.md)), but we have not checked this yet. If you are interested, try setting it up as a PR related to [this issue](https://github.com/TeachBooks/Read-the-Docs-example-book/issues/3).
 
 ```{tip}
 Once set up, this tool is only accessible via the Pull Request page for a repository in the 'Checks' part of the automated rule set box (illustrated below). This is different from our deploy-book-workflow, which is accessed  
