@@ -7,9 +7,9 @@ sphinx-image-inverter == 1.1.0
 sphinx-exercise == 1.0.1
 sphinx-proof == 0.2.0
 sphinx-named-colors == 1.0.1
-standard-imghdr
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe ~= 0.9.9
 
 docutils==0.17.1
+
