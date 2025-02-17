@@ -68,3 +68,16 @@ On your [dashboard](https://app.readthedocs.org/dashboard/), add a new project. 
 ### Enable Pull Request build
 
 In the setting of your newest project, enable build of pull request by selecting the option in `Building - Pull request builds - Build pull requests for this project`.
+
+### Additional settings
+
+The following settings are recommended:
+- `Setup` - `Settings` - `URL versioning scheme` - `Multiple versions without translations (/<version>/<filename>)`, as translated books can be implemented with [](../external/Sphinx-launch-buttons/README.md)
+- `Setup` - `Settings` - `Addons` - `Search` - disabled, as your books already contain a search function and the Read the Docs search functions requires [additional setup](https://docs.readthedocs.com/platform/stable/intro/sphinx.html#configure-read-the-docs-search)
+- `Setup` - `Settings` - `Addons` - `Link previews` - disabled, `Multiple versions without translations (/<version>/<filename>)`, as previews can be implemented with [](../external/teachbooks-sphinx-tippy/README.md)
+- `Setup` - `Settings` - `Automation rules` - `Add rule`, to build all tagged versions of your book:
+    - `Description`: 'Build all tags'
+    - `Match`: `Custom Match`
+    - `Custom match`: `.*`
+    - `Version type`: `Tag`
+    - `Action`: `Activate version`
