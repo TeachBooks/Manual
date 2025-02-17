@@ -85,7 +85,7 @@ For more options on the in-line citation style, see https://jupyterbook.org/en/s
 
 Two issues are known:
 - During the build, warning will be raised with `... WARNING: duplicate label for keys ...`. In most cases, these warnings can be ignored. As noted above, the book will not build references properly 
-- In case you have both an `.ipynb` and `.md` version of a file, the `.md` version will always be used whenever this extension is used. This reomved the possibility to show code outputs.
+- In case you have both an `.ipynb` and `.md` version of a file, the `.md` version will always be used whenever this extension is used. This removes the possibility to show code outputs.
 
 ## Implementation
 
