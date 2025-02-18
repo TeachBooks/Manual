@@ -5,11 +5,11 @@
 This section is useful for user type 3-5.
 ```
 
-When writing a TeachBook it is useful to automatically build and view these changes online. This exactly why we designed and build the [deploy-book-workflow](../external/deploy-book-workflow/README.md) tool, which also allows for multiple versions of your book to exist at any time with customizable URL's. However, it doesn't cover all use cases. Luckily, Read the Docs is a free tool that can easily be used for this purpose. It also provides a very easy way to view differences between versions on each page!
+When writing a TeachBook it is useful to automatically build and view these changes online. This exactly why we designed and build the [deploy-book-workflow](../external/deploy-book-workflow/README.md) tool, which also allows for multiple versions of your book to exist at any time with customizable URL's. However, it doesn't cover all use cases. Luckily, **Read the Docs** is a free tool that can easily be used for this purpose. It also provides a very easy way to view differences between versions on each page!
 
 Pull Requests are a key tool for allowing anyone with a GitHub account to make a contribution to your work by forking your repository, adding commits, then sending them back to your repository via a Pull Request. Unfortunately you are not able to automatically build the book based on proposed changes in a pull request from a fork of your repository, as this requires the deploy-book-workflow in the fork to have GitHub Actions enabled to show the proposed changes in the book. Furthermore, when proposing your contribution in a pull request, you'd have to manually refer to your own built book (e.g., with a hyperlink). This process can be made easier by using [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org), as it can automatically build a book based on changes proposed in a pull request, and includes a link to the book directly in the pull request page.
 
-Read the docs is not recommended for final versions of your book because of the advertisement in the free version. If you'd like to pay for it, it can replace the functionality of the [deploy-book-workflow](../external/deploy-book-workflow/README.md).
+Read the Docs is not recommended for final versions of your book because of the advertisement in the free version. If you'd like to pay for it, it can replace the functionality of the [deploy-book-workflow](../external/deploy-book-workflow/README.md).
 
 This tool works using Sphinx, which is the core engine for Jupyter Book; it is carried out using a Jupyter Book command to generate a Sphinx configuration file, for example:
 
@@ -20,9 +20,9 @@ jupyter-book config sphinx book/
 In theory this should work with the TeachBooks Python package `teachbooks` as well as local extensions (e.g., those in `book/_ext` like [](./apa.md)), but we have not checked this yet. If you are interested, try setting it up as a PR related to [this issue](https://github.com/TeachBooks/Read-the-Docs-example-book/issues/3).
 
 ```{tip}
-Once set up, this tool is only accessible via the Pull Request page for a repository in the 'Checks' part of the automated rule set box (illustrated below). This is different from our deploy-book-workflow, which is accessed  
+Once set up, this tool is only accessible via the Pull Request page for a repository in the 'Checks' part of the automated rule set box (illustrated below under 'Usage'). This is different from our deploy-book-workflow, which is accessed  under the Actions tab of a GitHub repository.
 
-A Read the Docs account and admin privelages for the repository are only needed set this up; all visitors to the pull request page will be able to view the book, including the differencing feature.
+A Read the Docs account and admin privelages for a repository are the only requirements needed set this up; all visitors to the pull request page will be able to view the book, including the differencing feature.
 ```
 
 ## Usage
