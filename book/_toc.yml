@@ -74,6 +74,7 @@ parts:
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
+      - file: external/sphinx-iframes/README.md
     - file: features/visuals.md
       sections:
       - file: external/Sphinx-Image-Inverter/README.md
@@ -82,7 +83,6 @@ parts:
       - file: external/teachbooks-sphinx-tippy/README.md
       - file: features/apa
       - file: external/Sphinx-Named-Colors/README.md
-      - file: external/sphinx-iframes/README.md
     - file: features/students
       sections:
       - file: external/annotater/README.md
