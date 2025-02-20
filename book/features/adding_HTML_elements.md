@@ -5,8 +5,8 @@
 In this section, we will discuss how to embed interactive elements created in HTML/JavaScript in a TeachBook. If you are interested in learning how to create these elements yourself, we will discuss an example in the [next article](creating_basic_HTML_elements.md). As an example, let us discuss how to embed an interactive 3D model of a subsurface environment I created:
 
 ```{iframe} ../_static/element_render_box.html
-:width: 600
-:height: 400
+:width: 600px
+:height: 400px
 ```
 
 ## Storing the HTML file
@@ -17,8 +17,8 @@ If we want to embed our HTML/JS element in a Markdown page, we must use an inlin
 
 ````
 ```{iframe} ../_static/element_render_box.html
-:width: 600
-:height: 300
+:width: 600px
+:height: 300px
 ```
 ````
 

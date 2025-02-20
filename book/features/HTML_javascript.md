@@ -12,18 +12,18 @@ In this section, we will discuss how to [create](creating_basic_HTML_elements.md
 This could be for example interactive 3d figures:
 
 ```{iframe} ../_static/element_render_box.html
-:width: 600
-:height: 400
+:width: 600px
+:height: 400px
 ```
 
 Or other interactive graphs:
 
 ```{iframe} ../_static/element_pdf_and_cdf.html
-:width: 600
-:height: 300
+:width: 600px
+:height: 300px
 ```
 
 ```{iframe} https://openla.ewi.tudelft.nl/applet/lines_and_planes/normal_equation_plane_origin?iframe=true
-:width: 600
-:height: 500
+:width: 600px
+:height: 500px
 ```
