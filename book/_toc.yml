@@ -82,7 +82,7 @@ parts:
       - file: external/teachbooks-sphinx-tippy/README.md
       - file: features/apa
       - file: external/Sphinx-Named-Colors/README.md
-      - file: external/Sphinx-Iframes/README.md
+      - file: external/sphinx-iframes/README.md
     - file: features/students
       sections:
       - file: external/annotater/README.md
