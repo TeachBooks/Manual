@@ -28,46 +28,21 @@ Videos uploaded to YouTube can be embedded in the Jupyter Book. There are severa
     ></iframe>
 ```
 
-This HTML-iframe code can be directly included in the markdown file (no need to create a code-cell).
+The src can be used in combination with [](../external/sphinx-iframes/README.md):
 
-Resulting in the video below:<br>
-    <iframe
-    width="560"   
-    height="315"
-    src="https://www.youtube.com/embed/UCb-b82tzLo?"
-    align="center"
-    frameborder="0"
-    allowfullscreen
-    ></iframe>
-
-**2.** The above solution can be 'upgraded', setting a scaling of the video with the width of the screen and align it to the center:
+````
+```{video} https://www.youtube.com/embed/UCb-b82tzLo?
 ```
-    <div style="display: flex; justify-content: center;">
-    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
-        <iframe
-            src="https://www.youtube.com/embed/YDBr1Lof_mI?si=RhTC31XHv-6gL4Kl"
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>
-    </div>
-    </div>
-```
-With the resulting output:
-<div style="display: flex; justify-content: center;">
-    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
-        <iframe
-        src="https://www.youtube.com/embed/YDBr1Lof_mI?si=RhTC31XHv-6gL4Kl"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        ></iframe>
-    </div>
-</div>
+````
 
-**3.** Another option is to use a python coding cell. As this code cell should be run when the book is made, you have to change the config file and set `execute_notebooks:` to force. This comes with the downside that it takes considerable more time to deploy the book.
+Or the HTML-iframe code can be directly included in the markdown file.
+
+Resulting in the video below:
+
+```{video} https://www.youtube.com/embed/UCb-b82tzLo?
+```
+
+**2.** Another option is to use a python coding cell. As this code cell should be run when the book is made, you have to change the config file and set `execute_notebooks:` to force. This comes with the downside that it takes considerable more time to deploy the book.
 ````
     ```{code-cell} ipython3
     :tags: [remove-input]

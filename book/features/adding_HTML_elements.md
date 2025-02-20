@@ -4,13 +4,25 @@
 
 In this section, we will discuss how to embed interactive elements created in HTML/JavaScript in a TeachBook. If you are interested in learning how to create these elements yourself, we will discuss an example in the [next article](creating_basic_HTML_elements.md). As an example, let us discuss how to embed an interactive 3D model of a subsurface environment I created:
 
-<iframe src="../_static/element_render_box.html" width="600" height="400" frameborder="0"></iframe> 
+```{iframe} ../_static/element_render_box.html
+:width: 600
+:height: 400
+```
 
 ## Storing the HTML file
 TeachBooks like this one are built from a Git project, comprising of different files and folders that are assembled into a webpage. It is generally not possible to paste the code of your HTML element directly into one of the project's Markdown files. Instead, you will have to store the files separately somewhere in the folder structure, then embed them later on. For this project, the book's root folder contains a ´_static´ folder which we can use to store our HTML/JS file. Some elemenets - such as the one above - may require additional files. The HTML element above, for instance, specifies a renderer using [THREE.js](https://threejs.org/) that displays a digital model. This model is specified as an .obj file (which defines its geometry) and a .mtl file (which defines its materials - its colors, reflectivity, transparency, and so on). We can store these files in the same ´_static´ folder.
 
 ## Embedding HTML files via iframes
-If we want to embed our HTML/JS element in a Markdown page, we must use an inline frame, also known as an iframe. In code, an iframe looks like this:
+If we want to embed our HTML/JS element in a Markdown page, we must use an inline frame, also known as an iframe. In a book, an iframe can be added using [](../external/sphinx-iframes/README.md):
+
+````
+```{iframe} ../_static/element_render_box.html
+:width: 600
+:height: 300
+```
+````
+
+or alternatively using raw HTML:
 
 ```html
 <iframe src="../_static/element_render box.html" width="600" height="300" frameborder="0"></iframe>
