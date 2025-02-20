@@ -1,6 +1,9 @@
 # Creating basic interactive HTML/JavaScript elements
 
-<iframe src="../_static/element_pdf_and_cdf.html" width="600" height="300" frameborder="0"></iframe>
+```{iframe} ../_static/element_pdf_and_cdf.html
+:width: 600px
+:height: 300px
+```
 
 At the bottom of this page, I will provide the full code for the interactive element above. In this section, let us go through the code one piece at a time. Let us begin from the top.
 

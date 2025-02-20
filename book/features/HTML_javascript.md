@@ -11,10 +11,19 @@ In this section, we will discuss how to [create](creating_basic_HTML_elements.md
 
 This could be for example interactive 3d figures:
 
-<iframe src="../_static/element_render_box.html" width="600" height="400" frameborder="0"></iframe> 
+```{iframe} ../_static/element_render_box.html
+:width: 600px
+:height: 400px
+```
 
 Or other interactive graphs:
 
-<iframe src="../_static/element_pdf_and_cdf.html" width="600" height="300" frameborder="0"></iframe>
+```{iframe} ../_static/element_pdf_and_cdf.html
+:width: 600px
+:height: 300px
+```
 
-<iframe src="https://openla.ewi.tudelft.nl/applet/lines_and_planes/normal_equation_plane_origin?iframe=true"  width="600" height="500" allow="fullscreen" loading="lazy" frameborder="0"></iframe>
+```{iframe} https://openla.ewi.tudelft.nl/applet/lines_and_planes/normal_equation_plane_origin?iframe=true
+:width: 600px
+:height: 500px
+```
