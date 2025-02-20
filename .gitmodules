@@ -50,3 +50,7 @@
 	path = book/external/Sphinx-Named-Colors
 	url = https://github.com/TeachBooks/Sphinx-Named-Colors.git
 	branch = manual
+[submodule "book/external/Sphinx-Iframes"]
+	path = book/external/Sphinx-Iframes
+	url = https://github.com/TeachBooks/sphinx-iframes.git
+	branch = manual
