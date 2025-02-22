@@ -14,19 +14,6 @@ Every team member can create issues when they think of a task that would improve
 **Make and assign task to yourself (issues) in ...**
 
 `````{tab-set}
-````{tab-item} ... GitLab
-
-The issues in GitLab can be found in your repositery in the left bar. 
-
-![issues](figures/issues_new.png)
-
-You can create an issue by clicking on the blue `New Issue` button in the top right corner. <br>
-This will lead you to this window where you can specify all attributes we mentioned before!
-
-![new issue](figures/New_Issue_GitLab.png)
-
-````
-
 ````{tab-item} ... GitHub
 
 The issues in GitHub can be found in your repositery in the top bar.
@@ -64,6 +51,20 @@ Clicking on `create a branch` will open the following window in which you can sp
     <img src="figures/New_Issue_GitHub4.PNG" alt="Example Image" width="350">
 </figure>
 ````
+
+````{tab-item} ... GitLab
+
+The issues in GitLab can be found in your repositery in the left bar. 
+
+![issues](figures/issues_new.png)
+
+You can create an issue by clicking on the blue `New Issue` button in the top right corner. <br>
+This will lead you to this window where you can specify all attributes we mentioned before!
+
+![new issue](figures/New_Issue_GitLab.png)
+
+````
+
 `````
 
 When the task is completed, the issue can be closed and you can move on to the next!

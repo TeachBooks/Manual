@@ -9,59 +9,6 @@ Suppose we are writing a new chapter, or are updating an existing chapter for ou
 **... by directly adding changes on a single file to the Git-timeline (committing) in ...**
 
 ```````{tab-set}
-``````{tab-item} ... GitLab
-
-In GitLab, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
-
-1. Navigate to the repository you want to work in and make sure you're in the correct branch.
-
-2. Create a new file by clicking on the plus button in the top bar. You can either create an entirely new file by clicking `New File` or if you already have created a file you can upload it by clicking `Upload File`.
-
-```{figure} figures/User3_NewFile.PNG
----
-width: 60%
-align: center
----
-Create new file
-```
-
-3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the blue button `Commit changes`.
-
-```{figure} figures/User3_NewFile2.PNG
----
-align: center
----
-Edit new file
-```
-
-4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the blue button called `Edit` and select the option `Edit single file`.
-
-```{figure} figures/User3_EditFile.PNG
----
-align: center
----
-Web Editor
-```
-
-5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the blue `Commit changes` button.
-
-```{figure} figures/User3_NewFile2.PNG
----
-align: center
----
-Commit changes
-```
-
-6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as you did with markdown `file.md` files.
-
-```{figure} figures/User3_toc.PNG
----
-align: center
----
-Table of contents (TOC)
-```
-
-``````
 ``````{tab-item} ... GitHub... 
 
 `````{tab-set}
@@ -141,6 +88,59 @@ Using this feature, you can open VS Code in your browser and edit the files in y
 ````
 `````
 ``````
+``````{tab-item} ... GitLab
+
+In GitLab, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
+
+1. Navigate to the repository you want to work in and make sure you're in the correct branch.
+
+2. Create a new file by clicking on the plus button in the top bar. You can either create an entirely new file by clicking `New File` or if you already have created a file you can upload it by clicking `Upload File`.
+
+```{figure} figures/User3_NewFile.PNG
+---
+width: 60%
+align: center
+---
+Create new file
+```
+
+3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the blue button `Commit changes`.
+
+```{figure} figures/User3_NewFile2.PNG
+---
+align: center
+---
+Edit new file
+```
+
+4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the blue button called `Edit` and select the option `Edit single file`.
+
+```{figure} figures/User3_EditFile.PNG
+---
+align: center
+---
+Web Editor
+```
+
+5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the blue `Commit changes` button.
+
+```{figure} figures/User3_NewFile2.PNG
+---
+align: center
+---
+Commit changes
+```
+
+6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as you did with markdown `file.md` files.
+
+```{figure} figures/User3_toc.PNG
+---
+align: center
+---
+Table of contents (TOC)
+```
+
+``````
 ```````
 ````````
 
@@ -152,7 +152,7 @@ Using this feature, you can open VS Code in your browser and edit the files in y
 **... by (a) making changes on a single or multiple file(s) <br> 
          (b) selecting changes to be added to the Git-timeline (staging) <br>
          (c) adding changes to the Git-timeline (committing) and <br>
-         (d) adding changes to GitLab/GitHub (pushing) with ...**
+         (d) adding changes to GitHub/GitLab (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
@@ -185,19 +185,19 @@ Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
 
 ``````{tab-item} ... for an existing version (branch)...
 
-**... by (a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+**... by (a) regularly obtaining updates from colleagues from GitHub/GitLab (pulling), <br>
          (b) solving potential incompatible changes (merging conflicts), <br>
          (c) making changes on a single / multiple file(s), <br>
          (d) selecting changes to be added to the Git-timeline (staging), <br>
          (e) adding those to the Git-timeline (committing) and <br>
-         (f) adding changes to GitLab/GitHub (pushing) with ...**
+         (f) adding changes to GitHub/GitLab (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
-**Regularly obtain updates from colleagues from GitLab/GitHub (pulling)**
+**Regularly obtain updates from colleagues from GitHub/GitLab (pulling)**
 
-If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
+If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitHub/GitLab. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
 
 <figure align="center">
     <img src="figures/VSCode_Pull.PNG" alt="Example Image" width="400">
@@ -229,9 +229,9 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
 ````
 ````{tab-item} ... GitHub Desktop
 
-**Regularly obtain updates from colleagues from GitLab/GitHub (pulling)**
+**Regularly obtain updates from colleagues from GitHub/GitLab (pulling)**
 
-If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitHub/GitLab. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
 
 <figure align="center">
     <img src="figures/Fetch.PNG" alt="Example Image" width="650">
@@ -287,7 +287,7 @@ Using this feature, you can open VS Code in your browser and edit the files in y
          (b) checking changes locally <br>
          (c) selecting changes to be added to the Git-timeline (staging) <br>
          (d) adding changes to the Git-timeline (committing) and <br>
-         (e) adding changes to GitLab/GitHub (pushing) with ...**
+         (e) adding changes to GitHub/GitLab (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
@@ -326,20 +326,20 @@ Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 
 ``````{tab-item} ... for an existing version (branch)
 
-**... by (a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+**... by (a) regularly obtaining updates from colleagues from GitHub/GitLab (pulling), <br>
          (b) solving potential incompatible changes (merging conflicts), <br>
          (c) making changes on a single / multiple file(s), <br>
          (d) checking changes locally, <br>
          (e) selecting changes to be added to the Git-timeline (staging), <br>
          (f) adding those to the Git-timeline (committing) and <br>
-         (g) adding changes to GitLab/GitHub (pushing) with ...**
+         (g) adding changes to GitHub/GitLab (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
-**Regularly obtain updates from colleagues from GitLab/GitHub (pulling)**
+**Regularly obtain updates from colleagues from GitHub/GitLab (pulling)**
 
-If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
+If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitHub/GitLab. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
 
 <figure align="center">
     <img src="figures/VSCode_Pull.PNG" alt="Example Image" width="400">
@@ -374,9 +374,9 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
 ````
 ````{tab-item} ... GitHub Desktop
 
-**Regularly obtain updates from colleagues from GitLab/GitHub (pulling)**
+**Regularly obtain updates from colleagues from GitHub/GitLab (pulling)**
 
-If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitHub/GitLab. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
 
 <figure align="center">
     <img src="figures/Fetch.PNG" alt="Example Image" width="650">

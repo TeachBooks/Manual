@@ -19,15 +19,15 @@ The act of making a new branch from an existing one is called *branching*. Usual
 
 ```````{tab-set}
 
-``````{tab-item} ... GitLab
-
-```{include} new_branch_gitlab.md
-```
-
-``````
 ``````{tab-item} ... GitHub
 
 ```{include} new_branch_github.md
+```
+
+``````
+``````{tab-item} ... GitLab
+
+```{include} new_branch_gitlab.md
 ```
 
 ``````
@@ -49,19 +49,6 @@ If your repository is already cloned on your computer, you are almost ready to s
 **(a) ... by finding the repository url from ...**
 
 ```````{tab-set}
-
-``````{tab-item} ... GitLab
-
-1. Navigate to the repository of your book. Click on the blue button that says "Clone", and copy the link under "Clone with SSH".
-
-
-```{figure} ../images/gitlab-clone.png
----
-name: gitlab-clone
----
-The cloning menu.
-```
-``````
 
 ``````{tab-item} ... GitHub
 
@@ -115,11 +102,27 @@ Clone through GitHub Desktop
 
 You have now directly cloned the repository, so you can skip the next step!
 ``````
+
+``````{tab-item} ... GitLab
+
+1. Navigate to the repository of your book. Click on the blue button that says "Clone", and copy the link under "Clone with SSH".
+
+
+```{figure} ../images/gitlab-clone.png
+---
+name: gitlab-clone
+---
+The cloning menu.
+```
+``````
+
 ```````
+
 
 **(b) ... and opening (cloning) the local repository with ...**
 
 ```````{tab-set}
+
 
 ``````{tab-item} ... VS Code
 
@@ -167,15 +170,16 @@ Have a look at the other section!**
 Although it is possible to create new branches in VS Code or GitHub Desktop directly, creating new branches on the remote repository (on GitLab or GitHub) is better for collaborating because the new branch becomes immediately visible to everyone working in the repository as opposed to becoming visible after being pushed/published to the remote repository.
 
 `````{tab-set}
-````{tab-item} ... in GitLab
-
-```{include} new_branch_gitlab.md
-```
-
-````
 ````{tab-item} ... GitHub
 
 ```{include} new_branch_github.md
+```
+
+````
+
+````{tab-item} ... in GitLab
+
+```{include} new_branch_gitlab.md
 ```
 
 ````
