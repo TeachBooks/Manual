@@ -67,7 +67,7 @@ In case you have cloned the repositery you can also resolve the conflicts locall
 2. In GitHub Desktop, set `current branch` in the top bar to the branch that your changes to be merged into.
 
 <figure align="center">
-    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
+    <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
 </figure>
 
 At the bottom of the drop down branch menu you should see the following button. 
