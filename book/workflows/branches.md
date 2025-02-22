@@ -36,7 +36,7 @@ The act of making a new branch from an existing one is called *branching*. Usual
 
 ``````````{tab-item} ... user type 4 and 5 ...
 
-As user type 4 and 5, you make changes to the book locally on your computer rather than online on GitLab/GitHub. This allows you to create more complex and interactive sections to your book. Before you can start, there are a few preparatory steps you need to take. 
+As user type 4 and 5, you make changes to the book locally on your computer rather than online on GitHub/GitLab. This allows you to create more complex and interactive sections to your book. Before you can start, there are a few preparatory steps you need to take. 
 
 In order to create your own version, you will first have to open the repository. Then, you will need to clone the repository to your computer. This procedure is called cloning.
 
