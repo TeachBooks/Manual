@@ -13,7 +13,18 @@ Finally, ensure that team members identify themselves according to the user type
 ## Review process
 Furthermore, establish a clear editing and review process.
 
-For the editing process, establish some practical rules on whether to use issues, branches and forks for adding content, fixing typos or making other changes. Furthermore, it can help to write down when you expect (draft) merge/pull requests and how to use the assign and review options in GitHub/GitLab. It is advisable to have at least a maintainer review each piece of content to maintain quality and consistency. Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [repository button {fa}`github`, suggest edit {fa}`pencil` and issue button {fa}`lightbulb`](https://jupyterbook.org/en/stable/basics/repository.html) is advised.
+For the editing process, establish some practical rules on whether to use issues, branches and forks for adding content, fixing typos or making other changes. Furthermore, it can help to write down when you expect (draft) merge/pull requests and how to use the assign and review options in GitHub/GitLab. It is advisable to have at least a maintainer review each piece of content to maintain quality and consistency. Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [repository button {fa}`fa-github`, suggest edit {fa}`pencil` and issue button {fa}`lightbulb`](https://jupyterbook.org/en/stable/basics/repository.html) is advised.
+
+## Define draft version of book
+If there's many people working on different parts of the book and material is staged for publication to students, we recommend using at least two separate branches, one which is released to students, the other one for development.  Using the [](../external/deploy-book-workflow/README.md), it's very easy to share multiple versions of your book on the same root-URL. 
+
+Firstly, create a release branch which contains the students' version of this year. This branch could be named `release`, `main`, or `<current academic year>`. It is recommended to set this branch as the `PRIMARY BRANCH` when using the [GitHub workflow](gh-workflow-settings). This ensures that students are redirected to a consistent URL, even when new versions of the book are added later. If you plan on maintaining only one public version, it is advisable to set `BEHAVIOR_PRIMARY` from the default `redirect` to `copy`. This ensures that the primary branch is copied to the root, making the URL more compact.
+
+Next, establish a development branch that contains all the new content combined but not yet published to students. This branch could be named `dev`, `main`, `<current academic year>-draft`. Using `dev` is recommended if you prefer the default branch to be the most recent published version, as `main` is commonly expected to be the default branch.
+
+We advise  you to enable two options in the general repository setting regarding pull requests in GitHub:
+- Enable `Always suggest updating pull request branches`, suggesting a merge from the default branch into any separate branch before merging into the default branch.
+- Enable `Automatically delete head branches` to delete branches after they are merged (you'll still be able to restore those).
 
 ## Book previews of contributions
 Using the [](../external/deploy-book-workflow/README.md), it's very easy to show a preview of the changes for branches within the same repository. Using [](../features/pull_request_build.md) you allow previews of changes for forks of your repository too.
