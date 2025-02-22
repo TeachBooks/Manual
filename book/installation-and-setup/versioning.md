@@ -1,5 +1,7 @@
 # Versioning and URLs
 
+> This page reuses adapted CC BY 3.0 content from Tom Preston-Werner {cite:p}`semver`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+
 ```{admonition} User types
 :class: tip
 This page is useful for user type 4-5.
@@ -23,7 +25,7 @@ Don't forget to explain how you organize these URLs in your README and eventuall
 If you've many version of the book, at some point you might reach the 1 GB GitHub Pages limit. This is only expected for extremely large books with a lot of non-text-based (binary) content. To prevent going over that limit, store large content not used for building the website (like images) on an external server. This can be another GitHub repository or a (paid) object store
 
 ## Semantic versioning
-Semantic versioning is used extensively in the world of software management to deal with versions. This is more suited than the more traditional way of versioning paper books (version 1, 2, etc.), because of the amount of edits which online books allow. There's [guidelines](https://semver.org/) about how to use a 'x.y.z' version numbers for software, for which we propose the following alternative for books:
+Semantic versioning is used extensively in the world of software management to deal with versions {cite:p}`semver`. This is more suited than the more traditional way of versioning paper books (version 1, 2, etc.), because of the amount of edits which online books allow. There's [guidelines](https://semver.org/) about how to use a 'x.y.z' version numbers for software, for which we propose the following alternative for books:
 
 1. A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version or yearly version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0. or 2025.9.0 -> 2025.10.0 -> 2025.11.0
 2. Once a versioned book has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
