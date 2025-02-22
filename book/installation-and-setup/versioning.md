@@ -18,9 +18,7 @@ If you plan on maintaining only one public version, it is advisable to set `BEHA
 
 Don't forget to explain how you organize these URLs in your README and eventually in the book itself too with a sentence like this:
 
-```
-This is the 2024-2025-version of this book. Go to `<link to root URL>` to view the most recent version of this book, or adapt the year in `<link to root URL>/<year>` to the year when you took the course.
-```
+> This is the 2024-2025-version of this book. Go to `<link to root URL>` to view the most recent version of this book, or adapt the year in `<link to root URL>/<year>` to the year when you took the course.
 
 If you've many version of the book, at some point you might reach the 1 GB GitHub Pages limit. This is only expected for extremely large books with a lot of non-text-based (binary) content. To prevent going over that limit, store large content not used for building the website (like images) on an external server. This can be another GitHub repository or a (paid) object store
 
