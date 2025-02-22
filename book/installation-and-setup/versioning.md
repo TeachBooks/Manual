@@ -1,6 +1,6 @@
 # Versioning and URLs
 
-> This page reuses adapted CC BY 3.0 content from Tom Preston-Werner {cite:p}`semver`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+> This page reuses adapted CC BY 3.0 content from Tom Preston-Werner {cite:t}`semver`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 
 ```{admonition} User types
 :class: tip
