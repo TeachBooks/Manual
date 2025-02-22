@@ -1,4 +1,4 @@
-# Choose URLs and tools
+# Which git provider to choose
 
 ```{admonition} User types
 :class: tip
@@ -7,41 +7,7 @@ This page is useful for user type 4-5.
 
 The setup of tools and URLs is dependent on agreements you've made on [collaboration](./collab.md).
 
-## Collaboration in readme
-Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [issue button](https://jupyterbook.org/en/stable/basics/repository.html#add-a-button-to-open-issues) is advised for the published book.
-
-## Branches for separate versions
-We recommend using at least two separate branches, one which is released to students, the other one for development. If you're planning adapting the book every year, you should set up your branches in such a way that students will always receive the version they should expect.
-
-Firstly, create a release branch which contains the students' version of this year. This branch could be named `release`, `main`, or `<current academic year>`. It is recommended to set this branch as the `PRIMARY BRANCH` when using the [GitHub workflow](gh-workflow-settings). This ensures that students are redirected to a consistent URL, even when new versions of the book are added later. If you plan on maintaining only one public version, it is advisable to set `BEHAVIOR_PRIMARY` from the default `redirect` to `copy`. This ensures that the primary branch is copied to the root, making the URL more compact.
-
-Next, establish a development branch that contains all the new content combined but not yet published to students. This branch could be named `dev` or `main`. Using `dev` is recommended if you prefer the default branch to be the most recent published version, as `main` is commonly expected to be the default branch.
-
-Additionally, allow the creation of branches during the editing process. As long as `BRANCHES_TO_DEPLOY` is set to the default `*`, all branches will be built, enabling fellow editors to review their own and each other's versions online. Periodically, it is beneficial to review the list of branches and delete any that have been merged but not deleted.
-
-Eventually, create branches for previous study years, each containing that year's version of the book. These branches could be named `<academic year>`, which will also be reflected in their URLs. Add these branches to the list of `BRANCHES_ARCHIVED` when using the [GitHub workflow](gh-workflow-settings) to include a banner on the page indicating its archived state.
-
-We advise  you to enable two options in the general repository setting regarding pull requests in GitHub:
-- Enable `Always suggest updating pull request branches`, suggesting a merge from the default branch into any separate branch before merging into main.
-- Enable `Automatically delete head branches` to delete branches after they are merged (you'll still be able to restore those).
-
-Lastly, add a readme explaining the way you organized branches.
-
-## Protect branches
-
-To ensure the integrity of your book's content, it is crucial to set up protected branches in both GitHub and GitLab. Protected branches prevent accidental changes and ensure that only authorized modifications are made. In GitHub, you can configure branch protection rules by navigating to the repository settings, selecting "Branches," and then adding branch protection rules for the branches you want to protect. Similarly, in GitLab, you can protect branches by going to the repository settings, selecting "Repository," and then configuring the branch protection settings.
-
-Once the branches are protected, it is advised to assign appropriate permissions to team members based on their roles. In GitHub, you can manage permissions by navigating to the repository settings, selecting "Manage access," and then inviting collaborators with specific roles such as "Admin," "Write," or "Read." In GitLab, permissions can be managed by going to the project settings, selecting "Members," and then adding users with roles like "Maintainer," "Developer," or "Reporter."
-
-Additionally, it is advisable to document the branch protection strategy and the assigned permissions in the readme file. This documentation should explain the rationale behind the branch protection rules and provide clear instructions on how team members can request access or permission changes. By doing so, you create a transparent and organized workflow that facilitates collaboration and minimizes the risk of unauthorized changes. We would advise a [ruleset](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository):
-- Bypassable by repository admins
-- Targeting default branch
-- Restrict deletions
-- Require a pull request before merging with 1 required approval
-- Block force pushes
-
-## GitHub vs GitLab
-Choosing between GitHub and GitLab depends on multiple criteria. GitHub provides more functionalities, but you might prefer the TU Delft-closed GitLab system.
+Choosing between GitHub and GitLab depends on multiple criteria. GitHub provides more functionalities, but you might prefer the TU Delft-closed GitLab system if you're a TU Delft employee.
 
 ### Book URL
 Github allows you to host your book on the GitHub server using GitHub pages (to be recognized by the `<organization/username>.github.io/<book>` url, for example the [template book](https://teachbooks.github.io/template/)), which takes all the steps of hosting out of your hands. Next to GitHub-provided URLs, you can set up a custom owned URL, although this requires some additional skills on a domain which you should own. 

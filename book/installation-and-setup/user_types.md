@@ -60,7 +60,7 @@ class: dark-light
 
 ```
 
-User 4 is a hybrid between type 3 and 5. Basically this user is making changes by editing the .md files locally using, for example, VS Code. Therefore, this user requires a little bit more knowledge on git (think of pulling and pushing changes) but their main focus remains to make adjustments to the content of the book by editing .md files whereas user type 5 has more knowledge to make changes to python files the book as well. This user can build the book online and therefore does not need to have special software installed besides a text editor (e.g., Python is not required).
+User 4 is a hybrid between type 3 and 5. Basically this user is making changes by editing the .md files locally using, for example, VS Code. Therefore, this user requires a little bit more knowledge on git (think of pulling and pushing changes) but their main focus remains to make adjustments to the content of the book by editing .md files whereas user type 5 has more knowledge to make changes to python files the book as well. This user can build the book online and therefore does not need to have special software installed besides a text editor (e.g., Python is not required). Using this skills, this user type can take the role as editor, managing more than just book content.
 
 ## User type 5: Colleague making adjustments and incorporating them in the book locally
 
@@ -74,7 +74,7 @@ class: dark-light
 
 ```
 
-This user has more knowledge in GitLab/GitHub than the previous user and can take care of branching and merging directly. They know how to work with software for editing .md and .ipynb files. They can use the Deploy Book Workflow online to view their changes in the book and coordinate peer review, and/or build the book locally.
+This user has more knowledge in GitLab/GitHub than the previous user and can take care of branching and merging directly. They know how to work with software for editing .md and .ipynb files. They can use the Deploy Book Workflow online to view their changes in the book and coordinate peer review, and/or build the book locally. This user can easily take the role as editor, and might even add additional features to the book. If you do so, please share those on the [TeachBooks-community](https://github.com/teachbooks) so that other people can benefit and contribute to your tooling.
 
 ```{Note}
 

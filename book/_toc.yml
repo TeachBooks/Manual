@@ -12,6 +12,8 @@ parts:
     chapters:
     - file: installation-and-setup/user_types.md
     - file: installation-and-setup/git.md
+      sections:
+      - file: installation-and-setup/tools
     - file: installation-and-setup/overview.md
       sections:
       - file: installation-and-setup/vscode-setup.md
@@ -27,7 +29,7 @@ parts:
       - file: workflows/check_changes_online.md
       - file: workflows/merge_request.md
     - file: installation-and-setup/collab
-    - file: installation-and-setup/tools
+    - file: installation-and-setup/versioning
     - file: installation-and-setup/copyright.md
       sections:
       - file: installation-and-setup/copyright/considerations
