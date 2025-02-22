@@ -46,7 +46,3 @@ Additionally, it is advisable to document the branch protection strategy and the
 
 ## Private, internally or public
 Choose whether you want to share your source code and built book privately, internally or publicly. In any case, you need to obey copyright-rules. We advise public repositories and books in line with a vision on open education.
-
-## For TU Delft employees: publishing via TU Delft OPEN interactive textbooks
-Decide on whether or not to publish your book via TU Delft OPEN interactive textbooks. Publishing will give you a copyright check, ISBN or DOI number, and registration in several shared databases but limits the amount of changes you can make to your book: for substantial changes a new published version is needed with an updated copyright checks. Small changes like typos can always be made, which are processed in the published version every hour.
-In case of editing a book for a course during that actual course and/or your book has limited value outside your course's content, we advise you only to publish an archived version of your book whenever the academic year is over.
