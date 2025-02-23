@@ -9,7 +9,7 @@ This page is useful for user type 4-5.
 
 Online books can be easily updated, however, this might confuse readers. Therefore, it's good practice to be aware of this and, where needed, provide explicit version to the readers. It's recommended to do this in multiple ways, which can be combined:
 - Publish versions on separate (fixed) URLs
-- Use some sort of semantic versioning with tags
+- Use TeachBooks versioning
 - Keep both source code as (export of) websites of all versions
 - Publishing your book more officially
 
@@ -57,7 +57,7 @@ We've come up with guidelines how to use the two TeachBooks-versioning options (
 `````
 
 ### Changelog
-To communicate changes, we advise creating a changelog in the book. The [template](https://github.com/TeachBooks/template/blob/main/book/changelog.md) contains an example:
+To communicate changes, we advise creating a changelog in the book. The [template](https://github.com/TeachBooks/template/blob/main/book/changelog.md) contains an empty changelog to fill:
 
 ```md
 # Changelog
@@ -73,20 +73,22 @@ To communicate changes, we advise creating a changelog in the book. The [templat
 <...>
 ```
 
+An example can be found [here](https://ciem5000-2025.github.io/book/changelog.html)
+
 ### Note on version change on page
 When making errata changes or additions, it's advised to notify the reader not only in the changelog, but also on the relevant pages. You can do so using the `versionadded` and `versionchanged` admonitions:
 
 ```md
-::::::{versionchanged} <version_number> <date of version>
-<explanation>
+::::::{versionchanged} <version_number> <date of version release>
+<explanation of change on current page>
 ::::::
 ```
 
 and
 
 ```md
-::::::{versionadded} <version_number> <date of version>
-<explanation>
+::::::{versionadded} <version_number> <date of version release>
+<explanation of addition on/of current page>
 ::::::
 ```
 
