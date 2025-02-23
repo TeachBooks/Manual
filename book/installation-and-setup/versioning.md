@@ -33,7 +33,7 @@ Versions combined with a changelog can be a very effective way to communicate bo
 We've come up with guidelines how to use the two TeachBooks-versioning options (adapted from {cite:p}`semver`):
 
 `````{tab-set}
-````{tab-item} `academic_year.additions.errata`
+````{tab-item} academic_year.additions.errata
 1. A normal version number MUST take the form `academic_year.additions.errata` where `academic_year` is the academic year in which the book is used, and `additions`, and `errata` are non-negative integers, and MUST NOT contain leading zeroes. Each element MUST increase numerically. For instance: 2025.9.0 -> 2025.10.0 -> 2025.11.0
 2. Once a versioned book has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 3. Errata versions MUST be incremented if a small change is made which should be communicated to the reader in both the source code and in the book itself. If the small change is not crucial (like a simple typo), you might consider not defining it as a new version but combining it with other changes in the next errata or additions version.
@@ -44,7 +44,7 @@ We've come up with guidelines how to use the two TeachBooks-versioning options (
    2. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Academic year, additions and errata versions are always compared numerically. Example: 2024.0.0 < 2025.0.0 < 2025.1.0 < 2025.1.1.
 7. The way in which the version number is incremented after the initial release should be explained in the README of the source code and in the book itself.
 ````
-````{tab-item} `major.errata`
+````{tab-item} major.errata
 1. A normal version number MUST take the form `major.errata` where `major`, and `errata` are non-negative integers, and MUST NOT contain leading zeroes. Each element MUST increase numerically. For instance: 9.0 -> 10.0 -> 11.0
 2. Once a versioned book has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 3. Errata versions MUST be incremented if a small change is made which should be communicated to the reader in both the source code and in the book itself. If the small change is not crucial (like a simple typo), you might consider not defining it as a new version but combining it with other changes in the next major version.
@@ -90,7 +90,7 @@ and
 ::::::
 ```
 
-Lead to for example:
+Leads to for example:
 ::::::{versionchanged} v2025.3.5 2025-02-23
 TeachBooks versioning added
 ::::::
