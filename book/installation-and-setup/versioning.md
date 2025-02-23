@@ -24,19 +24,37 @@ Don't forget to explain how you organize these URLs in your README and eventuall
 
 If you've many version of the book, at some point you might reach the 1 GB GitHub Pages limit. This is only expected for extremely large books with a lot of non-text-based (binary) content. To prevent going over that limit, store large content not used for building the website (like images) on an external server. This can be another GitHub repository or a (paid) object store
 
-## Semantic versioning
-Semantic versioning is used extensively in the world of software management to deal with versions {cite:p}`semver`. This is more suited than the more traditional way of versioning paper books (version 1, 2, etc.), because of the amount of edits which online books allow. There's [guidelines](https://semver.org/) about how to use a 'x.y.z' version numbers for software, for which we propose the following alternative for books:
+## TeachBooks versioning
+Versions combined with a changelog can be a very effective way to communicate book changes. Inspired by versioning systems in software management (i.e. semantic and CalVer versioning) version is used extensively in the world of software management to deal with versions. This is more suited than the more traditional way of versioning paper books (version 1, 2, etc.), because of the amount of edits which online books allow. TeachBooks versioning comes in two flavors:
 
-1. A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version or yearly version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0. or 2025.9.0 -> 2025.10.0 -> 2025.11.0
+1. `academic_year.additions.errata` versioning for books tailed-made for courses in which content is added / adapted during the course and might be restructured extensively every year while remaining to be available in the original form.
+2. `major.errata` versioning for books which are more stable over years, in which big changes are covered only by the version number.
+
+We've come up with guidelines how to use the two TeachBooks-versioning options (adapted from {cite:p}`semver`):
+
+`````{tab-set}
+````{tab-item} `academic_year.additions.errata`
+1. A normal version number MUST take the form `academic_year.additions.errata` where `academic_year` is the academic year in which the book is used, and `additions`, and `errata` are non-negative integers, and MUST NOT contain leading zeroes. Each element MUST increase numerically. For instance: 2025.9.0 -> 2025.10.0 -> 2025.11.0
 2. Once a versioned book has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
-3. Major version zero (0.y.z) is for initial development. Anything MAY change at any time. The book content should not be shared with readers as it's not considers as stable.
-4. Version 1.0.0 defines the first released book. The way in which the version number is incremented after this release should be explained in the README of the source code and in the book itself.
-5. Patch version Z (x.y.Z | x > 0) MUST be incremented if a small change is made which should be communicated to the reader in both the source code and in the book itself. If the small change is not crucial (like a simple typo), you might consider not defining it as a new version but combining it with other changes in the next version.
-6. Minor version Y (x.Y.z | x > 0) MUST be incremented if a big change / addition is made to the book. It MUST be communicated in both the source code and in the book itself. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
-7. Major version X (X.y.z | X > 0) MUST be incremented if a substantial restructure is made to the book. A new academic year is a great example for this. It MUST be communicated in both the source code and in the book itself. It MAY also include minor and patch level changes. Patch and minor versions MUST be reset to 0 when major version is incremented.
-8. Precedence refers to how versions are compared to each other when ordered.
-   1. Precedence MUST be calculated by separating the version into major, minor, patch and pre-release identifiers in that order.
-   2. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Major, minor, and patch versions are always compared numerically. Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1.
+3. Errata versions MUST be incremented if a small change is made which should be communicated to the reader in both the source code and in the book itself. If the small change is not crucial (like a simple typo), you might consider not defining it as a new version but combining it with other changes in the next errata or additions version.
+4. Additions version MUST be incremented if an addition is made to the book. It MUST be communicated in both the source code and in the book itself. It MAY include errata level changes. The errata version MUST be reset to 0 when the addition version is incremented.
+5. Academic year version MUST be incremented if a fresh book is started for which additions will follow later. It MUST be communicated in both the source code and in the book itself. Additions and errata versions MUST be reset to 0 when academic version is incremented.
+6. Precedence refers to how versions are compared to each other when ordered.
+   1. Precedence MUST be calculated by separating the version into academic year, additions and errata identifiers in that order.
+   2. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Academic year, additions and errata versions are always compared numerically. Example: 2024.0.0 < 2025.0.0 < 2025.1.0 < 2025.1.1.
+7. The way in which the version number is incremented after the initial release should be explained in the README of the source code and in the book itself.
+````
+````{tab-item} `major.errata`
+1. A normal version number MUST take the form `major.errata` where `major`, and `errata` are non-negative integers, and MUST NOT contain leading zeroes. Each element MUST increase numerically. For instance: 9.0 -> 10.0 -> 11.0
+2. Once a versioned book has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
+3. Errata versions MUST be incremented if a small change is made which should be communicated to the reader in both the source code and in the book itself. If the small change is not crucial (like a simple typo), you might consider not defining it as a new version but combining it with other changes in the next major version.
+5. Major versions MUST be incremented if a substantial restructure or additions is made. It MUST be communicated in both the source code and in the book itself. Errata versions MUST be reset to 0 when the major version is incremented.
+6. Precedence refers to how versions are compared to each other when ordered.
+   1. Precedence MUST be calculated by separating the version into major and errata identifiers in that order.
+   2. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: major and errata versions are always compared numerically. Example: 1.0 < 2.0 < 2.1.
+7. The way in which the version number is incremented after the initial release should be explained in the README of the source code and in the book itself.
+````
+`````
 
 ### Changelog
 To communicate changes, we advise creating a changelog in the book. The [template](https://github.com/TeachBooks/template/blob/main/book/changelog.md) contains an example:
@@ -54,6 +72,28 @@ To communicate changes, we advise creating a changelog in the book. The [templat
 
 <...>
 ```
+
+### Note on version change on page
+When making errata changes or additions, it's advised to notify the reader not only in the changelog, but also on the relevant pages. You can do so using the `versionadded` and `versionchanged` admonitions:
+
+```md
+::::::{versionchanged} <version_number> <date of version>
+<explanation>
+::::::
+```
+
+and
+
+```md
+::::::{versionadded} <version_number> <date of version>
+<explanation>
+::::::
+```
+
+Lead to for example:
+::::::{versionchanged} v2025.3.5 2025-02-23
+TeachBooks versioning added
+::::::
 
 ### Implement tags and releases
 Tags can be added to your source code by adding the version number as a tag to a specific commit. You can do so only locally. In GitHub Desktop this is done by clicking 'Create Tag...` for a specific commit in the History tab.
