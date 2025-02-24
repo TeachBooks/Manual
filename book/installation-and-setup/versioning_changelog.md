@@ -1,4 +1,7 @@
 # TeachBooks versioning with changelog
+
+> This page reuses adapted CC BY 3.0 content from Tom Preston-Werner {cite:t}`semver`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+
 Versions combined with a changelog can be a very effective way to communicate book changes to the reader and allow reuse of specific versions. Inspired by versioning systems in software management (i.e. semantic and CalVer versioning) you can define a version guideline in which the version number tells the reader about the impact of the change. This might more suitable for your online books than the more traditional way of versioning paper books (version 1, 2, etc.), because of the amount of edits which online books allow. We recommend TeachBooks versioning, which comes in two flavors:
 
 1. `academic_year.additions.errata` versioning for books tailed-made for courses in which content is added / adapted during the course and might be restructured extensively every year while remaining to be available in the original form.

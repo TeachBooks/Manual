@@ -1,7 +1,5 @@
 # Versioning and URLs
 
-> This page reuses adapted CC BY 3.0 content from Tom Preston-Werner {cite:t}`semver`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
-
 ```{admonition} User types
 :class: tip
 This page is useful for user type 4-5.
