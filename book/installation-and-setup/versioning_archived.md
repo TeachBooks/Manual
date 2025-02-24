@@ -1,4 +1,4 @@
-# Keep source code and website of all versions
+# Publish source code of all versions
 
 In case you'd like other to use your source code and you've different versions, it might be useful to have the source code of those versions somewhere too. Don't be afraid, git makes it very easy to make this possible.
 

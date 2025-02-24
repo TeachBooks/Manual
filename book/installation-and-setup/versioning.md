@@ -21,7 +21,7 @@ Finally, you might consider publishing your book at an online publisher. This co
 
 So, there's a few use-cases for which different (combinations) of solutions exist. These are summarized in the table below in order of increasingly effort and impact. You can combine use-cases to your liking:
 
-| Use-case | [Publish versions on separate URLs](./versions_URLs.md) | [Publish source code of all versions](./versioning_archived.md) | [Use TeachBooks versioning with a changelog](versioning_changelog)  | [Publish your book officially](./publisher.md) |
+| Use-case | [Publish versions on separate URLs](./versions_URLs.md) | [Publish source code of all versions](./versioning_archived.md) | [Use TeachBooks versioning with a changelog](versioning_changelog)  | [Publish your book with a publisher](./publisher.md) |
 |:---:|:---:|:---:|:---:|:---:|
 | Book changes over time, but you don't want to deal with versioning |  |  |  |  | 
 | Occasionally releasing a new version while keeping the previous version, with minimal effort for versioning | Recommended | Can be considered | | |
