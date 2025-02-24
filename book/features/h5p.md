@@ -1,4 +1,4 @@
-# Adding interactive h5p elements
+# H5p interactive elements
 
 ```{admonition} User types
 :class: tip
