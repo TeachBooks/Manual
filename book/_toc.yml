@@ -77,6 +77,7 @@ parts:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
       - file: external/sphinx-iframes/README.md
+      - file: external/Sphinx-PRIME-applets/README.md
     - file: features/visuals.md
       sections:
       - file: external/Sphinx-Image-Inverter/README.md
