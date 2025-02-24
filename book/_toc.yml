@@ -68,20 +68,21 @@ parts:
       sections: 
       - file: external/Download-Link-Replacer/README.md
       - file: external/Sphinx-launch-buttons/README.md
-      - file: basic-features/utterances.md      
-      - file: features/interactive_element.ipynb
+      - file: basic-features/utterances.md
+      - file: features/jupyterquiz.ipynb
+      - file: features/h5p.md
+      - file: features/plotly.ipynb
+      - file: external/Sphinx-Grasple-public/README.md
+      - file: features/HTML_javascript.md
         sections:
-        - file: external/Sphinx-Grasple-public/README.md
-        - file: features/h5p.md
-        - file: features/HTML_javascript.md
-          sections:
-          - file: features/adding_HTML_elements.md
-          - file: features/creating_basic_HTML_elements.md
+        - file: features/adding_HTML_elements.md
+        - file: features/creating_basic_HTML_elements.md
       - file: features/live_code
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
       - file: external/sphinx-iframes/README.md
+      - file: external/Sphinx-PRIME-applets/README.md
     - file: features/visuals.md
       sections:
       - file: external/Sphinx-Image-Inverter/README.md
