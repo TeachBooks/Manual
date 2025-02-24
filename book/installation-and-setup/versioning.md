@@ -102,7 +102,7 @@ Tags can be added to your source code by adding the version number as a tag to a
 
 ```{figure} figures/tags.png
 ---
-width: 300px
+width: 500px
 align: center
 ---
 
