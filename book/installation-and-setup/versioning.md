@@ -21,7 +21,7 @@ Finally, you might consider publishing your book at an online publisher. This co
 
 So, there's a few use-cases for which different (combinations) of solutions exist. These are summarized in the table below. You can combine use-cases to your liking:
 
-| Use-case | [Publish version on separate URLs](./versios_URLs.md) | [Use TeachBooks versioning with a changelog](versioning_changelog) | [Keep old versions online](./versioning_archived.md) | [Keep source code of old versions online](./versioning_archived.md) | [Publish your book officially](./publisher.md) |
+| Use-case | [Publish version on separate URLs](./versions_URLs.md) | [Use TeachBooks versioning with a changelog](versioning_changelog) | [Keep old versions online](./versioning_archived.md) | [Keep source code of old versions online](./versioning_archived.md) | [Publish your book officially](./publisher.md) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Book changes over time, but you don't want to deal with versioning |  |  |  |  |  |
 | Taylor-made book per academic year | Recommended |  | Recommended | Can be considered |  |
