@@ -7,7 +7,7 @@
 This page is useful for user type 4-5.
 ```
 
-Online books can be easily updated, however, this might confuse readers. Therefore, it's good practice to be aware of this and, where needed, provide explicit version to the readers.
+Online books can be easily updated, however, this might confuse readers. Therefore, it's good practice to be aware of this and, where needed, provide an explicit version to the readers.
 
 For example when making taylor-made books for specific academic years, you want students to be able to find their own book (even after the academic year is over). For students which take the course twice, you might want to provide some sort of changelog of what has been changed.
 
@@ -17,6 +17,8 @@ You could also think of your published book which is references by other people.
 
 Maybe this all sounds confusing and difficult. No worries! A use-case could be a book which progresses in time, but in which you don't want to deal with the additional hassle of versioning. Your book could be perfectly fine without any measures on this topic!
 
+If you are part of the previous group, but at some point decide to make a new version of the book while keeping the old one, you could do so without dealing with version numbers and changelogs, but just publish both versions online.
+
 Finally, you might consider publishing your book at an online publisher. This could increase findability of your book and you might benefit from the brand of the publisher, but it may have versioning, copyright and licensing consequences.
 
 So, there's a few use-cases for which different (combinations) of solutions exist. These are summarized in the table below. You can combine use-cases to your liking:
@@ -24,9 +26,10 @@ So, there's a few use-cases for which different (combinations) of solutions exis
 | Use-case | [Publish version on separate URLs](./versions_URLs.md) | [Use TeachBooks versioning with a changelog](versioning_changelog) | [Keep old versions online](./versioning_archived.md) | [Keep source code of old versions online](./versioning_archived.md) | [Publish your book officially](./publisher.md) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Book changes over time, but you don't want to deal with versioning |  |  |  |  |  |
-| Taylor-made book per academic year | Recommended |  | Recommended | Can be considered |  |
+| Occasionally releasing a new version while keeping the previous version, with minimal effort for versioning | Recommended | | Recommended | Can be considered | |
 | Continuously adding content and solutions or updating crucial mistakes |  | Recommended |  |  |  |
 | Allow referencing specific versions | Can be considered | Recommended | Can be considered | Recommended |  |
+| Taylor-made book per academic year | Recommended | Recommended in case of students retaking a course | Recommended | Can be considered |  |
 | Increase findability or benefit from publisher's brand |  |  |  |  | Recommended |
 
 Read more about each of these measures on the following sub-pages
