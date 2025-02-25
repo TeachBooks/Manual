@@ -51,7 +51,19 @@ TeachBooks versioning added
 An example can be found [here](https://oit.tudelft.nl/CME4501/2024/pages/linear_constrained_optimization_class.html)
 
 ## Implement tags and releases
-Tags can be added to your source code by adding the version number as a tag to a specific commit. You can do so only locally. In GitHub Desktop this is done by clicking 'Create Tag...` for a specific commit in the History tab.
+Tags can be added to your source code by adding the version number as a tag to a specific commit.
+
+You can do so in GitHub when creating a new release (on the `Code` page of your repository.) There, you can enter a name for your tag and select one of your branches or recent commits:
+
+```{figure} figures/tags_github.png
+---
+width: 500px
+align: center
+---
+
+```
+
+Locally, you can do so in GitHub Desktop by clicking 'Create Tag...` for a specific commit in the History tab.
 
 ```{figure} figures/tags.png
 ---
@@ -61,4 +73,8 @@ align: center
 
 ```
 
-Once the tags is pushed to GitHub/GitLab. You can create a release of the version by clicking `Release` on the `Code` page of your repository. There you can select a tag and generate release notes. It's recommended to add the relevant part of the changelog too. An example can be found [here](https://github.com/CIEM5000-2025/book/releases/tag/v2025.2.0)
+Once the tags is pushed to GitHub/GitLab. You can create a release of the version by clicking `Release` on the `Code` page of your repository. There you can select a tag and generate release notes.
+
+It's recommended to add the relevant part of the changelog to the release notes on GitHub. An example can be found [here](https://github.com/CIEM5000-2025/book/releases/tag/v2025.2.0)
+
+
