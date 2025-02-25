@@ -7,7 +7,7 @@ Versions combined with a changelog can be a very effective way to communicate bo
 1. `academic_year.additions.errata` versioning for books tailed-made for courses in which content is added / adapted during the course and might be restructured extensively every year while remaining to be available in the original form.
 2. `major.errata` versioning for books which are more stable over years, in which big changes are covered only by the version number.
 
-We've come up with guidelines how to use the two TeachBooks-versioning options (adapted from {cite:p}`semver`):
+We have come up with guidelines how to use the two TeachBooks-versioning options (adapted from {cite:p}`semver`):
 
 `````{tab-set}
 ````{tab-item} academic_year.additions.errata
@@ -20,6 +20,8 @@ We've come up with guidelines how to use the two TeachBooks-versioning options (
    1. Precedence MUST be calculated by separating the version into academic year, additions and errata identifiers in that order.
    2. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Academic year, additions and errata versions are always compared numerically. Example: 2024.0.0 < 2025.0.0 < 2025.1.0 < 2025.1.1.
 7. The way in which the version number is incremented after the initial release should be explained in the README of the source code and in the book itself.
+
+An example can be seen in [the source repository of the Engineering Systems Optimization book](https://github.com/TUDelft-books/CME4501/tags) showing tags for different versions.
 ````
 ````{tab-item} major.errata
 1. A normal version number MUST take the form `major.errata` where `major`, and `errata` are non-negative integers, and MUST NOT contain leading zeroes. Each element MUST increase numerically. For instance: 9.0 -> 10.0 -> 11.0
@@ -73,6 +75,8 @@ Leads to for example:
 ::::::{versionchanged} v2025.3.5 2025-02-23
 TeachBooks versioning added
 ::::::
+
+An example can be found [here](https://oit.tudelft.nl/CME4501/2024/pages/linear_constrained_optimization_class.html)
 
 ## Implement tags and releases
 Tags can be added to your source code by adding the version number as a tag to a specific commit. You can do so only locally. In GitHub Desktop this is done by clicking 'Create Tag...` for a specific commit in the History tab.

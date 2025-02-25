@@ -32,7 +32,6 @@ parts:
     - file: installation-and-setup/versioning
       sections:
       - file: installation-and-setup/versions_URLs
-      - file: installation-and-setup/versioning_archived
       - file: installation-and-setup/versioning_changelog
       - file: installation-and-setup/publisher
     - file: installation-and-setup/copyright.md
