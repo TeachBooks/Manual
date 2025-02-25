@@ -60,7 +60,7 @@ parts:
       - file: features/external_toc
         sections:
         - file: external/Nested-Books/README.md
-          title: Deprecated: Share content between books using submodules
+          title: (Deprecated) Share content between books using submodules
       - file: features/update_env
     - file: features/sphinx_extensions.md
       sections: 
