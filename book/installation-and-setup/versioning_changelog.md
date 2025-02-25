@@ -1,6 +1,6 @@
 # TeachBooks versioning with changelog
 
-Versions combined with a changelog can be a very effective way to communicate book changes to the reader and allow reuse of specific versions. We recommend [TeachBooks versioning]((../features/versioning.md)), which comes in two flavors:
+Versions combined with a changelog can be a very effective way to communicate book changes to the reader and allow reuse of specific versions. We recommend [TeachBooks versioning](../features/versioning.md), which comes in two flavors:
 
 1. `academic_year.additions.errata` versioning for books tailed-made for courses in which content is added / adapted during the course and might be restructured extensively every year while remaining to be available in the original form. An example can be seen in [the source repository of the Engineering Systems Optimization book](https://github.com/TUDelft-books/CME4501/tags) showing tags for different versions.
 2. `major.errata` versioning for books which are more stable over years, in which big changes are covered only by the version number.
