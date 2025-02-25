@@ -1,6 +1,6 @@
 # Publish version on separate (fixed) URLs
 
-As soon as you have different versions online, you have to make a decision about URLs. Using the [](../external/deploy-book-workflow/README.md), you can release the different version of your book all under the same root URL.
+As soon as you have different versions online, you have to make a decision about URLs. Using the [](../external/deploy-book-workflow/README.md), you can release the different version of your book all under the same root URL. So, it uses the same workflow as used for draft versions of your book as describe [before](draft_book), the only difference being that URLs of draft versions are generally not shared publicly.
 
 If you plan on maintaining only one public version, it is advisable to set `BEHAVIOR_PRIMARY` from the default `redirect` to `copy`. This ensures that the primary branch is copied to the root, making the URL more compact.
 
