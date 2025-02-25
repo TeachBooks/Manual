@@ -63,6 +63,7 @@ parts:
       - file: features/local_server
       - file: external/Nested-Books/README.md
       - file: features/update_env
+      - file: features/versioning
     - file: features/sphinx_extensions.md
       sections: 
       - file: external/Download-Link-Replacer/README.md
